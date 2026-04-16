@@ -1,0 +1,4279 @@
+[
+{
+  "model": "fichas.fichapan",
+  "pk": 1,
+  "fields": {
+    "seccion": "Panadería",
+    "imagen": "panes/trekking.png",
+    "titulo": "FICHA TECNICA TREKKING BREAD JUMBO UN",
+    "codigo": "3514-D-PAN-058",
+    "version": "000",
+    "fecha_revision": "2024-02-08",
+    "pagina": "1 de 1",
+    "kg_producidos_receta": "16.200",
+    "kg_rendimiento_final": "16.200",
+    "unidades_rendimiento_final": 15,
+    "descripcion_proceso": "Preparar carros. Limpiar los moldes y usar desmoldante en caso necesario.\r\n\r\nHervir agua a punto de ebullición (100°C). Se recomienda el uso de hervidor.\r\nProcurar no quemarse y usar guantes para evitar quemaduras en caso de usar ollas.\r\n\r\nEn la amasadora disponer la base Trekking Bread e incorporar los 6,2 litros de agua caliente.\r\n\r\nAmasar en velocidad lenta por unos 6 minutos y 1 minuto en velocidad rápida.\r\nImportante que esté bien incorporada el agua en la base Trekking Bread.\r\nNO SE ADICIONA LEVADURA.\r\n\r\nCORTE MANUAL:  1.080 kg\r\n\r\nColocar cada masa en los moldes, y con uso de una plana, alisar superficie hasta que quede parejo. Mojar con agua fría la superficie.\r\n\r\nLlevar carro con moldes a cámara de refrigeración por un periodo máximo de 12 horas aprox. NO SOBREPASAR EL TIEMPO EN CÁMARA DE FRÍO.\r\nDejar tapado carro con film.\r\n\r\nPasado el tiempo en reposo en cámara de frío, dejar carro a temperatura ambiente por unos 15 minutos.\r\nLuego llevar carro a horno.",
+    "temperatura_horneado_c": 250,
+    "tiempo_horneado_min": 30,
+    "temperatura_almacenamiento": "Temperatura ambiente",
+    "vida_util_camara_dias": 0,
+    "vida_util_sala_ventas_dias": 0,
+    "notas": "EL PRODUCTO NO TIENE FERMENTACIÓN. NO ENVASAR NI REBANAR PRODUCTO CALIENTE.",
+    "harina_base_kg": "10.00"
+  }
+},
+{
+  "model": "fichas.fichapan",
+  "pk": 4,
+  "fields": {
+    "seccion": "Panadería",
+    "imagen": "",
+    "titulo": "MOLDE ARROZ SALVAJE CLEAN LABEL",
+    "codigo": "3514-D-PAN-150",
+    "version": "001",
+    "fecha_revision": "2023-01-17",
+    "pagina": "1 de 1",
+    "kg_producidos_receta": "17.226",
+    "kg_rendimiento_final": "17.226",
+    "unidades_rendimiento_final": 15,
+    "descripcion_proceso": "Al interior del saco de la base Arroz Salvaje viene una bolsa con el mix de semillas que se utilizara en la decoración final del pan.\r\n\r\nen la amasadora agregar la base en polvo de arroz salvaje, agregar 5 litros iniciales de agua, la cual debe estar a una temperatura de 10° a 12°C en época de verano y 14° a 16°C en época de invierno dependiend de las condiciones de la sala de producción.\r\n\r\nAmasar en velocidad lenta por unos 4 minutos. Luego pasar a velocidad rápida por 5 minutos aprox.\r\n\r\nAgregar el resto de agua en forma lenta.\r\n\r\nAgregar la levadura.\r\n\r\nIMPORTANTE: LA MASA NO DESARROLLA LIGA\r\n\r\nRetirar masa de la amasadora y colocar sobre mesón.\r\n\r\nCORTE DE MASA: 1,100 Kg\r\n\r\nPosteriormente Ovillar y dejar la superficie de la masa lisa sin grietas. ortar la masa en forma alargada y sobre la superficie humedecer con agua, para posteriormente rebosar la masa en el mix de semillas. \r\n\r\nDebe quedar bien cubierto con semillas toda la superficie del pan.\r\n\r\nPasar las masas a los moldes:\r\nLlevar los moldes a camara de fernertación por un tiempo de 55 a 60 minutos.\r\nLa termentación optima debe estar un dedo sobre el borde del molde como parámetro visual,\r\n\r\nLevar moldes a horro:\r\nTemperatura de entrada a 250°C son 3 segundos de vapor. Bajar temperatura 180°C. Tempos 30 minutos con tiraje cerrado y luego 30 minutos con tiraje abierto (secado). Tiempo total 55 minutos.\r\nDesmoldar y dejar enfriar a temperaura ambiente\r\n\r\nNO ENVASAR EN CALIENTE",
+    "temperatura_horneado_c": 180,
+    "tiempo_horneado_min": 55,
+    "temperatura_almacenamiento": "Temperatura ambiente",
+    "vida_util_camara_dias": 7,
+    "vida_util_sala_ventas_dias": 6,
+    "notas": "",
+    "harina_base_kg": "10.00"
+  }
+},
+{
+  "model": "fichas.fichapan",
+  "pk": 5,
+  "fields": {
+    "seccion": "Panadería",
+    "imagen": "panes/landbrot.jpg",
+    "titulo": "FICHA TÉCNICA PAN LANDBROT JUMBO UN",
+    "codigo": "3514-D-PAN-059",
+    "version": "007",
+    "fecha_revision": "2025-01-07",
+    "pagina": "1 de 2",
+    "kg_producidos_receta": "19.000",
+    "kg_rendimiento_final": "19.000",
+    "unidades_rendimiento_final": 20,
+    "descripcion_proceso": "Tener a disposición latas perforadas limpias y lubricadas con desmoldante. Temperatura del agua entre 17° y 20°C según estación del año.\r\nEn la amasadora agregar la Premezcla Landbrot. Incorporar 6 litros de agua inicial.\r\n\r\nAmasar en velocidad lenta por 4–6 minutos. Agregar el resto del agua lentamente. Luego incorporar la levadura fresca.\r\n\r\nAmasar en velocidad rápida por 10–12 minutos. Agregar el mix de semillas en velocidad lenta.\r\nVerificar formación de gluten. Temperatura final del amasado 26–28°C.\r\n\r\nReposar la masa en bloque 15 minutos tapada en bolsa.\r\n\r\nCORTE DE MASA:  0,950 kg. USAR BALANZA DE PRODUCCIÓN.\r\n\r\nOvillar y formar en forma redonda o alargada.Humedecer superficie con agua.\r\n\r\n Rebosar en avena laminada hasta impregnar completamente. Disponer piezas en latas perforadas.\r\n\r\n Fermentar 60 min a 30–32°C y 80% HR.\r\n\r\nRealizar 4 cortes longitudinales como muestra la fotografía.\r\n\r\nPrecalentar horno a 250°C.\r\nInyectar 10 segundos de vapor.\r\nBajar a 180°C y hornear 30 minutos con tiraje cerrado.\r\nAbrir tiraje y secar 30 min adicionales.\r\nTiempo total de cocción: 60 minutos aprox.\r\nDejar enfriar. \r\n\r\nPRODUCTO NO SE PUEDE PRECOCER NI CONGELAR.",
+    "temperatura_horneado_c": null,
+    "tiempo_horneado_min": null,
+    "temperatura_almacenamiento": "",
+    "vida_util_camara_dias": null,
+    "vida_util_sala_ventas_dias": null,
+    "notas": "",
+    "harina_base_kg": "10.00"
+  }
+},
+{
+  "model": "fichas.fichapan",
+  "pk": 6,
+  "fields": {
+    "seccion": "Panadería",
+    "imagen": "panes/sarraceno.jpg",
+    "titulo": "FICHA TÉCNICA SARRACENO CLEAN LABEL JUMBO UN",
+    "codigo": "3514-D-PAN-165",
+    "version": "002",
+    "fecha_revision": "2023-11-16",
+    "pagina": "1 de 2",
+    "kg_producidos_receta": "16.250",
+    "kg_rendimiento_final": "16.250",
+    "unidades_rendimiento_final": 18,
+    "descripcion_proceso": "En el saco de Base Sarraceno viene incluido 1,4 Kg mix semillas, las cuales serán utilizadas en la mezcla (1,0 Kg) como también en la decoración (0,400 Kg).\r\n\r\nTener a disposición los moldes de 500 gr sin tapa, limpios y aceitados con desmoldante si fuese necesario.\r\n\r\nHIDRATACIÓN:\r\nEn un contenedor plástico limpio, disponer la base sarraceno y hidratar con toda el agua, la cual deberá oscilar a una temperatura de 10 a 12°C. Mezclar bien de forma manual. Agregar 1,0 Kg de mix semillas a la hidratación. No deben quedar restos de base seca; debe quedar todo bien hidratado. Tiempo de hidratación mínimo 2 horas y máximo 3 horas. Tapar contenedor con bolsa plástica y registrar hora de inicio de hidratación.\r\n\r\nUna vez hidratada la base, colocar en amasadora y adicionar la levadura, distribuyéndola bien. Iniciar amasado en velocidad lenta por 7 minutos. Repasar bordes de la máquina usando raspa para incorporar toda la premezcla. Temperatura final de amasado debe oscilar entre los 22° a 24°C.\r\n\r\nRetirar la masa con pequeña cantidad de espolvoreo. Colocar sobre mesón previamente espolvoreado con base sarraceno.\r\n\r\nCORTE DE MASA: 0,900 Kg.\r\nRENDIMIENTO: 18 unidades.\r\n\r\nOvillar cada masa en forma alargada. Depositar cada bollo alargado sobre los moldes aceitados. Mojar suavemente superficie del bollo y agregar mix de semillas para decoración. Debe quedar bien distribuido. Aplastar suavemente para adherir semillas. Acomodar bollos dentro del molde usando raspa.\r\n\r\nLlevar moldes a cámara de fermentación por un tiempo aproximado de 75 a 90 minutos. Temperatura de la fermentadora: 32° a 34°C con 80% HR. Fermentación óptima: un dedo bajo el borde del molde.\r\n\r\nTemperatura de entrada al horno: 250°C con 2 segundos de vapor. Bajar a 180°C por 40 minutos con tiraje cerrado. DESMOLDAR panes (NO APLICAR SECADO). Dejar enfriar a temperatura ambiente.\r\n\r\nDATOS IMPORTANTES:\r\n- Producto NO se puede precocer ni congelar.\r\n- Rebanado solo a solicitud del cliente.\r\n- Recomendar venta en pieza entera.\r\n- NO envasar caliente.\r\n- Temperatura máxima de envasado: 20°C.\r\n- Monitorear con termómetro pincho al centro del producto y registrar temperatura.",
+    "temperatura_horneado_c": null,
+    "tiempo_horneado_min": null,
+    "temperatura_almacenamiento": "",
+    "vida_util_camara_dias": null,
+    "vida_util_sala_ventas_dias": null,
+    "notas": "",
+    "harina_base_kg": "10.00"
+  }
+},
+{
+  "model": "fichas.fichapan",
+  "pk": 7,
+  "fields": {
+    "seccion": "Panadería",
+    "imagen": "panes/lowcarb.jpg",
+    "titulo": "FICHA TÉCNICA PAN LOW CARB JUMBO",
+    "codigo": "3514-D-PAN-168",
+    "version": "002",
+    "fecha_revision": "2021-05-31",
+    "pagina": "1 de 2",
+    "kg_producidos_receta": "17.100",
+    "kg_rendimiento_final": "17.100",
+    "unidades_rendimiento_final": 21,
+    "descripcion_proceso": "Preparar carros. Limpiar y aceitar moldes en caso necesario.\r\n\r\nDentro del saco de premezcla viene una bolsa de 0,6 Kg de harina de almendra, la cual será utilizada en la decoración final del pan.\r\n\r\nTemperatura de agua de proceso debe estar en un rango de 14° a 16°C. Verificar estado del enfriador de agua.\r\n\r\nEn la amasadora colocar la base Low Carb y partir con 5 litros de agua inicial. Amasar en lento por unos 8 minutos e incorporar el resto del agua lentamente. \r\n\r\nLuego pasar a velocidad rápida por unos 15 minutos. Agregar la levadura en el minuto 8 de la velocidad rápida. Agregar la semilla de linaza en el último minuto de la velocidad rápida.\r\n\r\nRetirar masa de la amasadora SIN ACEITE.\r\n\r\nCorte de Masa: 0,800 Kg.  \r\nRENDIMIENTO: 21 unidades.\r\n\r\nOvillar la masa, dejar invertido el bollo sobre el mesón. Formado manual del bollo y colocar cada bollo sobre el molde previamente aceitado con desmoldante. Con mano humedecida emparejar la superficie. Luego decorar con harina de almendra, la cual debe quedar bien distribuida y adherida.\r\n\r\nLlevar a cámara de fermentación por 1 hora y 40 minutos a 35°C con 85% HR. Fermentación óptima: máximo al ras del molde. Realizar inspección visual.\r\n\r\nHornear con entrada a 250°C y adición de 3 segundos de vapor. Bajar temperatura a 180°C por 30 minutos aprox. con tiraje cerrado. Luego abrir tiraje para secado por 20 minutos.  \r\nTiempo total de cocción: 50 minutos aprox.\r\n\r\nUna vez horneado, desmoldar sobre lata perforada y dejar enfriar a temperatura ambiente por mínimo 12 horas.\r\n\r\nPRODUCTO NO SE PUEDE PRECOCER NI CONGELAR.  \r\nRebanado del pan solo a solicitud del cliente.  \r\nReforzar venta del pan en pieza entera.  \r\nNO envasar producto caliente. Temperatura máxima de envasado: 20°C.  \r\nMonitoreo con termómetro pincho en el centro del producto. Registrar temperatura.",
+    "temperatura_horneado_c": null,
+    "tiempo_horneado_min": null,
+    "temperatura_almacenamiento": "",
+    "vida_util_camara_dias": null,
+    "vida_util_sala_ventas_dias": null,
+    "notas": "",
+    "harina_base_kg": "10.00"
+  }
+},
+{
+  "model": "fichas.fichapan",
+  "pk": 8,
+  "fields": {
+    "seccion": "Panadería",
+    "imagen": "panes/proteina.jpg",
+    "titulo": "FICHA TÉCNICA PROTEÍNA CLEAN LABEL JUMBO UN",
+    "codigo": "3514-D-PAN-164",
+    "version": "001",
+    "fecha_revision": "2021-05-31",
+    "pagina": "1 de 2",
+    "kg_producidos_receta": "18.100",
+    "kg_rendimiento_final": "18.100",
+    "unidades_rendimiento_final": 21,
+    "descripcion_proceso": "En el saco de Base Proteína viene incluido 1,6 Kg de mix semillas, las cuales serán utilizadas en la mezcla (0,600 Kg) como también en la decoración (1,0 Kg).\r\n\r\nTener a disposición los moldes de 500 grs sin tapa, limpios y aceitados con desmoldante si fuese necesario.\r\n\r\nAgregar la base Proteína a la máquina amasadora. Temperatura de agua de proceso entre los 8° a 10°C y toda el agua (8 litros).\r\n\r\nIniciar amasado de máquina en velocidad lenta por 7 minutos. Repasar bordes de la máquina con raspa para incorporar toda la premezcla y mejorar homogenización.\r\n\r\nAl último minuto de la velocidad lenta agregar la levadura. Pasar a velocidad rápida por un tiempo de 16 minutos.\r\n\r\nUna vez terminado el proceso de amasado, agregar 0,600 Kg de mix semillas a la masa e incorporar amasando 1 minuto en velocidad lenta.\r\n\r\nTemperatura final de amasado debe oscilar entre 22° a 24°C.\r\n\r\nRetirar la masa de la amasadora usando una pequeña cantidad de Dovidol. Colocar la masa en el mesón previamente aceitado con una fina película de Dovidol.\r\n\r\nCORTE DE MASA: 0,850 Kg  \r\nRENDIMIENTO: 21 unidades.\r\n\r\nOvillar cada masa en forma redonda. Cada bollo ovillado se remoja superficialmente con agua y se unta en el mix de semillas por todo el contorno.\r\n\r\nAcomodar los bollos dentro del molde usando raspa.\r\n\r\nLlevar los moldes a cámara de fermentación por 75 a 90 minutos.  \r\nTemperatura de cámara: 32° a 34°C / HR 80%.  \r\nFermentación óptima: un dedo bajo del borde del molde.\r\n\r\nUna vez fermentado, llevar al horno.\r\n\r\nTemperatura de entrada: 250°C con 2 segundos de vapor.  \r\nBajar la temperatura a 180°C por 30 minutos con tiraje cerrado, luego 25 minutos adicionales con tiraje abierto para secado.\r\n\r\nDesmoldar panes y dar 5 minutos adicionales de secado a 180°C. Separar bien las piezas para mejorar secado en latas perforadas. Verificar secado del pan y retirar.\r\n\r\nDejar enfriar a temperatura ambiente.\r\n\r\nTIEMPO TOTAL DE HORNEADO: 60 minutos.\r\n\r\nPRODUCTO NO SE PUEDE PRECOCER NI CONGELAR.  \r\nRebanado solo a solicitud del cliente.  \r\nReforzar venta del pan en pieza entera.  \r\nNO envasar caliente. Temperatura máxima de envasado: 20°C.  \r\nMonitoreo con termómetro pincho en el centro del producto. Registrar temperatura.",
+    "temperatura_horneado_c": null,
+    "tiempo_horneado_min": null,
+    "temperatura_almacenamiento": "",
+    "vida_util_camara_dias": null,
+    "vida_util_sala_ventas_dias": null,
+    "notas": "",
+    "harina_base_kg": "10.00"
+  }
+},
+{
+  "model": "fichas.fichapan",
+  "pk": 9,
+  "fields": {
+    "seccion": "Panadería",
+    "imagen": "panes/hogaza_L1GUHuY.jpg",
+    "titulo": "FICHA TÉCNICA HOGAZA MULTI WHOLEGRAIN JUMBO UN",
+    "codigo": "3514-D-PAN-062",
+    "version": "000",
+    "fecha_revision": "2024-02-08",
+    "pagina": "1 de 1",
+    "kg_producidos_receta": "18.500",
+    "kg_rendimiento_final": "18.500",
+    "unidades_rendimiento_final": 23,
+    "descripcion_proceso": "Preparar carros. Limpiar los moldes de bambú. Verificar estado de los moldes de bambú antes de su utilización.\r\n\r\nSeparar un kilo de mix semillas para la decoración y el otro kilo para la adición en la masa durante el proceso de amasado.\r\n\r\nDisponer de agua de proceso a una T° de acuerdo con la estación del año:  \r\n12° a 15°C (primavera/verano) / 18° a 20°C (otoño/invierno).\r\n\r\nEn la amasadora disponer los ingredientes, la base Multi Wholegrain e incorporar 6 litros de agua inicialmente. Incorporar el resto del agua en forma lenta hasta completar los 7,2 litros.\r\n\r\nIncorporar la levadura fresca al amasado en los últimos dos minutos.  \r\nAmasar en velocidad rápida por unos 12 minutos aprox.\r\n\r\nEn el último minuto, agregar un kilo de mix semillas al amasado en velocidad lenta.\r\n\r\nVerificar formación de gluten y temperatura final de amasado (24° a 26°C).\r\n\r\nCORTE MANUAL: 0,800 Kg.  \r\nUtilizar balanza de producción.\r\n\r\nOvillar y moldear en forma redonda u ovalada.  \r\nEspolvorear masa con harina wholegrain si es necesario.\r\n\r\nUna vez ovillado, humedecer la superficie y untar sobre el mix de semillas para que quede uniforme y parejo.  \r\nColocar cada masa en moldes de bambú redondos u ovalados.  \r\nAplastar suavemente hasta que toque bordes y fondo del molde.\r\n\r\nLlevar a cámara de fermentación por 90 minutos a 30°–32°C y 80% HR.\r\n\r\nUna vez fermentado, desmoldar con cuidado y colocar en latas perforadas aceitada.\r\n\r\nRealizar cortes decorativos en la superficie.  \r\nAplastar suavemente con la palma de la mano sin desgasificar.\r\n\r\nHornear:  \r\n• Entrada a 250°C con 8 segundos de vapor.  \r\n• Bajar a 180°C y hornear 30 min con tiraje cerrado.  \r\n• Luego 20 minutos con tiraje abierto (secado).  \r\n• Tiempo total horno: 50 minutos.\r\n\r\nRetirar y dejar enfriar a temperatura ambiente.\r\n\r\nNO envasar ni rebanar producto en caliente.  \r\nProducto no se puede precocer ni congelar.",
+    "temperatura_horneado_c": null,
+    "tiempo_horneado_min": null,
+    "temperatura_almacenamiento": "",
+    "vida_util_camara_dias": null,
+    "vida_util_sala_ventas_dias": null,
+    "notas": "",
+    "harina_base_kg": "10.00"
+  }
+},
+{
+  "model": "fichas.fichapan",
+  "pk": 10,
+  "fields": {
+    "seccion": "Panadería",
+    "imagen": "panes/Rosita.jpg",
+    "titulo": "FICHA TÉCNICA PAN ROSITA JUMBO",
+    "codigo": "J514-D-PAN-099",
+    "version": "007",
+    "fecha_revision": "2024-08-28",
+    "pagina": "1 de 2",
+    "kg_producidos_receta": "42.080",
+    "kg_rendimiento_final": "37.870",
+    "unidades_rendimiento_final": 467,
+    "descripcion_proceso": "Tener a disposición latas perforadas limpias.\r\n\r\nUsar temperatura de agua de acuerdo a la estación del año. Verificar la temperatura usando termómetro.\r\n\r\nEn la amasadora disponer los ingredientes: harina especial ciabatta, sal y O-Tentic Durum.  \r\nIncorporar 12 litros de agua inicial.\r\n\r\nAmasar en velocidad lenta por 8–10 minutos, agregando el resto del agua en forma lenta.  \r\nPasar luego a velocidad rápida por 5–6 minutos.  \r\nAgregar la levadura al amasado.\r\n\r\nVerificar formación de gluten y temperatura final de amasado.  \r\nRetirar la masa.\r\n\r\nCORTE MANUAL: formar un bollo de 3 kilos y trabajarlo en ovilladora para obtener ovillos de 90 g.  \r\nCORTE AUTOMÁTICO: dividir masa en divisora automática para obtener piezas de 90 g.\r\n\r\nColocar cada pieza ovillada en latas perforadas.\r\n\r\nFermentar por 30–40 minutos a 32°C con 80% HR.\r\n\r\nUna vez fermentado, marcar cada pieza con el MOLDE ROSA usando harina.\r\n\r\nFermentar nuevamente por 15 minutos.\r\n\r\nHornear:  \r\n• Temperatura de entrada: 240°C con 3 segundos de vapor.  \r\n• 6 minutos iniciales con tiraje cerrado.  \r\n• Luego 12 minutos adicionales con templador abierto para secado.  \r\n→ Tiempo total de cocción: 18 minutos.\r\n\r\nProducto no se puede precocer ni congelar.",
+    "temperatura_horneado_c": null,
+    "tiempo_horneado_min": null,
+    "temperatura_almacenamiento": "",
+    "vida_util_camara_dias": null,
+    "vida_util_sala_ventas_dias": null,
+    "notas": "",
+    "harina_base_kg": "25.00"
+  }
+},
+{
+  "model": "fichas.fichapan",
+  "pk": 11,
+  "fields": {
+    "seccion": "Panadería",
+    "imagen": "panes/5_grano.jpg",
+    "titulo": "FICHA TÉCNICA PAN DE CAMPO CINCO GRANOS JUMBO UN",
+    "codigo": "J514-D-PAN-134",
+    "version": "006",
+    "fecha_revision": "2021-07-09",
+    "pagina": "1 de 1",
+    "kg_producidos_receta": "18.172",
+    "kg_rendimiento_final": "18.172",
+    "unidades_rendimiento_final": 23,
+    "descripcion_proceso": "Tener a disposición latas perforadas limpias y aceitadas.\r\nDisponer de agua para el proceso, la cual deberá estar a T° de acuerdo a la estación del año: 14° a 18°C (primavera/verano) / 18° a 22°C (otoño/invierno).\r\nEn la amasadora disponer los ingredientes: harina, O-tentic, sal y softgrain. Incorporar 5 litros de agua inicial.\r\nAmasar en velocidad lenta por 6 a 8 minutos. Agregar el resto del agua en forma lenta.\r\nPasar a velocidad rápida por 4 a 5 minutos.\r\nVerificar formación de gluten y la temperatura final de amasado.\r\nRetirar la masa con espolvoreo de harina.\r\nDejar en reposo 15 minutos, tapada en bolsa.\r\nCorte de masa de 0,750 Kg.\r\nOvillar y formar en forma alargada.\r\nAplastar hasta obtener un rectángulo de 30 x 20 cm aprox.\r\nRealizar un doblado tipo “sobre”, dejando los dobleces debajo.\r\nColocar cada pieza en latas perforadas.\r\nFermentar 60 minutos a 30°–32°C con 80% HR.\r\nUna vez fermentado, cernir harina Wholegrain.\r\nRealizar cortes decorativos: 6 diagonales en un sentido, y 6 en sentido contrario.\r\nHorno a 250°C, inyectar 8 segundos de vapor.\r\nBajar a 200°C y cocer 10 min con tiraje cerrado.\r\nLuego abrir tiraje y secar 20 min adicionales.\r\nTiempo total de cocción entre 30 y 35 minutos.\r\nPRODUCTO NO SE PUEDE PRECOCER NI CONGELAR.",
+    "temperatura_horneado_c": null,
+    "tiempo_horneado_min": null,
+    "temperatura_almacenamiento": "Temperatura ambiente",
+    "vida_util_camara_dias": null,
+    "vida_util_sala_ventas_dias": 6,
+    "notas": "Producto no se puede precocer ni congelar.",
+    "harina_base_kg": "10.00"
+  }
+},
+{
+  "model": "fichas.fichapan",
+  "pk": 12,
+  "fields": {
+    "seccion": "Panadería",
+    "imagen": "panes/campo.jpg",
+    "titulo": "FICHA TÉCNICA PAN DE CAMPO ARTESANAL JUMBO",
+    "codigo": "J514-D-PAN-130",
+    "version": "007",
+    "fecha_revision": "2021-05-24",
+    "pagina": "1 de 2",
+    "kg_producidos_receta": "16.572",
+    "kg_rendimiento_final": "16.572",
+    "unidades_rendimiento_final": 25,
+    "descripcion_proceso": "Tener a disposición latas perforadas limpias y aceitadas. Disponer de agua de proceso a una temperatura de acuerdo a la estación del año: 14° a 18°C en primavera/verano y 18° a 22°C en otoño/invierno. Usar termómetro. En la amasadora disponer los ingredientes: harina, Otentic Durum y sal. Incorporar 3 litros de agua inicial. Amasar en velocidad lenta por unos 8 a 10 minutos, agregando el resto del agua en forma lenta. Pasar a velocidad rápida por un tiempo de 5 a 6 minutos.\r\nVerificar formación de gluten y temperatura final de amasado. Retirar la masa con espolvoreo de harina. Reposar masa en bloque por 15 minutos tapada en bolsa. Corte de masa de 0,650 kg. Ovillar y formar en forma redonda. Aplastar suavemente la superficie para permitir marcación del stencil decorativo.\r\nDepositar las piezas en latas perforadas y fermentar por 60 minutos a 30°–32°C con 75–80% HR. Una vez fermentado, colocar stencil sobre la superficie y cernir harina para marcar la figura. Retirar stencil. La figura de pino se utiliza solo en temporada navideña. Posteriormente realizar cortes decorativos sin interferir con la figura.\r\nHorno a temperatura de entrada de 250°C. Inyectar 8 segundos de vapor y luego bajar a 200°C. Tiempo de cocción: 10 minutos con tiraje cerrado, luego abrir tiraje para secado durante 20 minutos. Total de cocción entre 30 y 35 minutos. Producto no se puede precocer ni congelar.",
+    "temperatura_horneado_c": null,
+    "tiempo_horneado_min": null,
+    "temperatura_almacenamiento": "Temperatura ambiente",
+    "vida_util_camara_dias": null,
+    "vida_util_sala_ventas_dias": 6,
+    "notas": "Producto no se puede precocer ni congelar.",
+    "harina_base_kg": "10.00"
+  }
+},
+{
+  "model": "fichas.fichapan",
+  "pk": 13,
+  "fields": {
+    "seccion": "Panadería",
+    "imagen": "panes/fugazza-cebolla_YtozHxG.png",
+    "titulo": "FICHA TECNICA FUGAZZA CEBOLLA JUMBO UN",
+    "codigo": "J512-D-PAN-005",
+    "version": "014",
+    "fecha_revision": "2025-07-15",
+    "pagina": "1 de 2",
+    "kg_producidos_receta": "7.150",
+    "kg_rendimiento_final": "7.150",
+    "unidades_rendimiento_final": 20,
+    "descripcion_proceso": "Disponer de agua de proceso a una temperatura de entre 8° a 10°C.\r\nEn la amasadora disponer los ingredientes: premezcla fugazza cebolla y agua.\r\nAmasar en velocidad lenta por unos 6 a 8 minutos.\r\nPasar a velocidad rápida por un tiempo de 4 a 5 minutos. En los últimos minutos agregar la levadura.\r\nVerificar formación de gluten en la masa y temperatura final de amasado.\r\nRetirar la masa con espolvoreo de harina.\r\nDejar en reposo masa en bloque por 15 minutos tapada en bolsa.\r\nCortar masa en bloques de 350 grs usando balanza de producción.\r\nOvillar cada masa.\r\nColocar cada bollo en moldes de papel (perotín).\r\nFermentar por 60 minutos aprox. a 30–32°C y 80% HR.\r\nHidratar la cebolla deshidratada con agua fría al menos 1 hora antes.\r\nAplicar aceite de oliva sobre la superficie.\r\nPresionar la masa con los dedos para bajarla.\r\nDecorar con cebolla hidratada bien distribuida.\r\nHorno a 230°C, inyectar 1 segundo de vapor.\r\nCocer 10 minutos con tiraje cerrado.\r\nAbrir tiraje los últimos 3 minutos para secado.\r\nAl salir del horno rociar aceite de oliva sobre la superficie.",
+    "temperatura_horneado_c": null,
+    "tiempo_horneado_min": null,
+    "temperatura_almacenamiento": "Temperatura Ambiente",
+    "vida_util_camara_dias": null,
+    "vida_util_sala_ventas_dias": 3,
+    "notas": "Producto no se puede precocer ni congelar. Envasar en frío.",
+    "harina_base_kg": "5.00"
+  }
+},
+{
+  "model": "fichas.fichapan",
+  "pk": 15,
+  "fields": {
+    "seccion": "Panadería",
+    "imagen": "panes/italiano_neqqLTq.png",
+    "titulo": "FICHA TÉCNICA PAN ITALIANO JUMBO V1",
+    "codigo": "J514-D-PAN-051",
+    "version": "006",
+    "fecha_revision": "2018-02-05",
+    "pagina": "1 de 2",
+    "kg_producidos_receta": "43.000",
+    "kg_rendimiento_final": "43.000",
+    "unidades_rendimiento_final": 0,
+    "descripcion_proceso": "Preparar carros. Limpiar y aceitar latas perforadas.\r\nTemperatura de agua de proceso debe estar en un rango de 8° a 10°C.\r\nTener contenedor plástico enharinado o tabla acrílica enharinada.\r\nEn la batea mezclar la premezcla de Italiano y agua.\r\nAgregar 12 Lts de agua inicial.\r\nAgregar el resto de agua en forma lenta.\r\nAmasar en velocidad lenta por 5 minutos. Al finalizar agregar la levadura.\r\nPasar a velocidad rápida por 10 a 12 min.\r\nUna vez finalizado el amasado, verificar la temperatura final la cual debe oscilar entre los 24° y 26°C.\r\nColocar masa en contenedor plástico enharinado o tabla acrílica. Tapar con film.\r\nDisponer de harina para espolvoreo y depositar la masa sobre el mesón.\r\nEstirar masa evitando desgasificar.\r\nCortar masas rectangulares de 15 x 8 cm aprox.\r\nColocar cada masa cortada sobre latas perforadas previamente aceitadas con desmoldante.\r\nFermentar a temperatura ambiente por un tiempo de 60 minutos aprox.\r\nLlevar a cámara de fermentación para recuperación por un tiempo de 10 a 15 min.\r\nHornear con temperatura de entrada de 250°C y 10 segundos de vapor con tiraje cerrado.\r\nBajar temperatura a 230°C por 10 min.\r\nLuego abrir tiraje para secado por un tiempo de 10 min aprox.\r\nTotal tiempo de cocción de 20 min aprox.",
+    "temperatura_horneado_c": null,
+    "tiempo_horneado_min": null,
+    "temperatura_almacenamiento": "Temperatura Ambiente",
+    "vida_util_camara_dias": null,
+    "vida_util_sala_ventas_dias": 1,
+    "notas": "PRODUCTO NO SE PUEDE PRECOCER NI CONGELAR.\r\nSe actualiza ficha técnica en relación a los nuevos parámetros y rendimientos asociados a nueva premezcla de proveedor de pan italiano licitado.",
+    "harina_base_kg": "25.00"
+  }
+},
+{
+  "model": "fichas.fichapan",
+  "pk": 16,
+  "fields": {
+    "seccion": "Panadería",
+    "imagen": "panes/clean-label-wholgrain.png",
+    "titulo": "FICHA TECNICA MOLDE WHOLEGRAIN CLEAN LABEL JUMBO UN",
+    "codigo": "J514-D-PAN-166",
+    "version": "001",
+    "fecha_revision": "2021-05-31",
+    "pagina": "1 de 2",
+    "kg_producidos_receta": "18.240",
+    "kg_rendimiento_final": "18.240",
+    "unidades_rendimiento_final": 28,
+    "descripcion_proceso": "Tener a disposición los moldes de 500 grs s/tapa, limpios y aceitados con desmoldantes si es que fuese necesario.\r\nAgregar la base Wholegrain CL a la maquina amasadora. Agregar 6,4 Lts de agua inicial (Temperatura de agua de proceso entre los 8° a 10°C).\r\nIniciar amasado de maquina en velocidad lenta por 8 min.\r\nRepasar bordes de la maquina con uso de raspa para incorporar toda la premezcla en la masa para mejor homogenización.\r\nAl ultimo minuto de la velocidad lenta agregar la levadura.\r\nAgregar el resto de agua en forma gradual.\r\nPasar amasado a velocidad rápida por un tiempo de 12 min.\r\nTemperatura final de amasado debe oscilar entre los 22° a 24°C.\r\nRetirar masa de la amasadora y colocar sobre mesón previamente enharinado con harina wholegrain.\r\nSellar la masa en bloque de igual forma que la ciabatta rustica. Usar harina wholegrain para espolvoreado.\r\nCortar y formar la masa en forma que caiga en el molde de 500 grs.\r\n\r\nCORTE DE MASA: 0,650 Kg.\r\nRENDIMIENTO: 28 UNIDADES\r\n\r\nOvillar cada masa en forma alargada.\r\nColocar los bollos en los molde. Acomodar los bollos dentro del molde con uso de raspa y aplastar suavemente la superficie sin desgasificar.\r\nLlevar moldes a cámara de fermentación por un tiempo aproximado de 90 min.\r\nTemperatura de cámara de fermentación de 32 a 34°C 80% HR.\r\nFermentación optima un dedo bajo del borde del molde.\r\n\r\nCernir suavemente harina wholegrain sobre la superficie del molde.\r\nEn caso de utilizar Stencil, cernir harina wholegrain sobre el esténcil en la superficie del molde. El cernido de harina debe ser suave.\r\n\r\nUna vez fermentado, llevar a horno:\r\nTemperatura de entrada: 250°C con 5 segundos de vapor.\r\nBajar Temperatura a 180°C, por 30 minutos con tiraje cerrado, y finalmente 25 minutos adicionales con tiraje abierto para secado.\r\nDesmoldar panes y dar 5 minutos adicionales de secado a 180°C.\r\nDejar enfriar a temperatura ambiente. Total tiempo Horneado: 60 minutos.\r\n\r\nPRODUCTO NO SE PUEDE PRECOCER NI CONGELAR.\r\nREBANADO DEL PAN SOLO A SOLICITUD DEL CLIENTE.\r\nREFORZAR LA VENTA DEL PAN EN PIEZA ENTERA.\r\nNO ENVASAR PRODUCTO EN CALIENTE.\r\nTEMPERATURA MAXIMA DE ENVASADO DE 20°C.\r\nMONITOREO CON USO DE TERMOMETRO PINCHO EN EL CENTRO DEL PRODUCTO. REGISTRAR LA TEMPERATURA.",
+    "temperatura_horneado_c": null,
+    "tiempo_horneado_min": null,
+    "temperatura_almacenamiento": "Temperatura Ambiente",
+    "vida_util_camara_dias": null,
+    "vida_util_sala_ventas_dias": null,
+    "notas": "Se menciona temperatura máxima de envasado 20°C. Producto no se puede precocer ni congelar. Rebanado solo a solicitud.",
+    "harina_base_kg": "10.00"
+  }
+},
+{
+  "model": "fichas.fichapan",
+  "pk": 17,
+  "fields": {
+    "seccion": "Panadería",
+    "imagen": "panes/fibra.png",
+    "titulo": "FICHA TÉCNICA MOLDE FIBRA CLEAN LABEL JUMBO UN",
+    "codigo": "J514-D-PAN-163",
+    "version": "001",
+    "fecha_revision": "2021-05-31",
+    "pagina": "1 de 2",
+    "kg_producidos_receta": "18.100",
+    "kg_rendimiento_final": "18.100",
+    "unidades_rendimiento_final": 21,
+    "descripcion_proceso": "En el saco de Base Fibra viene incluido 1,6 kg de mix semillas, que se utilizan en la mezcla (0,600 kg)\r\ny en la decoración (1,0 kg).\r\n\r\nTener a disposición los moldes de 500 g sin tapa, limpios y aceitados con desmoldante si fuese necesario.\r\n\r\nHIDRATACIÓN:\r\nEn un contenedor plástico limpio, disponer la Base Fibra y agregar toda el agua, la cual debe estar entre\r\n10 y 12 °C. Hidratar sin semillas, mezclando muy bien para que no queden restos secos. Tiempo de\r\nhidratación: mínimo 1 hora.\r\n\r\nUna vez hidratada la base, colocar en la amasadora y adicionar la levadura. Iniciar amasado en velocidad\r\nlenta por 7 minutos. Repasar bordes de la máquina con raspa para incorporar toda la premezcla. Pasar a\r\nvelocidad rápida por 18 minutos. En el último minuto agregar 0,600 kg de mix semillas.\r\n\r\nLa temperatura final de amasado debe estar entre 22° y 24 °C. Retirar la masa utilizando una pequeña\r\ncantidad de Dovidol y colocarla en el mesón de trabajo previamente aceitado.\r\n\r\nCORTE Y FORMADO:\r\nCorte de masa: 0,850 kg. RENDIMIENTO: 21 unidades.\r\nOvillar cada masa en forma redonda. Remojar la superficie del bollo con agua y untar en mix semillas por\r\ntodo el contorno. Acomodar los bollos dentro de los moldes con uso de raspa.\r\n\r\nFERMENTACIÓN:\r\nLlevar moldes a cámara de fermentación por 75 a 90 minutos, a 32–34 °C y 80% HR. Fermentación óptima:\r\nun dedo bajo el borde del molde.\r\n\r\nHORNEADO:\r\nTemperatura de entrada: 250 °C, inyectar 2 segundos de vapor. Bajar temperatura a 180 °C y hornear\r\n30 minutos con tiraje cerrado. Luego dar 30 minutos adicionales con tiraje abierto para secado.\r\nTiempo total de horneado: 60 minutos aprox.\r\n\r\nDejar enfriar a temperatura ambiente. No envasar producto en caliente. Temperatura máxima de envasado:\r\n20 °C.\r\n\r\nPRODUCTO NO SE PUEDE PRECOCER NI CONGELAR.\r\nREFORZAR LA VENTA DEL PAN EN PIEZA ENTERA.",
+    "temperatura_horneado_c": null,
+    "tiempo_horneado_min": null,
+    "temperatura_almacenamiento": "Temperatura ambiente",
+    "vida_util_camara_dias": 7,
+    "vida_util_sala_ventas_dias": 6,
+    "notas": "Producto no se puede precocer ni congelar. No envasar en caliente. Temperatura máxima de envasado 20°C.",
+    "harina_base_kg": "10.00"
+  }
+},
+{
+  "model": "fichas.fichapan",
+  "pk": 18,
+  "fields": {
+    "seccion": "Panadería",
+    "imagen": "panes/fogazza-aceituna.png",
+    "titulo": "FICHA TÉCNICA FUGAZZA AL PESTO Y ACEITUNAS JUMBO UN",
+    "codigo": "J512-D-PAN-155",
+    "version": "004",
+    "fecha_revision": "2025-07-15",
+    "pagina": "1 de 2",
+    "kg_producidos_receta": "7.350",
+    "kg_rendimiento_final": "7.350",
+    "unidades_rendimiento_final": 21,
+    "descripcion_proceso": "En la amasadora disponer los ingredientes: premezcla Fugazza al Pesto, agua y aceituna negra en rodela.\r\nTemperatura de agua de proceso alrededor de 8–10 °C.\r\n\r\nAgregar 2 litros de agua inicial, mezclar en velocidad lenta y luego incorporar el resto del agua en forma\r\nlenta. Amasar en velocidad lenta y, cuando la masa tome cuerpo, agregar la levadura fresca. Hacer el\r\namasado hasta lograr buena formación de gluten. Finalmente incorporar el aceite de oliva en forma lenta\r\nhasta integrar.\r\n\r\nRetirar la masa de la amasadora, dejar en reposo en bloque tapado en bolsa plástica por un tiempo\r\naproximado de 15 minutos.\r\n\r\nCorte de masa: 0,350 kg por pieza. Ovillar suavemente y acomodar cada porción en el molde de papel\r\ncon ventana, previamente aceitado con desmoldante si es necesario. Aplastar levemente para que ocupe\r\nla superficie del molde.\r\n\r\nFermentar a temperatura ambiente hasta que la masa alcance volumen adecuado (según ficha original),\r\ncontrolando que no se sobrefermente.\r\n\r\nHornear a 230 °C. Tiempo de cocción aprox. 10 minutos con tiraje cerrado y luego 3 minutos con tiraje\r\nabierto para secado, según comportamiento del horno.\r\n\r\nDejar enfriar completamente y envasar la fugazza en frío en el mismo molde de papel con ventana.\r\n\r\nPRODUCTO NO SE PUEDE PRECOCER NI CONGELAR.",
+    "temperatura_horneado_c": null,
+    "tiempo_horneado_min": null,
+    "temperatura_almacenamiento": "Temperatura ambiente",
+    "vida_util_camara_dias": null,
+    "vida_util_sala_ventas_dias": 3,
+    "notas": "Envasar en frío en molde de papel con ventana. No precocer ni congelar.",
+    "harina_base_kg": "5.00"
+  }
+},
+{
+  "model": "fichas.fichapan",
+  "pk": 19,
+  "fields": {
+    "seccion": "Panadería",
+    "imagen": "",
+    "titulo": "FICHA TÉCNICA PAN DARK JUMBO ARTESANAL UN",
+    "codigo": "J514-D-PAN-148",
+    "version": "004",
+    "fecha_revision": "2020-12-09",
+    "pagina": "1 de 2",
+    "kg_producidos_receta": "13.500",
+    "kg_rendimiento_final": "13.500",
+    "unidades_rendimiento_final": 25,
+    "descripcion_proceso": "\nTener a disposición latas perforadas limpias y aceitadas.\n\nDisponer de agua de proceso a una temperatura de acuerdo a la estación del año:\n14° a 18 °C (primavera/verano) o 18° a 22 °C (otoño/invierno). Usar termómetro.\n\nEn la amasadora disponer los ingredientes: harina especial ciabatta, premezcla Dark y agua.\nIncorporar 3 litros de agua inicial. Amasar en velocidad lenta por 8 a 10 minutos; luego agregar el\nresto del agua en forma lenta.\n\nPasar a velocidad rápida por 5 a 6 minutos. Agregar la levadura fresca durante el amasado.\nVerificar formación de gluten y temperatura final de masa (24°–26 °C). Retirar la masa con\nespolvoreo de harina.\n\nDejar en reposo la masa en bloque, tapada en bolsa, por 15 minutos a temperatura ambiente.\n\nCorte de masa: 0,600 kg. RENDIMIENTO: 25 unidades.\nOvillar y formar masa en forma alargada. Colocar cada masa en latas perforadas.\n\nLlevar a cámara de fermentación por 60 minutos aprox., a 30–32 °C y 80% HR.\nUna vez fermentado, colocar el esténcil sobre la superficie del pan y cernir una fina capa de harina\npara marcar la figura (pino de Navidad u otros según temporada). Retirar esténcil. Posteriormente,\ncon cuchillo o cortante, realizar cortes decorativos sin dañar la figura.\n\nHORNEADO:\nTener horno a temperatura de entrada de 250 °C. Inyectar 8 segundos de vapor y hornear 10 minutos\ncon tiraje cerrado. Luego abrir tiraje y secar por 20 minutos adicionales a 200 °C.\n\nTotal cocción: 30–35 minutos aprox.\n\nPRODUCTO NO SE PUEDE PRECOCER NI CONGELAR.\n",
+    "temperatura_horneado_c": null,
+    "tiempo_horneado_min": null,
+    "temperatura_almacenamiento": "Temperatura ambiente",
+    "vida_util_camara_dias": 1,
+    "vida_util_sala_ventas_dias": 6,
+    "notas": "Pan con decoración mediante esténcil de harina. No precocer ni congelar.",
+    "harina_base_kg": "5.00"
+  }
+},
+{
+  "model": "fichas.fichapan",
+  "pk": 20,
+  "fields": {
+    "seccion": "PANADERIA",
+    "imagen": "panes/baguette.png",
+    "titulo": "FICHA TECNICA BAGUETTE RUSTICO JUMBO",
+    "codigo": "J514-D-PAN-131",
+    "version": "005",
+    "fecha_revision": "2021-05-24",
+    "pagina": "1 de 2",
+    "kg_producidos_receta": "16.472",
+    "kg_rendimiento_final": "16.472",
+    "unidades_rendimiento_final": 55,
+    "descripcion_proceso": "Tener a disposición latas perforadas limpias y aceitadas.\r\nDisponer de agua de proceso a una T° de acuerdo a la estación del año: 14° a 18°C (primavera/verano) / 18° a 22°C (otoño/invierno). Usar termómetro.\r\nEn la amasadora disponer los ingredientes: harina especial ciabatta, Otentic Durum y sal. Incorporar 3 litros de agua inicial.\r\nAmasar en velocidad lenta por unos 8 a 10 minutos. Agregar el resto de agua en forma lenta.\r\nPasar a velocidad rápida por un tiempo de 5 a 6 minutos.\r\nVerificar formación de gluten en la masa y temperatura final de amasado. Retirar la masa con espolvoreo de harina.\r\nDejar en reposo la masa en bloque a temperatura ambiente por 15 minutos, tapada en bolsa.\r\nCorte de masa de 0,350 kg. Ovillar y formar masa en forma alargada. Reposar 10 minutos.\r\nFormar baguette alargando hasta obtener un largo de 50 a 55 cm aprox.\r\nDisponer cada masa formada en las latas para baguette previamente aceitadas.\r\nLlevar a cámara de fermentación por un tiempo de 45 minutos aprox. Temperatura de cámara entre 30° a 32°C y 80% HR.\r\nUna vez fermentado, cernir harina sobre la masa y con cuchillo o cortante realizar 5 cortes diagonales sobre la superficie.\r\nTener horno a una temperatura de entrada de 250°C. Inyectar 8 segundos de vapor y bajar temperatura del horno a 200°C.\r\nTiempo de cocción 10 minutos con tiraje cerrado. Luego abrir tiraje para secado por 15–20 minutos. Total cocción 25 a 30 minutos aproximadamente.\r\nPRODUCTO NO SE PUEDE PRECOCER NI CONGELAR.",
+    "temperatura_horneado_c": null,
+    "tiempo_horneado_min": null,
+    "temperatura_almacenamiento": "Temperatura ambiente",
+    "vida_util_camara_dias": null,
+    "vida_util_sala_ventas_dias": 1,
+    "notas": "Ficha técnica referencial. Se cambia sal baja en sodio por sal común.",
+    "harina_base_kg": "10.00"
+  }
+},
+{
+  "model": "fichas.fichapan",
+  "pk": 22,
+  "fields": {
+    "seccion": "Panadería",
+    "imagen": "",
+    "titulo": "FICHA TÉCNICA PAN AMASADO JUMBO V1",
+    "codigo": "J514-D-PAN-015",
+    "version": "008",
+    "fecha_revision": "2018-02-05",
+    "pagina": "Página 1 de 2",
+    "kg_producidos_receta": "35.750",
+    "kg_rendimiento_final": "31.220",
+    "unidades_rendimiento_final": 446,
+    "descripcion_proceso": "Preparar carros. Limpiar y aceitar latas lisas.\nTemperatura de agua de proceso debe estar en un rango de 8° a 10°C.\nEn la batea mezclar la premezcla de amasado y agua. Agregar 10 Lts de agua.\nAmasar en velocidad lenta por 3 minutos. Al finalizar agregar la levadura.\nPasar a velocidad rápida por 6 a 8 min.\nUna vez finalizado el amasado, verificar la temperatura final la cual debe oscilar entre los 24° y 26°C.\nUna vez lista la masa, llevar a máquina cortadora y ovilladora, y cortar pesos de cada bollo de 80 grs.\nColocar cada unidad de masa ovillada sobre latas lisas previamente aceitadas.\nLlevar a cámara de fermentación por un tiempo de 60 a 45 minutos, a una temperatura de 32°C con 80% de HR.\nUna vez fermentado, aplastar con la palma de la mano cada unidad de masa y marcar con tenedor sobre la superficie.\nLlevar nuevamente a cámara de fermentación para recuperación de la masa por unos 15 minutos aprox.\nHornear con temperatura de entrada de 250°C y 8 segundos de vapor con tiraje cerrado. Tiempo total de horneado de 10 a 12 minutos.\nPRODUCTO NO SE PUEDE PRECOCER NI CONGELAR.",
+    "temperatura_horneado_c": 250,
+    "tiempo_horneado_min": 12,
+    "temperatura_almacenamiento": "Temperatura Ambiente",
+    "vida_util_camara_dias": null,
+    "vida_util_sala_ventas_dias": 1,
+    "notas": "PRODUCTO NO SE PUEDE PRECOCER NI CONGELAR.",
+    "harina_base_kg": "25.00"
+  }
+},
+{
+  "model": "fichas.fichapan",
+  "pk": 23,
+  "fields": {
+    "seccion": "Panadería",
+    "imagen": "",
+    "titulo": "FICHA TÉCNICA PAN COLIZA JUMBO V-1",
+    "codigo": "J514-D-PAN-022",
+    "version": "011",
+    "fecha_revision": "2022-08-03",
+    "pagina": "Página 1 de 1",
+    "kg_producidos_receta": "77.700",
+    "kg_rendimiento_final": "65.800",
+    "unidades_rendimiento_final": 769,
+    "descripcion_proceso": "Preparar carros. Limpiar y aceitar latas lisas.\nVerificar estado de enfriador de agua. Temperatura de agua de proceso debe estar en un rango de 8° a 10°C.\nEn batea mezclar harina, agua, sal, mejorador, azúcar y levadura.\nAmasar lento por 8 min. Amasar rápido por 2 minutos. Terminar amasado en un minuto en lento.\nPasar masa por sobadora hasta alcanzar una masa homogénea.\nUna vez sobada y estirada la masa, colocar sobre máquina cortadora de hallullas. Verificar picado de la masa.\nEn caso de fallar máquina, utilizar cortadora manual.\nColocar piezas sobre latas lisas, previamente limpias y aceitadas.\nFermentar por 15 a 20 minutos a 32°C con 80% HR.\nCalentar horno a 310°C.\nCocción 12 min. con templador cerrado, con 5 seg. de vapor inicial.\nUna vez retirado el carro del horno, mojar con agua fría cada línea de latas en forma breve.\nPRODUCTO NO SE PUEDE PRECOCER NI CONGELAR.",
+    "temperatura_horneado_c": 310,
+    "tiempo_horneado_min": 12,
+    "temperatura_almacenamiento": "Temperatura Ambiente",
+    "vida_util_camara_dias": null,
+    "vida_util_sala_ventas_dias": 1,
+    "notas": "FICHA TÉCNICA ES SOLO REFERENCIAL EN DATOS OPERACIONALES.",
+    "harina_base_kg": "50.50"
+  }
+},
+{
+  "model": "fichas.fichapan",
+  "pk": 24,
+  "fields": {
+    "seccion": "Panadería",
+    "imagen": "",
+    "titulo": "FICHA TÉCNICA PAN RUSTIKAL BROT JUMBO UN",
+    "codigo": "J514-D-PAN-132",
+    "version": "004",
+    "fecha_revision": "2019-01-16",
+    "pagina": "Página 1 de 1",
+    "kg_producidos_receta": "19.200",
+    "kg_rendimiento_final": "14.400",
+    "unidades_rendimiento_final": 18,
+    "descripcion_proceso": "HIDRATACIÓN PREMEZCLA: En contenedor plástico limpio y seco, hidratar la premezcla Rustikal con 9,0 Lts de agua, a una temperatura de 12 a 15°C. Mezclar manualmente la premezcla con el agua. Tiempo de hidratación mínimo 5 horas, máximo 12 horas.\nPreparar carros. Limpiar y aceitar moldes de 500 grs.\nAmasar en velocidad lenta entre 8 a 10 minutos. Pasar a velocidad rápida por 2 minutos.\nCORTE DE MASA: 1,030 Kg. Depositar cada masa sobre los moldes aceitados.\nFermentación 45 minutos a 30°–32°C con 80% HR.\nHorno a 250°C, inyectar 2 seg. de vapor, bajar a 180°C. Cocción 45 min tiraje cerrado.\nAbrir tiraje para secado 40 minutos. Total cocción 85 minutos.\nNO ENVASAR EN CALIENTE. PRODUCTO NO SE PUEDE PRECOCER NI CONGELAR.",
+    "temperatura_horneado_c": 180,
+    "tiempo_horneado_min": 85,
+    "temperatura_almacenamiento": "Temperatura Ambiente",
+    "vida_util_camara_dias": null,
+    "vida_util_sala_ventas_dias": 6,
+    "notas": "NO ENVASAR EN CALIENTE. PRODUCTO NO SE PUEDE PRECOCER NI CONGELAR.",
+    "harina_base_kg": "10.00"
+  }
+},
+{
+  "model": "fichas.fichapan",
+  "pk": 25,
+  "fields": {
+    "seccion": "Panadería",
+    "imagen": "",
+    "titulo": "FICHA TÉCNICA TORTILLA DE CAMPO JUMBO",
+    "codigo": "J514-D-PAN-103",
+    "version": "008",
+    "fecha_revision": "2024-01-30",
+    "pagina": "Página 1 de 2",
+    "kg_producidos_receta": "6.800",
+    "kg_rendimiento_final": "6.800",
+    "unidades_rendimiento_final": 11,
+    "descripcion_proceso": "Preparar carros. Limpiar y aceitar con desmoldante latas lisas.\nVerificar el estado del enfriador de agua. Temperatura de agua de proceso debe estar en un rango de 8° a 10°C.\nEn la amasadora colocar la premezcla tortilla y el agua.\nAmasar en lento por unos 5 minutos. Luego pasar a velocidad lenta por 8 minutos.\nRetirar masa de la amasadora.\nCorte de Masa: 0,600 kg.\nOvillar masa, y colocar cada masa sobre tabla. Tapar con bolsa plástica.\nDar reposo en pieza por unos 20 a 25 min a temperatura ambiente.\nPinchar cada masa en la superficie utilizando tenedor limpio.\nFormar y aplastar con uso de la palma de la mano hasta obtener la forma de la tortilla, redonda o rectangular.\nLlevar a cámara de fermentación por unos 25 min a 32°C con 80% HR.\nHornear la tortilla con una entrada de temperatura de 200°C y la adición de 2 segundos de vapor. Mantener temperatura a 200°C por 20 min aprox. con tiraje cerrado.\nNO ENVASAR PRODUCTO EN CALIENTE.\nPRODUCTO NO SE PUEDE PRECOCER NI CONGELAR.",
+    "temperatura_horneado_c": 200,
+    "tiempo_horneado_min": 20,
+    "temperatura_almacenamiento": "Temperatura Ambiente",
+    "vida_util_camara_dias": 2,
+    "vida_util_sala_ventas_dias": 1,
+    "notas": "NO ENVASAR PRODUCTO EN CALIENTE. PRODUCTO NO SE PUEDE PRECOCER NI CONGELAR. FICHA TÉCNICA ES SOLO REFERENCIAL EN DATOS OPERACIONALES.",
+    "harina_base_kg": "5.00"
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 1,
+  "fields": {
+    "ficha": 1,
+    "nombre": "BASE TREKKING BREAD PROV 35",
+    "unidad": "Kg",
+    "cantidad_receta": "10.000",
+    "cantidad_batida": "10.000",
+    "es_harina_base": true
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 2,
+  "fields": {
+    "ficha": 1,
+    "nombre": "AGUA",
+    "unidad": "Lt",
+    "cantidad_receta": "6.200",
+    "cantidad_batida": "6.200",
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 17,
+  "fields": {
+    "ficha": 4,
+    "nombre": "BASE ARROZ SALVAJE CLEAN LABEL, PROV 35",
+    "unidad": "Kg",
+    "cantidad_receta": "10.000",
+    "cantidad_batida": "10.000",
+    "es_harina_base": true
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 18,
+  "fields": {
+    "ficha": 4,
+    "nombre": "AGUA",
+    "unidad": "Lt",
+    "cantidad_receta": "7.000",
+    "cantidad_batida": "7.000",
+    "es_harina_base": true
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 19,
+  "fields": {
+    "ficha": 4,
+    "nombre": "MIX SEMILLAS PROV 35 (INCLUIDO EN SACO)",
+    "unidad": "KG",
+    "cantidad_receta": "1.400",
+    "cantidad_batida": "1.400",
+    "es_harina_base": true
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 20,
+  "fields": {
+    "ficha": 4,
+    "nombre": "LEVADURA FRESCA",
+    "unidad": "Gr",
+    "cantidad_receta": "200.000",
+    "cantidad_batida": "200.000",
+    "es_harina_base": true
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 21,
+  "fields": {
+    "ficha": 4,
+    "nombre": "DESMOLDANTE PROV 35",
+    "unidad": "Lt",
+    "cantidad_receta": "0.040",
+    "cantidad_batida": "0.040",
+    "es_harina_base": true
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 22,
+  "fields": {
+    "ficha": 5,
+    "nombre": "Premezcla Landbrot PROV 35",
+    "unidad": "Kg",
+    "cantidad_receta": "10.000",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 23,
+  "fields": {
+    "ficha": 5,
+    "nombre": "Agua",
+    "unidad": "Lt",
+    "cantidad_receta": "7.600",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 24,
+  "fields": {
+    "ficha": 5,
+    "nombre": "Avena laminada PROV 35",
+    "unidad": "Kg",
+    "cantidad_receta": "0.670",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 25,
+  "fields": {
+    "ficha": 5,
+    "nombre": "Levadura fresca PROV 35",
+    "unidad": "Kg",
+    "cantidad_receta": "0.400",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 26,
+  "fields": {
+    "ficha": 5,
+    "nombre": "Desmoldante PROV 35",
+    "unidad": "Kg",
+    "cantidad_receta": "0.040",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 27,
+  "fields": {
+    "ficha": 5,
+    "nombre": "Mix Semillas PROV 35",
+    "unidad": "Kg",
+    "cantidad_receta": "1.000",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 28,
+  "fields": {
+    "ficha": 6,
+    "nombre": "Base Sarraceno Clean Label PROV 35",
+    "unidad": "Kg",
+    "cantidad_receta": "10.000",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 29,
+  "fields": {
+    "ficha": 6,
+    "nombre": "Agua",
+    "unidad": "Kg",
+    "cantidad_receta": "6.000",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 30,
+  "fields": {
+    "ficha": 6,
+    "nombre": "Mix Semillas PROV 35",
+    "unidad": "Kg",
+    "cantidad_receta": "1.400",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 31,
+  "fields": {
+    "ficha": 6,
+    "nombre": "Levadura fresca PROV 35",
+    "unidad": "Kg",
+    "cantidad_receta": "0.250",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 32,
+  "fields": {
+    "ficha": 6,
+    "nombre": "Desmoldante PROV 35",
+    "unidad": "Kg",
+    "cantidad_receta": "0.040",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 33,
+  "fields": {
+    "ficha": 6,
+    "nombre": "Espolvoreo (incluido en saco)",
+    "unidad": "Kg",
+    "cantidad_receta": "0.250",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 34,
+  "fields": {
+    "ficha": 7,
+    "nombre": "Base Low Carb PROV 35",
+    "unidad": "Kg",
+    "cantidad_receta": "10.000",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 35,
+  "fields": {
+    "ficha": 7,
+    "nombre": "Agua",
+    "unidad": "Kg",
+    "cantidad_receta": "6.400",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 36,
+  "fields": {
+    "ficha": 7,
+    "nombre": "Semilla de Linaza PROV 35",
+    "unidad": "Kg",
+    "cantidad_receta": "0.600",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 37,
+  "fields": {
+    "ficha": 7,
+    "nombre": "Harina de almendra (incluida en saco)",
+    "unidad": "Kg",
+    "cantidad_receta": "0.600",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 38,
+  "fields": {
+    "ficha": 7,
+    "nombre": "Levadura fresca PROV 35",
+    "unidad": "Kg",
+    "cantidad_receta": "0.100",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 39,
+  "fields": {
+    "ficha": 7,
+    "nombre": "Desmoldante PROV 35",
+    "unidad": "Kg",
+    "cantidad_receta": "0.040",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 40,
+  "fields": {
+    "ficha": 8,
+    "nombre": "Base Proteína Clean Label PROV 35",
+    "unidad": "Kg",
+    "cantidad_receta": "10.000",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 41,
+  "fields": {
+    "ficha": 8,
+    "nombre": "Agua",
+    "unidad": "Kg",
+    "cantidad_receta": "8.000",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 42,
+  "fields": {
+    "ficha": 8,
+    "nombre": "Mix Semillas PROV 35 (incluido en saco)",
+    "unidad": "Kg",
+    "cantidad_receta": "1.600",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 43,
+  "fields": {
+    "ficha": 8,
+    "nombre": "Levadura fresca PROV 35",
+    "unidad": "Kg",
+    "cantidad_receta": "0.100",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 44,
+  "fields": {
+    "ficha": 8,
+    "nombre": "Dovidol PROV 35",
+    "unidad": "Kg",
+    "cantidad_receta": "0.050",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 45,
+  "fields": {
+    "ficha": 8,
+    "nombre": "Desmoldante PROV 35",
+    "unidad": "Kg",
+    "cantidad_receta": "0.040",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 46,
+  "fields": {
+    "ficha": 9,
+    "nombre": "Base Multi Wholegrain PROV 35",
+    "unidad": "Kg",
+    "cantidad_receta": "10.000",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 47,
+  "fields": {
+    "ficha": 9,
+    "nombre": "Mix Semillas (incluido en premezcla)",
+    "unidad": "Kg",
+    "cantidad_receta": "2.000",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 48,
+  "fields": {
+    "ficha": 9,
+    "nombre": "Agua",
+    "unidad": "Lt",
+    "cantidad_receta": "7.200",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 49,
+  "fields": {
+    "ficha": 9,
+    "nombre": "Levadura fresca PROV 35",
+    "unidad": "Kg",
+    "cantidad_receta": "0.300",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 50,
+  "fields": {
+    "ficha": 9,
+    "nombre": "Desmoldante PROV 35",
+    "unidad": "Kg",
+    "cantidad_receta": "0.040",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 51,
+  "fields": {
+    "ficha": 9,
+    "nombre": "Harina Wholegrain PROV 35 (espolvoreo)",
+    "unidad": "Kg",
+    "cantidad_receta": "0.500",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 52,
+  "fields": {
+    "ficha": 10,
+    "nombre": "Harina Especial Ciabatta PROV 35",
+    "unidad": "Kg",
+    "cantidad_receta": "25.000",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 53,
+  "fields": {
+    "ficha": 10,
+    "nombre": "Agua",
+    "unidad": "Lt",
+    "cantidad_receta": "13.000",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 54,
+  "fields": {
+    "ficha": 10,
+    "nombre": "Levadura PROV 35",
+    "unidad": "Kg",
+    "cantidad_receta": "0.330",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 55,
+  "fields": {
+    "ficha": 10,
+    "nombre": "Sal",
+    "unidad": "Kg",
+    "cantidad_receta": "0.500",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 56,
+  "fields": {
+    "ficha": 10,
+    "nombre": "O-Tentic Durum",
+    "unidad": "Kg",
+    "cantidad_receta": "1.200",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 57,
+  "fields": {
+    "ficha": 10,
+    "nombre": "Desmoldante PROV 35",
+    "unidad": "Kg",
+    "cantidad_receta": "0.000",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 58,
+  "fields": {
+    "ficha": 11,
+    "nombre": "Harina especial ciabatta PROV 35",
+    "unidad": "Kg",
+    "cantidad_receta": "10.000",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 59,
+  "fields": {
+    "ficha": 11,
+    "nombre": "Agua",
+    "unidad": "Lt",
+    "cantidad_receta": "5.500",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 60,
+  "fields": {
+    "ficha": 11,
+    "nombre": "Soft Grain PROV 35",
+    "unidad": "Kg",
+    "cantidad_receta": "2.000",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 61,
+  "fields": {
+    "ficha": 11,
+    "nombre": "Otentic Durum",
+    "unidad": "Kg",
+    "cantidad_receta": "0.400",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 62,
+  "fields": {
+    "ficha": 11,
+    "nombre": "Sal",
+    "unidad": "Kg",
+    "cantidad_receta": "0.132",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 63,
+  "fields": {
+    "ficha": 11,
+    "nombre": "Desmoldante PROV 35",
+    "unidad": "Kg",
+    "cantidad_receta": "0.100",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 64,
+  "fields": {
+    "ficha": 11,
+    "nombre": "Espolvoreo",
+    "unidad": "Kg",
+    "cantidad_receta": "0.040",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 65,
+  "fields": {
+    "ficha": 12,
+    "nombre": "Harina especial ciabatta PROV 35",
+    "unidad": "Kg",
+    "cantidad_receta": "10.000",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 66,
+  "fields": {
+    "ficha": 12,
+    "nombre": "Agua",
+    "unidad": "Lt",
+    "cantidad_receta": "5.400",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 67,
+  "fields": {
+    "ficha": 12,
+    "nombre": "Otentic Durum PROV 35",
+    "unidad": "Kg",
+    "cantidad_receta": "0.400",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 68,
+  "fields": {
+    "ficha": 12,
+    "nombre": "Sal",
+    "unidad": "Kg",
+    "cantidad_receta": "0.132",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 69,
+  "fields": {
+    "ficha": 12,
+    "nombre": "Desmoldante PROV 35",
+    "unidad": "Kg",
+    "cantidad_receta": "0.040",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 70,
+  "fields": {
+    "ficha": 12,
+    "nombre": "Espolvoreo y cernido (harina ciabatta)",
+    "unidad": "Kg",
+    "cantidad_receta": "0.600",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 71,
+  "fields": {
+    "ficha": 13,
+    "nombre": "PREMEZCLA FUGAZZA CEBOLLA PROV 35",
+    "unidad": "Kg",
+    "cantidad_receta": "5.000",
+    "cantidad_batida": null,
+    "es_harina_base": true
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 72,
+  "fields": {
+    "ficha": 13,
+    "nombre": "AGUA",
+    "unidad": "Lt",
+    "cantidad_receta": "2.000",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 73,
+  "fields": {
+    "ficha": 13,
+    "nombre": "CEBOLLA DESHIDRATADA",
+    "unidad": "Kg",
+    "cantidad_receta": "0.250",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 74,
+  "fields": {
+    "ficha": 13,
+    "nombre": "LEVADURA FRESCA PROV 35",
+    "unidad": "Kg",
+    "cantidad_receta": "0.150",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 75,
+  "fields": {
+    "ficha": 13,
+    "nombre": "ACEITE DE OLIVA PROV 35",
+    "unidad": "Lt",
+    "cantidad_receta": "0.100",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 76,
+  "fields": {
+    "ficha": 13,
+    "nombre": "DESMOLDANTE PROV 35",
+    "unidad": "Lt",
+    "cantidad_receta": "0.040",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 77,
+  "fields": {
+    "ficha": 15,
+    "nombre": "Premezcla Italiano PROV 35",
+    "unidad": "Kg",
+    "cantidad_receta": "25.000",
+    "cantidad_batida": null,
+    "es_harina_base": true
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 78,
+  "fields": {
+    "ficha": 15,
+    "nombre": "Levadura fresca PROV 35",
+    "unidad": "Kg",
+    "cantidad_receta": "0.500",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 79,
+  "fields": {
+    "ficha": 15,
+    "nombre": "Agua",
+    "unidad": "Lt",
+    "cantidad_receta": "17.500",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 80,
+  "fields": {
+    "ficha": 15,
+    "nombre": "Desmoldante PROV 35",
+    "unidad": "Lt",
+    "cantidad_receta": "0.040",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 81,
+  "fields": {
+    "ficha": 15,
+    "nombre": "Harina PROV 35 (espolvoreo)",
+    "unidad": "Kg",
+    "cantidad_receta": "0.500",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 82,
+  "fields": {
+    "ficha": 16,
+    "nombre": "BASE WHOLEGRAIN CLEAN LABEL PROV 35",
+    "unidad": "Kg",
+    "cantidad_receta": "10.000",
+    "cantidad_batida": null,
+    "es_harina_base": true
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 83,
+  "fields": {
+    "ficha": 16,
+    "nombre": "AGUA",
+    "unidad": "Lt",
+    "cantidad_receta": "8.000",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 84,
+  "fields": {
+    "ficha": 16,
+    "nombre": "LEVADURA FRESCA PROV 35",
+    "unidad": "Kg",
+    "cantidad_receta": "0.225",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 85,
+  "fields": {
+    "ficha": 16,
+    "nombre": "DESMOLDANTE PROV 35",
+    "unidad": "Lt",
+    "cantidad_receta": "0.040",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 86,
+  "fields": {
+    "ficha": 16,
+    "nombre": "HARINA WHOLEGRAIN PROV 35 (ESPOLVOREO)",
+    "unidad": "Kg",
+    "cantidad_receta": "0.500",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 87,
+  "fields": {
+    "ficha": 17,
+    "nombre": "Base Fibra Clean Label PROV 35",
+    "unidad": "Kg",
+    "cantidad_receta": "10.000",
+    "cantidad_batida": null,
+    "es_harina_base": true
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 88,
+  "fields": {
+    "ficha": 17,
+    "nombre": "Agua",
+    "unidad": "Lt",
+    "cantidad_receta": "8.000",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 89,
+  "fields": {
+    "ficha": 17,
+    "nombre": "Mix semillas PROV 35 (incluido en saco)",
+    "unidad": "Kg",
+    "cantidad_receta": "1.600",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 90,
+  "fields": {
+    "ficha": 17,
+    "nombre": "Levadura fresca PROV 35",
+    "unidad": "Kg",
+    "cantidad_receta": "0.100",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 91,
+  "fields": {
+    "ficha": 17,
+    "nombre": "Dovidol PROV 35",
+    "unidad": "Lt",
+    "cantidad_receta": "0.050",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 92,
+  "fields": {
+    "ficha": 17,
+    "nombre": "Desmoldante PROV 35",
+    "unidad": "Lt",
+    "cantidad_receta": "0.040",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 93,
+  "fields": {
+    "ficha": 18,
+    "nombre": "Premezcla Fugazza al Pesto PROV 35",
+    "unidad": "Kg",
+    "cantidad_receta": "5.000",
+    "cantidad_batida": null,
+    "es_harina_base": true
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 94,
+  "fields": {
+    "ficha": 18,
+    "nombre": "Agua",
+    "unidad": "Lt",
+    "cantidad_receta": "2.000",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 95,
+  "fields": {
+    "ficha": 18,
+    "nombre": "Aceituna negra rodela",
+    "unidad": "Kg",
+    "cantidad_receta": "0.800",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 96,
+  "fields": {
+    "ficha": 18,
+    "nombre": "Levadura fresca PROV 35",
+    "unidad": "Kg",
+    "cantidad_receta": "0.150",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 97,
+  "fields": {
+    "ficha": 18,
+    "nombre": "Aceite de oliva PROV 35",
+    "unidad": "Lt",
+    "cantidad_receta": "0.100",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 98,
+  "fields": {
+    "ficha": 18,
+    "nombre": "Desmoldante PROV 35",
+    "unidad": "Lt",
+    "cantidad_receta": "0.040",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 99,
+  "fields": {
+    "ficha": 19,
+    "nombre": "Harina especial ciabatta PROV 35",
+    "unidad": "Kg",
+    "cantidad_receta": "5.000",
+    "cantidad_batida": null,
+    "es_harina_base": true
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 100,
+  "fields": {
+    "ficha": 19,
+    "nombre": "Premezcla Dark PROV 35",
+    "unidad": "Kg",
+    "cantidad_receta": "5.000",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 101,
+  "fields": {
+    "ficha": 19,
+    "nombre": "Agua",
+    "unidad": "Lt",
+    "cantidad_receta": "5.000",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 102,
+  "fields": {
+    "ficha": 19,
+    "nombre": "Levadura fresca PROV 35",
+    "unidad": "Kg",
+    "cantidad_receta": "0.250",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 103,
+  "fields": {
+    "ficha": 19,
+    "nombre": "Desmoldante PROV 35",
+    "unidad": "Lt",
+    "cantidad_receta": "0.040",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 104,
+  "fields": {
+    "ficha": 19,
+    "nombre": "Harina PROV 35 (cernido/espolvoreo)",
+    "unidad": "Kg",
+    "cantidad_receta": "0.100",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 105,
+  "fields": {
+    "ficha": 20,
+    "nombre": "Harina especial ciabatta PROV 35",
+    "unidad": "kg",
+    "cantidad_receta": "10.000",
+    "cantidad_batida": null,
+    "es_harina_base": true
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 106,
+  "fields": {
+    "ficha": 20,
+    "nombre": "Agua",
+    "unidad": "lt",
+    "cantidad_receta": "5.400",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 107,
+  "fields": {
+    "ficha": 20,
+    "nombre": "Otentic Durum PROV 35",
+    "unidad": "kg",
+    "cantidad_receta": "0.400",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 108,
+  "fields": {
+    "ficha": 20,
+    "nombre": "Sal",
+    "unidad": "kg",
+    "cantidad_receta": "0.132",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 109,
+  "fields": {
+    "ficha": 20,
+    "nombre": "Desmoldante PROV 35",
+    "unidad": "lt",
+    "cantidad_receta": "0.040",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 110,
+  "fields": {
+    "ficha": 20,
+    "nombre": "Harina especial ciabatta PROV 35 (espolvoreo y cernido)",
+    "unidad": "kg",
+    "cantidad_receta": "0.500",
+    "cantidad_batida": null,
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 111,
+  "fields": {
+    "ficha": 22,
+    "nombre": "Premezcla Amasado PROV 35",
+    "unidad": "Kg",
+    "cantidad_receta": "25.000",
+    "cantidad_batida": "25.000",
+    "es_harina_base": true
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 112,
+  "fields": {
+    "ficha": 22,
+    "nombre": "Levadura Fresca PROV 35",
+    "unidad": "Kg",
+    "cantidad_receta": "0.750",
+    "cantidad_batida": "0.750",
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 113,
+  "fields": {
+    "ficha": 22,
+    "nombre": "Agua",
+    "unidad": "Lt",
+    "cantidad_receta": "10.000",
+    "cantidad_batida": "10.000",
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 114,
+  "fields": {
+    "ficha": 22,
+    "nombre": "Desmoldante PROV 35",
+    "unidad": "Lt",
+    "cantidad_receta": "0.040",
+    "cantidad_batida": "0.040",
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 115,
+  "fields": {
+    "ficha": 23,
+    "nombre": "Harina Especial Ciabatta PROV 35",
+    "unidad": "Kg",
+    "cantidad_receta": "50.500",
+    "cantidad_batida": "50.500",
+    "es_harina_base": true
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 116,
+  "fields": {
+    "ficha": 23,
+    "nombre": "Levadura PROV 35",
+    "unidad": "Kg",
+    "cantidad_receta": "1.000",
+    "cantidad_batida": "1.000",
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 117,
+  "fields": {
+    "ficha": 23,
+    "nombre": "Agua",
+    "unidad": "Lt",
+    "cantidad_receta": "19.000",
+    "cantidad_batida": "19.000",
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 118,
+  "fields": {
+    "ficha": 23,
+    "nombre": "Desmoldante PROV 35",
+    "unidad": "Lt",
+    "cantidad_receta": "0.040",
+    "cantidad_batida": "0.040",
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 119,
+  "fields": {
+    "ficha": 23,
+    "nombre": "Sal",
+    "unidad": "Kg",
+    "cantidad_receta": "0.660",
+    "cantidad_batida": "0.660",
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 120,
+  "fields": {
+    "ficha": 23,
+    "nombre": "Mejorador Hallulla PROV 35",
+    "unidad": "Kg",
+    "cantidad_receta": "0.200",
+    "cantidad_batida": "0.200",
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 121,
+  "fields": {
+    "ficha": 23,
+    "nombre": "Azúcar (35) KG",
+    "unidad": "Kg",
+    "cantidad_receta": "6.000",
+    "cantidad_batida": "6.000",
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 122,
+  "fields": {
+    "ficha": 23,
+    "nombre": "Manteca Plus PROV 35",
+    "unidad": "Kg",
+    "cantidad_receta": "0.500",
+    "cantidad_batida": "0.500",
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 123,
+  "fields": {
+    "ficha": 24,
+    "nombre": "Premezcla Rustikal Brot PROV 35",
+    "unidad": "kg",
+    "cantidad_receta": "10.000",
+    "cantidad_batida": "10.000",
+    "es_harina_base": true
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 124,
+  "fields": {
+    "ficha": 24,
+    "nombre": "Agua",
+    "unidad": "lt",
+    "cantidad_receta": "9.000",
+    "cantidad_batida": "9.000",
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 125,
+  "fields": {
+    "ficha": 24,
+    "nombre": "Levadura PROV 35",
+    "unidad": "kg",
+    "cantidad_receta": "0.200",
+    "cantidad_batida": "0.200",
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 126,
+  "fields": {
+    "ficha": 24,
+    "nombre": "Desmoldante PROV 35",
+    "unidad": "lt",
+    "cantidad_receta": "0.040",
+    "cantidad_batida": "0.040",
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 127,
+  "fields": {
+    "ficha": 25,
+    "nombre": "Premezcla Tortilla PROV 35",
+    "unidad": "kg",
+    "cantidad_receta": "5.000",
+    "cantidad_batida": "5.000",
+    "es_harina_base": true
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 128,
+  "fields": {
+    "ficha": 25,
+    "nombre": "Agua",
+    "unidad": "lt",
+    "cantidad_receta": "1.800",
+    "cantidad_batida": "1.800",
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.materiaprima",
+  "pk": 129,
+  "fields": {
+    "ficha": 25,
+    "nombre": "Desmoldante PROV 35",
+    "unidad": "lt",
+    "cantidad_receta": "0.040",
+    "cantidad_batida": "0.040",
+    "es_harina_base": false
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 1,
+  "fields": {
+    "ficha": 1,
+    "descripcion": "ETIQUETA DIGI 12.3 X 5.7 cm",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.000"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 2,
+  "fields": {
+    "ficha": 1,
+    "descripcion": "FILM DE PVC",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.001"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 3,
+  "fields": {
+    "ficha": 1,
+    "descripcion": "SACO SIN VENTANA KRAF IMPRESA",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.016"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 7,
+  "fields": {
+    "ficha": 4,
+    "descripcion": "ETIQUETA DIGI 12.3 X 5.7 cm",
+    "unidad": "un",
+    "cantidad_por_produccion": "15.000",
+    "peso_envase_kg": null
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 8,
+  "fields": {
+    "ficha": 5,
+    "descripcion": "Etiqueta DIGI 12,3 x 5,7 cm",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.001"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 9,
+  "fields": {
+    "ficha": 5,
+    "descripcion": "Bolsa A/D 35x50x0,1 perforada",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.001"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 10,
+  "fields": {
+    "ficha": 5,
+    "descripcion": "Saco sin ventana KRAFT impresa",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.015"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 11,
+  "fields": {
+    "ficha": 6,
+    "descripcion": "Etiqueta DIGI 12.3 x 5.7 cm",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.001"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 12,
+  "fields": {
+    "ficha": 6,
+    "descripcion": "Film PVC",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.001"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 13,
+  "fields": {
+    "ficha": 6,
+    "descripcion": "Bolsa AVD 35x50x0,1 perforada",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.001"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 14,
+  "fields": {
+    "ficha": 6,
+    "descripcion": "Saco sin ventana KRAFT impresa",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.015"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 15,
+  "fields": {
+    "ficha": 7,
+    "descripcion": "Etiqueta Hobart 12,3 x 5,7 cm",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.001"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 16,
+  "fields": {
+    "ficha": 7,
+    "descripcion": "Etiqueta Bizerba 12,3 x 5,7 cm",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.001"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 17,
+  "fields": {
+    "ficha": 7,
+    "descripcion": "Etiqueta DIGI 12,3 x 5,7 cm",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.001"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 18,
+  "fields": {
+    "ficha": 7,
+    "descripcion": "Film PVC",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.001"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 19,
+  "fields": {
+    "ficha": 7,
+    "descripcion": "Bolsa A/D 35x50x0,1 perforada",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.001"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 20,
+  "fields": {
+    "ficha": 7,
+    "descripcion": "Saco sin ventana KRAFT impresa",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.015"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 21,
+  "fields": {
+    "ficha": 8,
+    "descripcion": "Etiqueta Hobart 12,3 x 5,7 cm",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.001"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 22,
+  "fields": {
+    "ficha": 8,
+    "descripcion": "Etiqueta Bizerba 12,3 x 5,7 cm",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.001"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 23,
+  "fields": {
+    "ficha": 8,
+    "descripcion": "Etiqueta DIGI 12,3 x 5,7 cm",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.001"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 24,
+  "fields": {
+    "ficha": 8,
+    "descripcion": "Film PVC",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.001"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 25,
+  "fields": {
+    "ficha": 8,
+    "descripcion": "Bolsa A/D 35x50x0,1 perforada",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.001"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 26,
+  "fields": {
+    "ficha": 8,
+    "descripcion": "Saco sin ventana KRAFT impresa",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.015"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 27,
+  "fields": {
+    "ficha": 9,
+    "descripcion": "Etiqueta DIGI 12,3 x 5,7 cm",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.001"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 28,
+  "fields": {
+    "ficha": 9,
+    "descripcion": "Film PVC",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.001"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 29,
+  "fields": {
+    "ficha": 9,
+    "descripcion": "Bolsa A/D 35x50x0,1 perforada",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.001"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 30,
+  "fields": {
+    "ficha": 9,
+    "descripcion": "Saco sin ventana KRAFT impresa",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.015"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 31,
+  "fields": {
+    "ficha": 10,
+    "descripcion": "Etiqueta DIGI 12,3 x 5,7 cm",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.001"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 32,
+  "fields": {
+    "ficha": 10,
+    "descripcion": "Film PVC",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.001"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 33,
+  "fields": {
+    "ficha": 10,
+    "descripcion": "Bolsa A/D 35x50x0,1 perforada",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.001"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 34,
+  "fields": {
+    "ficha": 10,
+    "descripcion": "Saco sin ventana KRAFT impresa",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.015"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 35,
+  "fields": {
+    "ficha": 11,
+    "descripcion": "ETIQUETA DIGI 12,3 x 5,7 cm",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.001"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 36,
+  "fields": {
+    "ficha": 11,
+    "descripcion": "FILM PVC",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.001"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 37,
+  "fields": {
+    "ficha": 11,
+    "descripcion": "Bolsa A/D 35x50x0,1 perforada",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.015"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 38,
+  "fields": {
+    "ficha": 11,
+    "descripcion": "Saco sin ventana KRAFT impresa",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": null
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 39,
+  "fields": {
+    "ficha": 12,
+    "descripcion": "Etiqueta Hobart 12,3 x 5,7 cm",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": null
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 40,
+  "fields": {
+    "ficha": 12,
+    "descripcion": "Etiqueta Bizerba 12,3 x 5,7 cm",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": null
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 41,
+  "fields": {
+    "ficha": 12,
+    "descripcion": "Etiqueta DIGI 12,3 x 5,7 cm",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.001"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 42,
+  "fields": {
+    "ficha": 12,
+    "descripcion": "Film PVC",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.001"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 43,
+  "fields": {
+    "ficha": 12,
+    "descripcion": "Bolsa A/D 35x50x0,1 perforada",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.015"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 44,
+  "fields": {
+    "ficha": 12,
+    "descripcion": "Saco sin ventana KRAFT impresa",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": null
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 45,
+  "fields": {
+    "ficha": 13,
+    "descripcion": "Molde de papel (perotín)",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.010"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 46,
+  "fields": {
+    "ficha": 13,
+    "descripcion": "Etiqueta DIGI 12,3 x 5,7 cm",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": null
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 47,
+  "fields": {
+    "ficha": 13,
+    "descripcion": "Saco con ventana Kraft 28 x 35",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.010"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 48,
+  "fields": {
+    "ficha": 15,
+    "descripcion": "ETIQUETA HOBART 12,3 x 5,7 cm",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": null
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 49,
+  "fields": {
+    "ficha": 15,
+    "descripcion": "ETIQUETA BIZERBA 12,3 x 5,7 cm",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": null
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 50,
+  "fields": {
+    "ficha": 15,
+    "descripcion": "ETIQUETA DIGI 12,3 x 5,7 cm",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": null
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 51,
+  "fields": {
+    "ficha": 15,
+    "descripcion": "FILM DE PVC",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.001"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 52,
+  "fields": {
+    "ficha": 15,
+    "descripcion": "BOLSA A/D 35x50x0,1 PERFORADA",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.001"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 53,
+  "fields": {
+    "ficha": 15,
+    "descripcion": "SACO SIN VENTANA KRAF IMPRESA",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.015"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 54,
+  "fields": {
+    "ficha": 16,
+    "descripcion": "ETIQUETA HOBART 12,3 x 5,7 cm",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": null
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 55,
+  "fields": {
+    "ficha": 16,
+    "descripcion": "ETIQUETA BIZERBA 12,3 x 5,7 cm",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": null
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 56,
+  "fields": {
+    "ficha": 16,
+    "descripcion": "ETIQUETA DIGI 12,3 X 5,7 cm",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": null
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 57,
+  "fields": {
+    "ficha": 16,
+    "descripcion": "FILM DE PVC",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.001"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 58,
+  "fields": {
+    "ficha": 16,
+    "descripcion": "BOLSA A/D 35x50x0,1 PERFORADA",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.001"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 59,
+  "fields": {
+    "ficha": 16,
+    "descripcion": "SACO SIN VENTANA KRAF IMPRESA",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.015"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 60,
+  "fields": {
+    "ficha": 17,
+    "descripcion": "Etiqueta HOBART 12,3 x 5,7 cm",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.000"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 61,
+  "fields": {
+    "ficha": 17,
+    "descripcion": "Etiqueta BIZERBA 12,3 x 5,7 cm",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.000"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 62,
+  "fields": {
+    "ficha": 17,
+    "descripcion": "Etiqueta DIGI 12,3 x 5,7 cm",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.000"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 63,
+  "fields": {
+    "ficha": 17,
+    "descripcion": "Film PVC",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.000"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 64,
+  "fields": {
+    "ficha": 17,
+    "descripcion": "Bolsa A/D 35x50x0,1 perforada",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.001"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 65,
+  "fields": {
+    "ficha": 17,
+    "descripcion": "Saco sin ventana KRAF impresa",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.015"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 66,
+  "fields": {
+    "ficha": 18,
+    "descripcion": "Etiqueta DIGI 12,3 x 5,7 cm",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.000"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 67,
+  "fields": {
+    "ficha": 18,
+    "descripcion": "Molde de papel con ventana",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.010"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 68,
+  "fields": {
+    "ficha": 18,
+    "descripcion": "Bolsa papel con ventana / bolsa plástica",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.010"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 69,
+  "fields": {
+    "ficha": 19,
+    "descripcion": "Etiqueta HOBART 12,3 x 5,7 cm",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.000"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 70,
+  "fields": {
+    "ficha": 19,
+    "descripcion": "Etiqueta BIZERBA 12,3 x 5,7 cm",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.000"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 71,
+  "fields": {
+    "ficha": 19,
+    "descripcion": "Etiqueta DIGI 12,3 x 5,7 cm",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.000"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 72,
+  "fields": {
+    "ficha": 19,
+    "descripcion": "Film PVC",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.000"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 73,
+  "fields": {
+    "ficha": 19,
+    "descripcion": "Bolsa A/D 35x50x0,1 perforada",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.001"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 74,
+  "fields": {
+    "ficha": 19,
+    "descripcion": "Saco sin ventana KRAF impresa",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.015"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 75,
+  "fields": {
+    "ficha": 20,
+    "descripcion": "Etiqueta HOBART 12,3 x 5,7 cm",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": null
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 76,
+  "fields": {
+    "ficha": 20,
+    "descripcion": "Etiqueta BIZERBA 12,3 x 5,7 cm",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": null
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 77,
+  "fields": {
+    "ficha": 20,
+    "descripcion": "Etiqueta DIGI 12,3 x 5,7 cm",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": null
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 78,
+  "fields": {
+    "ficha": 20,
+    "descripcion": "Film PVC",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.005"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 79,
+  "fields": {
+    "ficha": 20,
+    "descripcion": "Bolsa A/D 35x50x0,1 perforada",
+    "unidad": "un",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.001"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 80,
+  "fields": {
+    "ficha": 22,
+    "descripcion": "Etiqueta HOBART 12,3 x 5,7 cm",
+    "unidad": "art",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": null
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 81,
+  "fields": {
+    "ficha": 22,
+    "descripcion": "Etiqueta BIZERBA 12,3 x 5,7 cm",
+    "unidad": "art",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": null
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 82,
+  "fields": {
+    "ficha": 22,
+    "descripcion": "Etiqueta DIGI 12,3 x 5,7 cm",
+    "unidad": "art",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": null
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 83,
+  "fields": {
+    "ficha": 22,
+    "descripcion": "Film de PVC",
+    "unidad": "art",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.015"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 84,
+  "fields": {
+    "ficha": 22,
+    "descripcion": "Bolsa A/D 35x50x0,1 Perforada",
+    "unidad": "art",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.001"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 85,
+  "fields": {
+    "ficha": 22,
+    "descripcion": "Saco sin ventana Kraft Impresa",
+    "unidad": "art",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.001"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 86,
+  "fields": {
+    "ficha": 23,
+    "descripcion": "Etiqueta HOBART 12,3 x 5,7 cm",
+    "unidad": "art",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": null
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 87,
+  "fields": {
+    "ficha": 23,
+    "descripcion": "Etiqueta BIZERBA 12,3 x 5,7 cm",
+    "unidad": "art",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": null
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 88,
+  "fields": {
+    "ficha": 23,
+    "descripcion": "Etiqueta DIGI 12,3 x 5,7 cm",
+    "unidad": "art",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": null
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 89,
+  "fields": {
+    "ficha": 23,
+    "descripcion": "Film de PVC",
+    "unidad": "art",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.015"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 90,
+  "fields": {
+    "ficha": 23,
+    "descripcion": "Bolsa A/D 35x50x0,1 Perforada",
+    "unidad": "art",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.001"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 91,
+  "fields": {
+    "ficha": 23,
+    "descripcion": "Saco sin ventana Kraft Impresa",
+    "unidad": "art",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.001"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 92,
+  "fields": {
+    "ficha": 24,
+    "descripcion": "Etiqueta HOBART 12,3 x 5,7 cm",
+    "unidad": "art",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": null
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 93,
+  "fields": {
+    "ficha": 24,
+    "descripcion": "Etiqueta BIZERBA 12,3 x 5,7 cm",
+    "unidad": "art",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": null
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 94,
+  "fields": {
+    "ficha": 24,
+    "descripcion": "Etiqueta DIGI 12,3 x 5,7 cm",
+    "unidad": "art",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": null
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 95,
+  "fields": {
+    "ficha": 24,
+    "descripcion": "Film de PVC",
+    "unidad": "art",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.015"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 96,
+  "fields": {
+    "ficha": 24,
+    "descripcion": "Bolsa A/D 35x50x0,1 Perforada",
+    "unidad": "art",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.001"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 97,
+  "fields": {
+    "ficha": 24,
+    "descripcion": "Saco sin ventana Kraft Impresa",
+    "unidad": "art",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": null
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 98,
+  "fields": {
+    "ficha": 25,
+    "descripcion": "Etiqueta DIGI 12,3 x 5,7 cm",
+    "unidad": "art",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": null
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 99,
+  "fields": {
+    "ficha": 25,
+    "descripcion": "Film de PVC",
+    "unidad": "art",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.015"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 100,
+  "fields": {
+    "ficha": 25,
+    "descripcion": "Bolsa A/D 35x50x0,1 Perforada",
+    "unidad": "art",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.001"
+  }
+},
+{
+  "model": "fichas.envase",
+  "pk": 101,
+  "fields": {
+    "ficha": 25,
+    "descripcion": "Saco sin ventana Kraft Impresa",
+    "unidad": "art",
+    "cantidad_por_produccion": "1.000",
+    "peso_envase_kg": "0.001"
+  }
+},
+{
+  "model": "fichas.formatoventa",
+  "pk": 1,
+  "fields": {
+    "ficha": 1,
+    "cod_sap": "1992247",
+    "descripcion": "TREKKING BREAD JUMBO UN",
+    "peso_producto_kg": "0.300",
+    "cod_barra": "24958238",
+    "cod_balanza": "982738"
+  }
+},
+{
+  "model": "fichas.formatoventa",
+  "pk": 3,
+  "fields": {
+    "ficha": 4,
+    "cod_sap": "1951048",
+    "descripcion": "MOLDE ARROZ SALVAJE CLEAN LABEL 900 G",
+    "peso_producto_kg": "0.900",
+    "cod_barra": "24957410",
+    "cod_balanza": "95741"
+  }
+},
+{
+  "model": "fichas.formatoventa",
+  "pk": 4,
+  "fields": {
+    "ficha": 5,
+    "cod_sap": "498741",
+    "descripcion": "PAN LANDBROT JUMBO",
+    "peso_producto_kg": "0.800",
+    "cod_barra": "24819909",
+    "cod_balanza": "81990"
+  }
+},
+{
+  "model": "fichas.formatoventa",
+  "pk": 5,
+  "fields": {
+    "ficha": 6,
+    "cod_sap": "1819587",
+    "descripcion": "PAN SARRACENO CLEAN LABEL JUMBO 800 grs",
+    "peso_producto_kg": "0.800",
+    "cod_barra": "24996334",
+    "cod_balanza": "99633"
+  }
+},
+{
+  "model": "fichas.formatoventa",
+  "pk": 6,
+  "fields": {
+    "ficha": 7,
+    "cod_sap": "1856603",
+    "descripcion": "PAN LOW CARB JUMBO ARTESANAL",
+    "peso_producto_kg": "0.700",
+    "cod_barra": "24936989",
+    "cod_balanza": "93698"
+  }
+},
+{
+  "model": "fichas.formatoventa",
+  "pk": 7,
+  "fields": {
+    "ficha": 8,
+    "cod_sap": "1806580",
+    "descripcion": "Molde Proteína Clean Label 780 gr Jumbo",
+    "peso_producto_kg": "0.780",
+    "cod_barra": "24991230",
+    "cod_balanza": "99123"
+  }
+},
+{
+  "model": "fichas.formatoventa",
+  "pk": 8,
+  "fields": {
+    "ficha": 9,
+    "cod_sap": "1992252",
+    "descripcion": "Hogaza Multi Wholegrain Jumbo",
+    "peso_producto_kg": "0.700",
+    "cod_barra": "2498237",
+    "cod_balanza": "98237"
+  }
+},
+{
+  "model": "fichas.formatoventa",
+  "pk": 9,
+  "fields": {
+    "ficha": 10,
+    "cod_sap": "295964",
+    "descripcion": "Pan Rosita Jumbo KG (venta al peso)",
+    "peso_producto_kg": "1.000",
+    "cod_barra": "24203036",
+    "cod_balanza": "20303"
+  }
+},
+{
+  "model": "fichas.formatoventa",
+  "pk": 10,
+  "fields": {
+    "ficha": 11,
+    "cod_sap": "991864",
+    "descripcion": "PAN DE CAMPO CINCO GRANOS JUMBO UN",
+    "peso_producto_kg": "0.650",
+    "cod_barra": "24938822",
+    "cod_balanza": "93882"
+  }
+},
+{
+  "model": "fichas.formatoventa",
+  "pk": 11,
+  "fields": {
+    "ficha": 12,
+    "cod_sap": "991863",
+    "descripcion": "PAN CAMPO ARTESANAL JUMBO UN",
+    "peso_producto_kg": "0.550",
+    "cod_barra": "2493881",
+    "cod_balanza": "93881"
+  }
+},
+{
+  "model": "fichas.formatoventa",
+  "pk": 12,
+  "fields": {
+    "ficha": 13,
+    "cod_sap": "448205",
+    "descripcion": "FUGAZZA CEBOLLA JUMBO UN",
+    "peso_producto_kg": "0.300",
+    "cod_barra": "24800617",
+    "cod_balanza": "80061"
+  }
+},
+{
+  "model": "fichas.formatoventa",
+  "pk": 13,
+  "fields": {
+    "ficha": 15,
+    "cod_sap": "295916",
+    "descripcion": "PAN ITALIANO JUMBO KG (venta al peso)",
+    "peso_producto_kg": "1.000",
+    "cod_barra": "24203173",
+    "cod_balanza": "20317"
+  }
+},
+{
+  "model": "fichas.formatoventa",
+  "pk": 14,
+  "fields": {
+    "ficha": 16,
+    "cod_sap": "1806578",
+    "descripcion": "MOLDE WHOLEGRAIN CLEAN LABEL 550 GR",
+    "peso_producto_kg": "0.550",
+    "cod_barra": "24991216",
+    "cod_balanza": "99121"
+  }
+},
+{
+  "model": "fichas.formatoventa",
+  "pk": 15,
+  "fields": {
+    "ficha": 17,
+    "cod_sap": "1806579",
+    "descripcion": "MOLDE FIBRA CLEAN LABEL JUMBO UN",
+    "peso_producto_kg": "0.780",
+    "cod_barra": "24991223",
+    "cod_balanza": "99122"
+  }
+},
+{
+  "model": "fichas.formatoventa",
+  "pk": 16,
+  "fields": {
+    "ficha": 18,
+    "cod_sap": "1509589",
+    "descripcion": "FUGAZZA AL PESTO Y ACEITUNAS JUMBO UN",
+    "peso_producto_kg": "0.300",
+    "cod_barra": "24998208",
+    "cod_balanza": "99820"
+  }
+},
+{
+  "model": "fichas.formatoventa",
+  "pk": 17,
+  "fields": {
+    "ficha": 19,
+    "cod_sap": "1758173",
+    "descripcion": "PAN DARK JUMBO ARTESANAL UN",
+    "peso_producto_kg": "0.550",
+    "cod_barra": "24984287",
+    "cod_balanza": "98428"
+  }
+},
+{
+  "model": "fichas.formatoventa",
+  "pk": 18,
+  "fields": {
+    "ficha": 20,
+    "cod_sap": "991861",
+    "descripcion": "BAGUETTE RUSTICO JUMBO UN",
+    "peso_producto_kg": "0.300",
+    "cod_barra": "2493883",
+    "cod_balanza": "93883"
+  }
+},
+{
+  "model": "fichas.formatoventa",
+  "pk": 20,
+  "fields": {
+    "ficha": 22,
+    "cod_sap": "295871",
+    "descripcion": "PAN AMASADO JUMBO KG venta al peso",
+    "peso_producto_kg": "0.080",
+    "cod_barra": "24203135",
+    "cod_balanza": "20313"
+  }
+},
+{
+  "model": "fichas.formatoventa",
+  "pk": 21,
+  "fields": {
+    "ficha": 23,
+    "cod_sap": "295878",
+    "descripcion": "Pan Coliza Jumbo Kg",
+    "peso_producto_kg": "0.080",
+    "cod_barra": "24881463",
+    "cod_balanza": "88146"
+  }
+},
+{
+  "model": "fichas.formatoventa",
+  "pk": 22,
+  "fields": {
+    "ficha": 24,
+    "cod_sap": "990993",
+    "descripcion": "Pan Rustikal Brot Jumbo",
+    "peso_producto_kg": "0.800",
+    "cod_barra": "2493844",
+    "cod_balanza": "93844"
+  }
+},
+{
+  "model": "fichas.formatoventa",
+  "pk": 23,
+  "fields": {
+    "ficha": 25,
+    "cod_sap": "296101",
+    "descripcion": "Tortilla de Campo Jumbo",
+    "peso_producto_kg": "0.550",
+    "cod_barra": "2421426",
+    "cod_balanza": "21426"
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 1,
+  "fields": {
+    "ficha": 1,
+    "orden": 1,
+    "tiempo_min": 30,
+    "descripcion": "Hornear con tiraje abierto"
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 2,
+  "fields": {
+    "ficha": 1,
+    "orden": 2,
+    "tiempo_min": 30,
+    "descripcion": "Hornear con secado"
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 3,
+  "fields": {
+    "ficha": 1,
+    "orden": 3,
+    "tiempo_min": 5,
+    "descripcion": "Post-desmolde con secado"
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 8,
+  "fields": {
+    "ficha": 4,
+    "orden": 1,
+    "tiempo_min": 55,
+    "descripcion": "Tiempo total"
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 9,
+  "fields": {
+    "ficha": 4,
+    "orden": 2,
+    "tiempo_min": 2,
+    "descripcion": "Vapor"
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 10,
+  "fields": {
+    "ficha": 4,
+    "orden": 3,
+    "tiempo_min": 30,
+    "descripcion": "Tiraje cerrado"
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 11,
+  "fields": {
+    "ficha": 4,
+    "orden": 4,
+    "tiempo_min": 30,
+    "descripcion": "Tiraje abierto"
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 12,
+  "fields": {
+    "ficha": 5,
+    "orden": 1,
+    "tiempo_min": 60,
+    "descripcion": "Fermentación: 30–32°C / 80% HR"
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 13,
+  "fields": {
+    "ficha": 5,
+    "orden": 2,
+    "tiempo_min": 10,
+    "descripcion": "Inyección de vapor al inicio del horneo"
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 14,
+  "fields": {
+    "ficha": 5,
+    "orden": 3,
+    "tiempo_min": 30,
+    "descripcion": "Hornear a 180°C con tiraje cerrado"
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 15,
+  "fields": {
+    "ficha": 5,
+    "orden": 4,
+    "tiempo_min": 30,
+    "descripcion": "Secado final con tiraje abierto"
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 16,
+  "fields": {
+    "ficha": 6,
+    "orden": 1,
+    "tiempo_min": 90,
+    "descripcion": "Fermentación: 32–34°C y 80% HR"
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 17,
+  "fields": {
+    "ficha": 6,
+    "orden": 2,
+    "tiempo_min": 2,
+    "descripcion": "Entrada a horno con 2 segundos de vapor a 250°C"
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 18,
+  "fields": {
+    "ficha": 6,
+    "orden": 3,
+    "tiempo_min": 40,
+    "descripcion": "Hornear a 180°C con tiraje cerrado"
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 19,
+  "fields": {
+    "ficha": 7,
+    "orden": 1,
+    "tiempo_min": 100,
+    "descripcion": "Fermentación 35°C / 85% HR"
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 20,
+  "fields": {
+    "ficha": 7,
+    "orden": 2,
+    "tiempo_min": 3,
+    "descripcion": "Entrada a horno con 3 segundos de vapor"
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 21,
+  "fields": {
+    "ficha": 7,
+    "orden": 3,
+    "tiempo_min": 30,
+    "descripcion": "Hornear a 180°C con tiraje cerrado"
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 22,
+  "fields": {
+    "ficha": 7,
+    "orden": 4,
+    "tiempo_min": 20,
+    "descripcion": "Secado con tiraje abierto"
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 23,
+  "fields": {
+    "ficha": 8,
+    "orden": 1,
+    "tiempo_min": 90,
+    "descripcion": "Fermentación 32–34°C / 80% HR"
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 24,
+  "fields": {
+    "ficha": 8,
+    "orden": 2,
+    "tiempo_min": 2,
+    "descripcion": "Entrada al horno con 2 segundos de vapor"
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 25,
+  "fields": {
+    "ficha": 8,
+    "orden": 3,
+    "tiempo_min": 30,
+    "descripcion": "Hornear a 180°C con tiraje cerrado"
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 26,
+  "fields": {
+    "ficha": 8,
+    "orden": 4,
+    "tiempo_min": 25,
+    "descripcion": "Secado con tiraje abierto"
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 27,
+  "fields": {
+    "ficha": 8,
+    "orden": 5,
+    "tiempo_min": 5,
+    "descripcion": "Secado adicional a 180°C fuera del molde"
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 28,
+  "fields": {
+    "ficha": 9,
+    "orden": 1,
+    "tiempo_min": 90,
+    "descripcion": "Fermentación 30–32°C / 80% HR"
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 29,
+  "fields": {
+    "ficha": 9,
+    "orden": 2,
+    "tiempo_min": 8,
+    "descripcion": "Entrada al horno con 8 segundos de vapor"
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 30,
+  "fields": {
+    "ficha": 9,
+    "orden": 3,
+    "tiempo_min": 30,
+    "descripcion": "Horneado a 180°C con tiraje cerrado"
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 31,
+  "fields": {
+    "ficha": 9,
+    "orden": 4,
+    "tiempo_min": 20,
+    "descripcion": "Tiraje abierto para secado"
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 32,
+  "fields": {
+    "ficha": 10,
+    "orden": 1,
+    "tiempo_min": 40,
+    "descripcion": "Fermentación 32°C / 80% HR (30–40 minutos)"
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 33,
+  "fields": {
+    "ficha": 10,
+    "orden": 2,
+    "tiempo_min": 0,
+    "descripcion": "Entrada al horno con 7 segundos de vapor"
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 34,
+  "fields": {
+    "ficha": 10,
+    "orden": 3,
+    "tiempo_min": 10,
+    "descripcion": "Horneado inicial con tiraje cerrado"
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 35,
+  "fields": {
+    "ficha": 10,
+    "orden": 4,
+    "tiempo_min": 4,
+    "descripcion": "Secado con templador abierto"
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 36,
+  "fields": {
+    "ficha": 11,
+    "orden": 1,
+    "tiempo_min": 60,
+    "descripcion": "Fermentación en cámara 30–32°C / 80% HR"
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 37,
+  "fields": {
+    "ficha": 11,
+    "orden": 2,
+    "tiempo_min": 8,
+    "descripcion": "Inyección de vapor"
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 38,
+  "fields": {
+    "ficha": 11,
+    "orden": 3,
+    "tiempo_min": 10,
+    "descripcion": "Hornear a 200°C con tiraje cerrado"
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 39,
+  "fields": {
+    "ficha": 11,
+    "orden": 4,
+    "tiempo_min": 20,
+    "descripcion": "Secado con tiraje abierto"
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 40,
+  "fields": {
+    "ficha": 12,
+    "orden": 1,
+    "tiempo_min": 60,
+    "descripcion": "Fermentación en cámara 30°–32°C con 75–80% HR"
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 41,
+  "fields": {
+    "ficha": 12,
+    "orden": 2,
+    "tiempo_min": 8,
+    "descripcion": "Inyección de vapor al inicio del horneo"
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 42,
+  "fields": {
+    "ficha": 12,
+    "orden": 3,
+    "tiempo_min": 10,
+    "descripcion": "Hornear a 200°C con tiraje cerrado"
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 43,
+  "fields": {
+    "ficha": 12,
+    "orden": 4,
+    "tiempo_min": 20,
+    "descripcion": "Secado con tiraje abierto"
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 44,
+  "fields": {
+    "ficha": 13,
+    "orden": 1,
+    "tiempo_min": 15,
+    "descripcion": "Reposo de masa en bloque"
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 45,
+  "fields": {
+    "ficha": 13,
+    "orden": 2,
+    "tiempo_min": 60,
+    "descripcion": "Fermentación en cámara 30–32°C / 80% HR"
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 46,
+  "fields": {
+    "ficha": 13,
+    "orden": 3,
+    "tiempo_min": 10,
+    "descripcion": "Horno a 230°C con tiraje cerrado"
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 47,
+  "fields": {
+    "ficha": 13,
+    "orden": 4,
+    "tiempo_min": 3,
+    "descripcion": "Secado con tiraje abierto"
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 48,
+  "fields": {
+    "ficha": 15,
+    "orden": 1,
+    "tiempo_min": 60,
+    "descripcion": "Fermentación a temperatura ambiente (aprox.)"
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 49,
+  "fields": {
+    "ficha": 15,
+    "orden": 2,
+    "tiempo_min": 15,
+    "descripcion": "Recuperación en cámara de fermentación (10–15 min)"
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 50,
+  "fields": {
+    "ficha": 15,
+    "orden": 3,
+    "tiempo_min": 10,
+    "descripcion": "Hornear: 250°C + 10s vapor, tiraje cerrado (bajar a 230°C)"
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 51,
+  "fields": {
+    "ficha": 15,
+    "orden": 4,
+    "tiempo_min": 10,
+    "descripcion": "Secado: tiraje abierto (aprox.)"
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 52,
+  "fields": {
+    "ficha": 16,
+    "orden": 1,
+    "tiempo_min": 90,
+    "descripcion": "Fermentación en cámara 32–34°C / 80% HR (óptimo: un dedo bajo del borde)"
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 53,
+  "fields": {
+    "ficha": 16,
+    "orden": 2,
+    "tiempo_min": 0,
+    "descripcion": "Entrada a horno 250°C + 5 segundos de vapor"
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 54,
+  "fields": {
+    "ficha": 16,
+    "orden": 3,
+    "tiempo_min": 30,
+    "descripcion": "Hornear a 180°C con tiraje cerrado"
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 55,
+  "fields": {
+    "ficha": 16,
+    "orden": 4,
+    "tiempo_min": 25,
+    "descripcion": "Secado con tiraje abierto"
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 56,
+  "fields": {
+    "ficha": 16,
+    "orden": 5,
+    "tiempo_min": 5,
+    "descripcion": "Desmoldar y dar 5 min adicionales de secado a 180°C"
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 57,
+  "fields": {
+    "ficha": 17,
+    "orden": 1,
+    "tiempo_min": 60,
+    "descripcion": "Hidratación de base con agua a 10–12°C."
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 58,
+  "fields": {
+    "ficha": 17,
+    "orden": 2,
+    "tiempo_min": 80,
+    "descripcion": "Fermentación en cámara 32–34°C, 80% HR (75–90 min)."
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 59,
+  "fields": {
+    "ficha": 17,
+    "orden": 3,
+    "tiempo_min": 30,
+    "descripcion": "Hornear a 180°C con tiraje cerrado."
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 60,
+  "fields": {
+    "ficha": 17,
+    "orden": 4,
+    "tiempo_min": 30,
+    "descripcion": "Secado con tiraje abierto hasta completar 60 min."
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 61,
+  "fields": {
+    "ficha": 18,
+    "orden": 1,
+    "tiempo_min": 15,
+    "descripcion": "Reposo en masa en bloque antes del corte."
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 62,
+  "fields": {
+    "ficha": 18,
+    "orden": 2,
+    "tiempo_min": 40,
+    "descripcion": "Fermentación en molde a temperatura ambiente (aprox.)."
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 63,
+  "fields": {
+    "ficha": 18,
+    "orden": 3,
+    "tiempo_min": 10,
+    "descripcion": "Cocción a 230°C con tiraje cerrado."
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 64,
+  "fields": {
+    "ficha": 18,
+    "orden": 4,
+    "tiempo_min": 3,
+    "descripcion": "Secado final con tiraje abierto."
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 65,
+  "fields": {
+    "ficha": 19,
+    "orden": 1,
+    "tiempo_min": 15,
+    "descripcion": "Reposo masa en bloque antes de corte."
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 66,
+  "fields": {
+    "ficha": 19,
+    "orden": 2,
+    "tiempo_min": 60,
+    "descripcion": "Fermentación en cámara 30–32°C, 80% HR."
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 67,
+  "fields": {
+    "ficha": 19,
+    "orden": 3,
+    "tiempo_min": 10,
+    "descripcion": "Hornear a 250°C con 8 s de vapor y tiraje cerrado."
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 68,
+  "fields": {
+    "ficha": 19,
+    "orden": 4,
+    "tiempo_min": 20,
+    "descripcion": "Secado a 200°C con tiraje abierto."
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 69,
+  "fields": {
+    "ficha": 20,
+    "orden": 1,
+    "tiempo_min": 45,
+    "descripcion": "Fermentación en cámara 30–32°C, 80% HR."
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 70,
+  "fields": {
+    "ficha": 20,
+    "orden": 2,
+    "tiempo_min": 10,
+    "descripcion": "Hornear a 200°C con tiraje cerrado (tras entrada a 250°C y vapor)."
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 71,
+  "fields": {
+    "ficha": 20,
+    "orden": 3,
+    "tiempo_min": 15,
+    "descripcion": "Secado con tiraje abierto hasta completar 25–30 minutos totales."
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 72,
+  "fields": {
+    "ficha": 22,
+    "orden": 1,
+    "tiempo_min": 60,
+    "descripcion": "Fermentación en cámara a 32°C con 80% HR (60 a 45 minutos)."
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 73,
+  "fields": {
+    "ficha": 22,
+    "orden": 2,
+    "tiempo_min": 15,
+    "descripcion": "Segunda fermentación para recuperación de la masa aprox. 15 minutos."
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 74,
+  "fields": {
+    "ficha": 22,
+    "orden": 3,
+    "tiempo_min": 12,
+    "descripcion": "Hornear a 250°C con 8 segundos de vapor, tiraje cerrado, 10-12 minutos."
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 75,
+  "fields": {
+    "ficha": 23,
+    "orden": 1,
+    "tiempo_min": 20,
+    "descripcion": "Fermentación en cámara a 32°C con 80% HR por 15 a 20 minutos."
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 76,
+  "fields": {
+    "ficha": 23,
+    "orden": 2,
+    "tiempo_min": 12,
+    "descripcion": "Cocción a 310°C con templador cerrado y 5 segundos de vapor inicial."
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 77,
+  "fields": {
+    "ficha": 24,
+    "orden": 1,
+    "tiempo_min": 45,
+    "descripcion": "Fermentación en cámara a 30°–32°C con 80% HR por 45 minutos."
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 78,
+  "fields": {
+    "ficha": 24,
+    "orden": 2,
+    "tiempo_min": 45,
+    "descripcion": "Cocción a 180°C con tiraje cerrado por 45 minutos (entrada 250°C con 2 seg. de vapor)."
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 79,
+  "fields": {
+    "ficha": 24,
+    "orden": 3,
+    "tiempo_min": 40,
+    "descripcion": "Abrir tiraje para secado por 40 minutos a 180°C."
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 80,
+  "fields": {
+    "ficha": 24,
+    "orden": 4,
+    "tiempo_min": 10,
+    "descripcion": "Opcional: secado sin molde por 5 a 10 minutos adicionales a 180°C."
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 81,
+  "fields": {
+    "ficha": 25,
+    "orden": 1,
+    "tiempo_min": 25,
+    "descripcion": "Reposo en pieza por 20 a 25 min a temperatura ambiente."
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 82,
+  "fields": {
+    "ficha": 25,
+    "orden": 2,
+    "tiempo_min": 25,
+    "descripcion": "Fermentación en cámara a 32°C con 80% HR por 25 minutos."
+  }
+},
+{
+  "model": "fichas.pasohorneado",
+  "pk": 83,
+  "fields": {
+    "ficha": 25,
+    "orden": 3,
+    "tiempo_min": 20,
+    "descripcion": "Hornear a 200°C con 2 seg. de vapor, tiraje cerrado, por 20 minutos aproximadamente."
+  }
+},
+{
+  "model": "fichas.horneado",
+  "pk": 1,
+  "fields": {
+    "ficha": 1,
+    "temperatura_inicial_c": 250,
+    "vapor_segundos": 2,
+    "temperatura_final_c": 180,
+    "tiempo_total_min": 60,
+    "tiro": "30 tiraje abierto y 30 cerrado",
+    "observaciones": ""
+  }
+},
+{
+  "model": "fichas.horneado",
+  "pk": 3,
+  "fields": {
+    "ficha": 4,
+    "temperatura_inicial_c": 250,
+    "vapor_segundos": 2,
+    "temperatura_final_c": 180,
+    "tiempo_total_min": 55,
+    "tiro": "30 tiraje abierto y 30 cerrado",
+    "observaciones": "Desmoldar y dejar enfriarse a temperatura ambiente.\r\n\r\nNO ENVASAR EN CALIENTE."
+  }
+},
+{
+  "model": "fichas.horneado",
+  "pk": 4,
+  "fields": {
+    "ficha": 5,
+    "temperatura_inicial_c": 250,
+    "vapor_segundos": 10,
+    "temperatura_final_c": 180,
+    "tiempo_total_min": 60,
+    "tiro": "cerrado → luego abierto",
+    "observaciones": "Producto no se puede precocer ni congelar."
+  }
+},
+{
+  "model": "fichas.horneado",
+  "pk": 5,
+  "fields": {
+    "ficha": 6,
+    "temperatura_inicial_c": 250,
+    "vapor_segundos": 2,
+    "temperatura_final_c": 180,
+    "tiempo_total_min": 40,
+    "tiro": "cerrado",
+    "observaciones": "No aplicar secado. No envasar caliente. Temp. máx envasado: 20°C."
+  }
+},
+{
+  "model": "fichas.horneado",
+  "pk": 6,
+  "fields": {
+    "ficha": 7,
+    "temperatura_inicial_c": 250,
+    "vapor_segundos": 3,
+    "temperatura_final_c": 180,
+    "tiempo_total_min": 50,
+    "tiro": "cerrado → luego abierto",
+    "observaciones": "No envasar caliente. Temp. máx: 20°C. \r\n\r\nSecado final de 20 minutos."
+  }
+},
+{
+  "model": "fichas.horneado",
+  "pk": 7,
+  "fields": {
+    "ficha": 8,
+    "temperatura_inicial_c": 250,
+    "vapor_segundos": 2,
+    "temperatura_final_c": 180,
+    "tiempo_total_min": 60,
+    "tiro": "cerrado → luego abierto",
+    "observaciones": "Secado adicional 25 min + 5 min fuera del molde. \r\n\r\nNo envasar caliente."
+  }
+},
+{
+  "model": "fichas.horneado",
+  "pk": 8,
+  "fields": {
+    "ficha": 9,
+    "temperatura_inicial_c": 250,
+    "vapor_segundos": 8,
+    "temperatura_final_c": 180,
+    "tiempo_total_min": 50,
+    "tiro": "cerrado → luego abierto",
+    "observaciones": "20 min de secado final. No envasar ni rebanar caliente."
+  }
+},
+{
+  "model": "fichas.horneado",
+  "pk": 9,
+  "fields": {
+    "ficha": 10,
+    "temperatura_inicial_c": 250,
+    "vapor_segundos": 7,
+    "temperatura_final_c": 220,
+    "tiempo_total_min": 14,
+    "tiro": "cerrado → luego abierto",
+    "observaciones": "Moldes marcados con molde rosa. Secado final con templador abierto."
+  }
+},
+{
+  "model": "fichas.horneado",
+  "pk": 10,
+  "fields": {
+    "ficha": 11,
+    "temperatura_inicial_c": 250,
+    "vapor_segundos": 8,
+    "temperatura_final_c": 200,
+    "tiempo_total_min": 35,
+    "tiro": "cerrado y luego abierto",
+    "observaciones": "Producto no se puede precocer ni congelar."
+  }
+},
+{
+  "model": "fichas.horneado",
+  "pk": 11,
+  "fields": {
+    "ficha": 12,
+    "temperatura_inicial_c": 250,
+    "vapor_segundos": 8,
+    "temperatura_final_c": 200,
+    "tiempo_total_min": 35,
+    "tiro": "cerrado / luego abierto",
+    "observaciones": "Producto no se puede precocer ni congelar."
+  }
+},
+{
+  "model": "fichas.horneado",
+  "pk": 12,
+  "fields": {
+    "ficha": 13,
+    "temperatura_inicial_c": 230,
+    "vapor_segundos": 1,
+    "temperatura_final_c": 230,
+    "tiempo_total_min": 13,
+    "tiro": "10 min cerrado + 3 min abierto",
+    "observaciones": "Producto no se puede precocer ni congelar."
+  }
+},
+{
+  "model": "fichas.horneado",
+  "pk": 13,
+  "fields": {
+    "ficha": 15,
+    "temperatura_inicial_c": 250,
+    "vapor_segundos": 10,
+    "temperatura_final_c": 230,
+    "tiempo_total_min": 20,
+    "tiro": "cerrado (10 min) / abierto (10 min)",
+    "observaciones": "Producto no se puede precocer ni congelar."
+  }
+},
+{
+  "model": "fichas.horneado",
+  "pk": 14,
+  "fields": {
+    "ficha": 16,
+    "temperatura_inicial_c": 250,
+    "vapor_segundos": 5,
+    "temperatura_final_c": 180,
+    "tiempo_total_min": 60,
+    "tiro": "30 min cerrado / 25 min abierto + 5 min secado",
+    "observaciones": "Producto no se puede precocer ni congelar. No envasar en caliente (máx 20°C)."
+  }
+},
+{
+  "model": "fichas.horneado",
+  "pk": 15,
+  "fields": {
+    "ficha": 17,
+    "temperatura_inicial_c": 250,
+    "vapor_segundos": 2,
+    "temperatura_final_c": 180,
+    "tiempo_total_min": 60,
+    "tiro": "Cerrado 30 min, luego abierto 30 min",
+    "observaciones": "Tiempo total 60 min. No precocer ni congelar. No envasar sobre 20°C."
+  }
+},
+{
+  "model": "fichas.horneado",
+  "pk": 16,
+  "fields": {
+    "ficha": 18,
+    "temperatura_inicial_c": 230,
+    "vapor_segundos": null,
+    "temperatura_final_c": 230,
+    "tiempo_total_min": 13,
+    "tiro": "Cerrado y luego abierto para secado",
+    "observaciones": "Tiempo aproximado 10 min tiraje cerrado + 3 min tiraje abierto. Ajustar según horno."
+  }
+},
+{
+  "model": "fichas.horneado",
+  "pk": 17,
+  "fields": {
+    "ficha": 19,
+    "temperatura_inicial_c": 250,
+    "vapor_segundos": 8,
+    "temperatura_final_c": 200,
+    "tiempo_total_min": 35,
+    "tiro": "10 min tiraje cerrado, luego tiraje abierto para secado",
+    "observaciones": "Total cocción 30–35 min. Controlar color y textura del pan."
+  }
+},
+{
+  "model": "fichas.horneado",
+  "pk": 18,
+  "fields": {
+    "ficha": 20,
+    "temperatura_inicial_c": 250,
+    "vapor_segundos": 8,
+    "temperatura_final_c": 200,
+    "tiempo_total_min": 30,
+    "tiro": "Cerrado 10 min, luego abierto para secado",
+    "observaciones": "Total cocción 25–30 minutos aprox."
+  }
+},
+{
+  "model": "fichas.horneado",
+  "pk": 20,
+  "fields": {
+    "ficha": 22,
+    "temperatura_inicial_c": 250,
+    "vapor_segundos": 8,
+    "temperatura_final_c": 250,
+    "tiempo_total_min": 12,
+    "tiro": "Cerrado",
+    "observaciones": "Tiempo total de horneado de 10 a 12 minutos."
+  }
+},
+{
+  "model": "fichas.horneado",
+  "pk": 21,
+  "fields": {
+    "ficha": 23,
+    "temperatura_inicial_c": 310,
+    "vapor_segundos": 5,
+    "temperatura_final_c": 310,
+    "tiempo_total_min": 12,
+    "tiro": "Cerrado",
+    "observaciones": "Cocción 12 min. con templador cerrado, con 5 seg. de vapor inicial."
+  }
+},
+{
+  "model": "fichas.horneado",
+  "pk": 22,
+  "fields": {
+    "ficha": 24,
+    "temperatura_inicial_c": 250,
+    "vapor_segundos": 2,
+    "temperatura_final_c": 180,
+    "tiempo_total_min": 85,
+    "tiro": "Cerrado 45 min, luego abierto 40 min para secado",
+    "observaciones": "Bajar de 250°C a 180°C tras vapor. Total cocción 85 minutos."
+  }
+},
+{
+  "model": "fichas.horneado",
+  "pk": 23,
+  "fields": {
+    "ficha": 25,
+    "temperatura_inicial_c": 200,
+    "vapor_segundos": 2,
+    "temperatura_final_c": 200,
+    "tiempo_total_min": 20,
+    "tiro": "Cerrado",
+    "observaciones": "Mantener temperatura a 200°C por 20 min aprox. con tiraje cerrado."
+  }
+}
+]
