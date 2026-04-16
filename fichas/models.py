@@ -1,101 +1,102 @@
 from django.db import models
 from decimal import Decimal
-
+ 
 class FichaPan(models.Model):
     seccion = models.CharField(
         max_length=50,
         default="Panadería",
-    
     )
+ 
     imagen = models.ImageField(
         upload_to="panes/",
         null=True,
         blank=True
     )
-
+ 
     titulo = models.CharField(
         max_length=150,
         verbose_name="Nombre ficha / producto",
         help_text="Ej: FICHA TÉCNICA TREKKING BREAD JUMBO UN"
     )
-
+ 
     codigo = models.CharField(
         max_length=30,
+        unique=True,                        
         verbose_name="Código documento",
         help_text="Ej: 3514-D-PAN-058"
     )
-
+ 
     version = models.CharField(
         max_length=10,
         verbose_name="Versión",
         default="000"
     )
-
+ 
     fecha_revision = models.DateField(
         verbose_name="Fecha de revisión"
     )
-
+ 
     pagina = models.CharField(
         max_length=20,
         verbose_name="Página",
         blank=True
     )
-
+ 
     # RENDIMIENTO
     kg_producidos_receta = models.DecimalField(
         max_digits=7,
         decimal_places=3,
         verbose_name="Kg producidos en base a receta"
     )
-
+ 
     kg_rendimiento_final = models.DecimalField(
         max_digits=7,
         decimal_places=3,
         verbose_name="Kg rendimiento final"
     )
-
+ 
     unidades_rendimiento_final = models.PositiveIntegerField(
         verbose_name="Unidades rendimiento final"
     )
-
-    # DESCRIPCIÓN DETALLADA DEL PROCESO (recuadro grande de la derecha)
+ 
+    # DESCRIPCIÓN DETALLADA DEL PROCESO
     descripcion_proceso = models.TextField(
         verbose_name="Descripción detallada del proceso"
     )
-
-    # DATOS DE PROCESO / ALMACENAMIENTO (simplificado para MVP)
+ 
+    # DATOS DE PROCESO / ALMACENAMIENTO
     temperatura_horneado_c = models.PositiveIntegerField(
         null=True, blank=True,
         verbose_name="Temperatura de horneo (°C)"
     )
-
+ 
     tiempo_horneado_min = models.PositiveIntegerField(
         null=True, blank=True,
         verbose_name="Tiempo de horneo (min)"
     )
-
+ 
     temperatura_almacenamiento = models.CharField(
         max_length=100,
         blank=True,
         verbose_name="Temperatura de almacenamiento",
         help_text="Ej: Temperatura ambiente, Cámara de frío, etc."
     )
-
+ 
     vida_util_camara_dias = models.PositiveIntegerField(
         null=True, blank=True,
         verbose_name="Vida útil en cámara (días)"
     )
-
+ 
     vida_util_sala_ventas_dias = models.PositiveIntegerField(
         null=True, blank=True,
         verbose_name="Vida útil en sala de ventas (días)"
     )
-
+ 
     notas = models.TextField(
         blank=True,
         verbose_name="Notas adicionales / advertencias"
     )
-
+ 
     # Para la calculadora (harina base)
     harina_base_kg = models.DecimalField(
         max_digits=6,
@@ -103,28 +104,20 @@ class FichaPan(models.Model):
         verbose_name="Harina base (kg) para cálculo",
         help_text="Harina usada en la receta base (ej: 16.00 kg)"
     )
-
+ 
     def __str__(self):
         return f"{self.titulo} ({self.codigo})"
-
-    # Métodos de cálculo para escalado
-
+ 
     def factor_por_harina(self, harina_deseada_kg) -> Decimal:
-        """
-        Ej: harina_base_kg = 16, quiero 8 -> factor = 0.5
-        """
         harina_deseada = Decimal(harina_deseada_kg)
-
         if not self.harina_base_kg or self.harina_base_kg == Decimal("0"):
-            # por seguridad, si no hay harina base, devolvemos factor 1
             return Decimal("1.000")
-
         factor = harina_deseada / Decimal(self.harina_base_kg)
-        # Redondeamos a 1 decimal, estándar industrial
         return factor.quantize(Decimal("0.1"))
-
+ 
     def rendimiento_escalado_unidades(self, factor: Decimal) -> int:
         return int(self.unidades_rendimiento_final * factor)
+ 
 
 
 class MateriaPrima(models.Model):
