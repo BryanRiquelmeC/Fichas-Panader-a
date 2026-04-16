@@ -1,0 +1,292 @@
+/* ================================================================= */
+/* PALETA OFICIAL JUMBO + PANADERÍA */
+/* ================================================================= */
+:root {
+    --verde-oscuro: #007D36;
+    --verde-medio: #0BA44B;
+    --verde-claro: #CFF5D2;
+
+    --amarillo: #F4C542;
+    --amarillo-oscuro: #D9A404;
+
+    --gris-suave: #F3F4F6;
+    --gris-medio: #D1D5DB;
+    --gris-oscuro: #374151;
+}
+
+/* ================================================================= */
+/* ESTILOS GLOBALES */
+/* ================================================================= */
+
+body {
+    background-color: var(--gris-suave);
+    color: var(--gris-oscuro);
+    font-family: "Inter", sans-serif;
+}
+
+h1, h2, h3, h4 {
+    color: var(--verde-oscuro);
+    font-weight: 700;
+}
+
+/* ================================================================= */
+/* NAVBAR */
+/* ================================================================= */
+
+.navbar {
+    background-color: var(--verde-oscuro) !important;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+/* ================================================================= */
+/* TARJETAS */
+/* ================================================================= */
+
+.card-hover {
+    transition: all .25s ease;
+}
+
+.card-hover:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 15px rgba(0,0,0,.15);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(0, 0, 0, 0.10) !important; 
+    border-radius: 10px !important;
+    overflow: hidden;
+}
+
+/* Imagen de la tarjeta */
+.card-img-container {
+    height: 180px;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.pan-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: transform .3s ease;
+}
+
+.card-hover:hover .pan-img {
+    transform: scale(1.05);
+}
+
+/* Organización interna de la card */
+.card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title {
+    flex-grow: 0;
+}
+
+.card-text {
+    margin-top: auto;
+}
+
+/* ================================================================= */
+/* RESPONSIVE PANTALLAS PEQUEÑAS (HASTA 480px) */
+/* ================================================================= */
+@media (max-width: 480px) {
+
+    /* 2 tarjetas por fila */
+    .ficha-item {
+        width: 50% !important;
+        flex: 0 0 50% !important;
+        max-width: 50% !important;
+        padding: 6px !important;
+    }
+
+    /* Centrar la imagen */
+    .card-img-container {
+        height: 130px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #fafafa;
+        overflow: hidden;
+    }
+
+    .pan-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    /* Card compacta */
+    .card {
+        margin-bottom: 12px !important;
+        padding-bottom: 5px !important;
+    }
+
+    .card-body {
+        padding: 8px 10px !important;
+    }
+
+    /* Texto compacto */
+    .card-title {
+        font-size: 0.82rem !important;
+        line-height: 1.1 !important;
+        margin-bottom: 4px !important;
+    }
+
+    .card-text {
+        font-size: 0.70rem !important;
+        line-height: 1.0 !important;
+        margin-top: auto !important;
+    }
+}
+
+/* ================================================================= */
+/* RESPONSIVE <360px → UNA TARJETA POR FILA */
+/* ================================================================= */
+
+@media (max-width: 360px) {
+    .ficha-item {
+        width: 100% !important;
+    }
+}
+
+/* ================================================================= */
+/* BOTONES */
+/* ================================================================= */
+
+.btn-primary {
+    background-color: var(--verde-oscuro) !important;
+    border-color: var(--verde-oscuro) !important;
+}
+
+.btn-primary:hover {
+    background-color: var(--verde-medio) !important;
+}
+
+/* Botones rápidos */
+.btn-quick {
+    background: var(--verde-claro);
+    border: 1px solid var(--verde-medio);
+    padding: 6px 14px;
+    border-radius: 8px;
+    font-weight: 600;
+    color: var(--verde-oscuro);
+    transition: 0.2s ease-in-out;
+}
+
+.btn-quick:hover {
+    background: var(--verde-medio);
+    color: white;
+    transform: translateY(-2px);
+}
+
+/* Distribución responsive de botones */
+@media (max-width: 768px) {
+    .quick-btn-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .quick-btn-wrapper .btn-quick {
+        flex: 1 1 100%;
+    }
+}
+
+/* ================================================================= */
+/* BADGES */
+/* ================================================================= */
+
+.badge-panaderia {
+    background-color: var(--amarillo);
+    color: black;
+    padding: 4px 10px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+/* ================================================================= */
+/* TABLAS */
+/* ================================================================= */
+
+.table thead th {
+    background-color: var(--verde-oscuro);
+    color: white;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f8faf8;
+}
+
+/* ================================================================= */
+/* TIMELINE HORNEADO */
+/* ================================================================= */
+
+.timeline {
+    border-left: 4px solid var(--verde-oscuro);
+    margin-left: 10px;
+    padding-left: 20px;
+}
+
+.timeline-step {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.timeline-dot {
+    width: 14px;
+    height: 14px;
+    background-color: var(--verde-medio);
+    border-radius: 50%;
+    position: absolute;
+    left: -30px;
+    top: 4px;
+}
+
+/* ================================================================= */
+/* BUSCADOR */
+/* ================================================================= */
+
+#searchInput {
+    border: 2px solid var(--verde-oscuro);
+    border-radius: 8px;
+}
+
+#searchInput:focus {
+    border-color: var(--verde-medio);
+    box-shadow: 0 0 5px rgba(0, 125, 54, 0.5);
+}
+
+/* ================================================================= */
+/* ALERTAS */
+/* ================================================================= */
+
+.alert-info {
+    background-color: #FFF7D1 !important;
+    border-left: 5px solid var(--amarillo-oscuro) !important;
+    color: #202020 !important;
+}
+
+/* ================================================================= */
+/* FOOTER */
+/* ================================================================= */
+
+.footer {
+    background: var(--verde-oscuro);
+    padding: 20px;
+    color: white;
+    text-align: center;
+}

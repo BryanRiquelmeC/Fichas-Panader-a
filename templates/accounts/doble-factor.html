@@ -1,0 +1,287 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Verificar código{% endblock %}
+
+{% block content %}
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+
+  :root {
+    --green-dark:  #157a2f;
+    --green-mid:   #1e9c3e;
+    --green-glow:  rgba(30, 156, 62, 0.15);
+    --bg:          #f0f2f0;
+    --card-bg:     #ffffff;
+    --text-primary:#1a2e1c;
+    --text-muted:  #6b7c6e;
+    --border:      #dde8de;
+  }
+
+  body { font-family: 'Plus Jakarta Sans', sans-serif; background: var(--bg); }
+
+  .verify-wrapper {
+    min-height: 78vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+  }
+
+  .verify-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    padding: 2.8rem 2.6rem;
+    width: 100%;
+    max-width: 420px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.04), 0 12px 40px rgba(21,122,47,0.08);
+    animation: cardUp 0.55s cubic-bezier(0.16,1,0.3,1) both;
+  }
+
+  @keyframes cardUp {
+    from { opacity:0; transform:translateY(20px); }
+    to   { opacity:1; transform:translateY(0); }
+  }
+
+  .verify-icon {
+    width: 52px; height: 52px;
+    background: linear-gradient(135deg, var(--green-dark), var(--green-mid));
+    border-radius: 14px;
+    display: flex; align-items: center; justify-content: center;
+    margin-bottom: 1.4rem;
+    box-shadow: 0 4px 16px var(--green-glow);
+  }
+
+  .verify-icon svg {
+    width: 26px; height: 26px;
+    fill: none; stroke: #fff; stroke-width: 2;
+    stroke-linecap: round; stroke-linejoin: round;
+  }
+
+  .verify-title {
+    font-size: 1.5rem; font-weight: 700;
+    color: var(--text-primary); margin-bottom: 0.3rem;
+  }
+
+  .verify-subtitle {
+    font-size: 0.87rem; color: var(--text-muted);
+    margin-bottom: 2rem; line-height: 1.5;
+  }
+
+  .verify-subtitle strong { color: var(--green-dark); }
+
+  .alert-msg {
+    background: #fdf2f2;
+    border: 1px solid #f5c6c6;
+    border-left: 3px solid #e74c3c;
+    border-radius: 8px;
+    padding: 0.65rem 0.9rem;
+    font-size: 0.84rem; color: #922b21;
+    margin-bottom: 1.3rem;
+  }
+  .alert-msg.success {
+    background: #d4edda; border-color: #a8d5b5;
+    border-left-color: var(--green-mid); color: var(--green-dark);
+  }
+
+  /* Código OTP — 6 cajas */
+  .otp-label {
+    font-size: 0.78rem; font-weight: 600;
+    color: var(--text-primary); letter-spacing: 0.04em;
+    text-transform: uppercase; margin-bottom: 0.7rem;
+    display: block;
+  }
+
+  .otp-wrapper {
+    display: flex; gap: 0.5rem;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+  }
+
+  .otp-wrapper input[type="text"],
+  .otp-wrapper input[type="number"] {
+    width: 100% !important;
+    /* ocultamos el input original de Django */
+    display: none !important;
+  }
+
+  .otp-box {
+    width: 48px; height: 56px;
+    background: #f8faf8;
+    border: 1.5px solid var(--border);
+    border-radius: 10px;
+    font-size: 1.4rem; font-weight: 700;
+    color: var(--text-primary);
+    text-align: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    transition: border-color 0.2s, box-shadow 0.2s, background 0.2s;
+    outline: none;
+    caret-color: var(--green-mid);
+  }
+
+  .otp-box:focus {
+    border-color: var(--green-mid);
+    background: #fff;
+    box-shadow: 0 0 0 3px var(--green-glow);
+  }
+
+  .otp-box.filled {
+    border-color: var(--green-mid);
+    background: #f0faf3;
+  }
+
+  .field-error {
+    font-size: 0.78rem; color: #c0392b;
+    margin-top: -1rem; margin-bottom: 1rem;
+  }
+
+  .btn-verify {
+    width: 100%;
+    padding: 0.82rem 1rem;
+    background: linear-gradient(135deg, var(--green-dark), var(--green-mid));
+    border: none; border-radius: 10px;
+    color: #fff;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 0.95rem; font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.15s, box-shadow 0.2s, filter 0.2s;
+  }
+
+  .btn-verify:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 20px rgba(21,122,47,0.35);
+    filter: brightness(1.05);
+  }
+
+  .btn-verify:active { transform: translateY(0); box-shadow: none; }
+
+  .verify-footer {
+    text-align: center; margin-top: 1.5rem;
+    font-size: 0.82rem; color: var(--text-muted);
+  }
+
+  .verify-footer .expiry {
+    display: inline-flex; align-items: center; gap: 0.3rem;
+    background: #f8faf8; border: 1px solid var(--border);
+    border-radius: 20px; padding: 0.3rem 0.8rem;
+    font-size: 0.8rem;
+  }
+
+  .expiry-dot {
+    width: 6px; height: 6px;
+    background: var(--green-mid); border-radius: 50%;
+    animation: pulse 1.5s infinite;
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50%       { opacity: 0.3; }
+  }
+</style>
+
+<div class="verify-wrapper">
+  <div class="verify-card">
+
+    <div class="verify-icon">
+      <svg viewBox="0 0 24 24">
+        <rect x="2" y="7" width="20" height="14" rx="2"/>
+        <path d="M16 3H8L2 7h20l-6-4z"/>
+        <path d="M12 12v4M10 14h4"/>
+      </svg>
+    </div>
+
+    <h2 class="verify-title">Verificación en dos pasos</h2>
+    <p class="verify-subtitle">
+      Enviamos un código de <strong>6 dígitos</strong> a tu correo registrado. Ingrésalo a continuación para continuar.
+    </p>
+
+    {% if messages %}
+      {% for message in messages %}
+        <div class="alert-msg {% if 'success' in message.tags %}success{% endif %}">
+          {{ message }}
+        </div>
+      {% endfor %}
+    {% endif %}
+
+    <form method="post" id="verifyForm">
+      {% csrf_token %}
+
+      <label class="otp-label">Código de verificación</label>
+
+      {# Input oculto de Django — aquí se guarda el valor real #}
+      <div style="display:none">{{ form.code }}</div>
+      {% if form.code.errors %}
+        <div class="field-error">{{ form.code.errors|join:", " }}</div>
+      {% endif %}
+
+      {# 6 cajas visuales #}
+      <div class="otp-wrapper" id="otpBoxes">
+        <input class="otp-box" maxlength="1" inputmode="numeric" pattern="[0-9]" autocomplete="off">
+        <input class="otp-box" maxlength="1" inputmode="numeric" pattern="[0-9]" autocomplete="off">
+        <input class="otp-box" maxlength="1" inputmode="numeric" pattern="[0-9]" autocomplete="off">
+        <input class="otp-box" maxlength="1" inputmode="numeric" pattern="[0-9]" autocomplete="off">
+        <input class="otp-box" maxlength="1" inputmode="numeric" pattern="[0-9]" autocomplete="off">
+        <input class="otp-box" maxlength="1" inputmode="numeric" pattern="[0-9]" autocomplete="off">
+      </div>
+
+      <button type="submit" class="btn-verify">Verificar código</button>
+    </form>
+
+    <div class="verify-footer">
+      <span class="expiry">
+        <span class="expiry-dot"></span>
+        El código expira en 5 minutos
+      </span>
+    </div>
+
+  </div>
+</div>
+
+<script>
+  const boxes = document.querySelectorAll('.otp-box');
+  const hiddenInput = document.querySelector('[name="code"]');
+
+  // Foco en el primer box al cargar
+  boxes[0].focus();
+
+  boxes.forEach((box, i) => {
+    box.addEventListener('input', e => {
+      const val = e.target.value.replace(/\D/g, '');
+      box.value = val;
+      box.classList.toggle('filled', val !== '');
+      if (val && i < 5) boxes[i + 1].focus();
+      syncHidden();
+    });
+
+    box.addEventListener('keydown', e => {
+      if (e.key === 'Backspace' && !box.value && i > 0) {
+        boxes[i - 1].value = '';
+        boxes[i - 1].classList.remove('filled');
+        boxes[i - 1].focus();
+        syncHidden();
+      }
+    });
+
+    // Permitir pegar el código completo
+    box.addEventListener('paste', e => {
+      e.preventDefault();
+      const pasted = (e.clipboardData || window.clipboardData)
+        .getData('text').replace(/\D/g, '').slice(0, 6);
+      pasted.split('').forEach((char, idx) => {
+        if (boxes[idx]) {
+          boxes[idx].value = char;
+          boxes[idx].classList.add('filled');
+        }
+      });
+      if (boxes[pasted.length - 1]) boxes[pasted.length - 1].focus();
+      syncHidden();
+    });
+  });
+
+  function syncHidden() {
+    hiddenInput.value = Array.from(boxes).map(b => b.value).join('');
+  }
+</script>
+
+{% endblock %}

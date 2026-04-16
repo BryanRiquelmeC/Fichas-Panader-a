@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}Fichas Técnicas{% endblock %}
+
+{% block content %}
+<h1 class="mb-4">Fichas Técnicas de Panadería</h1>
+
+<form class="mb-4">
+    <div class="input-group">
+        <input 
+            type="text" 
+            id="searchInput"
+            class="form-control"
+            placeholder="Buscar pan..."
+            autocomplete="off"
+        >
+        <span class="input-group-text"><i class="bi bi-search"></i></span>
+    </div>
+</form>
+
+<div class="row">
+    {% for ficha in fichas %}
+    <div class="col-md-4 ficha-item" 
+         data-title="{{ ficha.titulo|lower }}" 
+         data-codigo="{{ ficha.codigo|lower }}">
+
+        <a href="{% url 'detalle_ficha' ficha.id %}" style="text-decoration:none; color:black;">
+            <div class="card mb-4 card-hover shadow-sm">
+
+                <!-- Imagen del pan -->
+                <div class="card-img-container">
+                    {% if ficha.imagen %}
+                        <img src="{{ ficha.imagen.url }}" class="card-img-top pan-img" alt="{{ ficha.titulo }}">
+                    {% else %}
+                        <img src="{% static 'img/pan-placeholder.jpg' %}" class="card-img-top pan-img" alt="Imagen no disponible">
+                    {% endif %}
+                </div>
+
+                <div class="card-body">
+                    <h5 class="card-title">{{ ficha.titulo }}</h5>
+                    <p class="card-text text-muted">
+                        Código: {{ ficha.codigo }}<br>
+                        Versión: {{ ficha.version }}
+                    </p>
+                </div>
+
+            </div>
+        </a>
+    </div>
+    {% endfor %}
+</div>
+
+<script>
+document.getElementById("searchInput").addEventListener("input", function () {
+
+    const query = this.value.toLowerCase().trim();
+    const palabras = query.split(" ");
+
+    const tarjetas = document.querySelectorAll(".ficha-item");
+
+    tarjetas.forEach(card => {
+        const titulo = card.dataset.title;
+        const codigo = card.dataset.codigo;
+
+        const coincide = palabras.every(palabra =>
+            palabra === "" ||
+            titulo.includes(palabra) ||
+            codigo.includes(palabra)
+        );
+
+        card.style.display = coincide ? "" : "none";
+    });
+});
+</script>
+
+{% endblock %}

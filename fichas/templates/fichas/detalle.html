@@ -1,0 +1,262 @@
+{% extends "base.html" %} 
+{% block title %}{{ ficha.titulo }}{% endblock %}
+
+{% block content %}
+
+<h1 class="mb-3">{{ ficha.titulo }}</h1>
+
+<div class="alert alert-secondary">
+    <strong>Código:</strong> {{ ficha.codigo }} — 
+    <strong>Versión:</strong> {{ ficha.version }} — 
+    <strong>Revisión:</strong> {{ ficha.fecha_revision }}
+</div>
+
+
+
+<!-- ======================== -->
+<!-- CALCULADORA -->
+<!-- ======================== -->
+
+<h3 class="mt-4"> Calculadora de Cantidades</h3>
+
+<div class="bg-white p-4 shadow-sm rounded mb-4">
+
+    <form id="calcForm" class="row g-3" onsubmit="return false;">
+
+        <!-- Harina base -->
+        <div class="col-md-4">
+            <label class="form-label">Harina base (kg)</label>
+            <input type="number" class="form-control" 
+                   value="{{ ficha.harina_base_kg }}" disabled>
+        </div>
+
+        <!-- Harina deseada -->
+        <div class="col-md-4">
+            <label class="form-label">Harina deseada (kg)</label>
+            <input type="number" 
+                   name="harina" 
+                   id="harinaDeseada"
+                   step="0.01" 
+                   min="0"
+                   class="form-control"
+                   value="{{ harina_deseada }}">
+        </div>
+
+        <!-- Botón calcular -->
+        <div class="col-md-4 d-flex align-items-end">
+            <button type="button" id="btnCalcular" class="btn btn-primary w-100">Calcular</button>
+        </div>
+    </form>
+
+    <!-- BOTONES RÁPIDOS (SOLO UNA VEZ)-->
+    <div class="mt-3">
+        <span class="me-2 fw-bold text-secondary">Atajos rápidos:</span>
+
+        <button class="quick-btn btn-quick" data-mult="0.5">½ receta</button>
+        <button class="quick-btn btn-quick" data-mult="1">1×</button>
+        <button class="quick-btn btn-quick" data-mult="2">2×</button>
+        <button class="quick-btn btn-quick" data-mult="3">3×</button>
+    </div>
+
+    <!-- ALERTA RESULTADOS -->
+    <div class="alert alert-info mt-3">
+        <strong>Factor:</strong> <span id="factorValor">{{ factor }}</span><br>
+        <strong>Unidades estimadas:</strong> <span id="rendimientoValor">{{ rendimiento_escalado }}</span>
+    </div>
+
+</div>
+
+
+<!-- ======================== -->
+<!-- MATERIAS PRIMAS -->
+<!-- ======================== -->
+
+<h3 class="mt-4">Materias Primas</h3>
+
+<table class="table table-bordered bg-white shadow-sm">
+    <thead>
+        <tr>
+            <th>Ingrediente</th>
+            <th>Base (receta)</th>
+            <th>Ajustado</th>
+            <th>Unidad</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for mp in materias %}
+    <tr class="fila-mp">
+        <td>{{ mp.nombre }}</td>
+        <td>{{ mp.base }}</td>
+        <td class="cantidad-ajustada"><strong>{{ mp.ajustada }}</strong></td>
+        <td>{{ mp.unidad }}</td>
+    </tr>
+    {% endfor %}
+</tbody>
+</table>
+
+
+<!-- ======================== -->
+<!-- PROCESO COMPLETO -->
+<!-- ======================== -->
+
+<h3 class="mt-5">Proceso Completo</h3>
+<div class="bg-white p-4 shadow-sm rounded">
+    <pre style="white-space: pre-wrap; font-family: inherit;">
+{{ ficha.descripcion_proceso }}
+    </pre>
+</div>
+
+
+<!-- ======================== -->
+<!-- PARÁMETROS DE HORNEADO -->
+<!-- ======================== -->
+
+{% if ficha.horneado %}
+<h3 class="mt-5">Parámetros de Horneado</h3>
+
+<div class="bg-white p-4 shadow-sm rounded">
+    
+    <p><strong>Temperatura inicial:</strong> {{ ficha.horneado.temperatura_inicial_c }} °C</p>
+    
+    {% if ficha.horneado.vapor_segundos %}
+        <p><strong>Vapor:</strong> {{ ficha.horneado.vapor_segundos }} segundos</p>
+    {% endif %}
+    
+    <p><strong>Temperatura final:</strong> {{ ficha.horneado.temperatura_final_c }} °C</p>
+    <p><strong>Tiempo total:</strong> {{ ficha.horneado.tiempo_total_min }} minutos</p>
+    
+    {% if ficha.horneado.tiro %}
+        <p><strong>Tiro:</strong> {{ ficha.horneado.tiro }}</p>
+    {% endif %}
+    
+    {% if ficha.horneado.observaciones %}
+        <p><strong>Notas:</strong> {{ ficha.horneado.observaciones }}</p>
+    {% endif %}
+
+</div>
+{% endif %}
+
+
+<!-- ======================== -->
+<!-- PASOS DE HORNEADO -->
+<!-- ======================== -->
+
+<h3 class="mt-5">Pasos de Horneado</h3>
+
+<div class="timeline mb-4">
+    {% for paso in pasos %}
+    <div class="timeline-step">
+        <span class="timeline-dot"></span>
+        <strong>{{ paso.tiempo_min }} min</strong> — {{ paso.descripcion }}
+    </div>
+    {% endfor %}
+</div>
+
+
+<!-- ======================== -->
+<!-- FORMATOS DE VENTA -->
+<!-- ======================== -->
+
+<h3 class="mt-5">Formatos de Venta</h3>
+
+<table class="table table-striped bg-white shadow-sm">
+    <thead>
+        <tr>
+            <th>Cod. SAP</th>
+            <th>Descripción</th>
+            <th>Peso (kg)</th>
+            <th>Cód. Barra</th>
+            <th>Cód. Balanza</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for fv in formatos %}
+        <tr>
+            <td>{{ fv.cod_sap }}</td>
+            <td>{{ fv.descripcion }}</td>
+            <td>{{ fv.peso_producto_kg }}</td>
+            <td>{{ fv.cod_barra }}</td>
+            <td>{{ fv.cod_balanza }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+
+<!-- ======================== -->
+<!-- ENVASES -->
+<!-- ======================== -->
+
+<h3 class="mt-5">Envases y Materiales</h3>
+
+<table class="table table-striped bg-white shadow-sm">
+    <thead>
+        <tr>
+            <th>Descripción</th>
+            <th>Unidad</th>
+            <th>Cant. producción</th>
+            <th>Peso envase</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for e in envases %}
+        <tr>
+            <td>{{ e.descripcion }}</td>
+            <td>{{ e.unidad }}</td>
+            <td>{{ e.cantidad_por_produccion }}</td>
+            <td>{{ e.peso_envase_kg }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+
+<!-- ======================== -->
+<!-- SCRIPT DE BOTONES RÁPIDOS -->
+<!-- ======================== -->
+
+<script>
+document.querySelectorAll(".quick-btn").forEach(btn => {
+    btn.addEventListener("click", function () {
+
+        const mult = parseFloat(this.dataset.mult);
+        const harinaBase = parseFloat("{{ ficha.harina_base_kg }}");
+
+        const nuevaHarina = (harinaBase * mult).toFixed(2);
+
+        document.getElementById("harinaDeseada").value = nuevaHarina;
+
+        document.getElementById("btnCalcular").click();
+    });
+});
+</script>
+
+
+<!-- ======================== -->
+<!-- SCRIPT AJAX CALCULADORA -->
+<!-- ======================== -->
+
+<script>
+document.getElementById("btnCalcular").addEventListener("click", function () {
+
+    const harina = document.getElementById("harinaDeseada").value;
+
+    fetch(`/ficha/{{ ficha.id }}/calcular/?harina=${harina}`)
+        .then(res => res.json())
+        .then(data => {
+
+            // actualizar factor y rendimiento
+            document.getElementById("factorValor").textContent = data.factor.toFixed(1);
+            document.getElementById("rendimientoValor").textContent = data.rendimiento;
+
+            // actualizar la tabla
+            const filas = document.querySelectorAll(".fila-mp");
+            filas.forEach((fila, i) => {
+                fila.querySelector(".cantidad-ajustada").textContent =
+                    data.materias[i].ajustada.toFixed(1);
+            });
+        });
+});
+</script>
+
+{% endblock %}

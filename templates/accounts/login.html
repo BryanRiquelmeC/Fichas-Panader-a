@@ -1,0 +1,298 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Iniciar sesión{% endblock %}
+
+{% block content %}
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+
+  :root {
+    --green-dark:   #157a2f;
+    --green-mid:    #1e9c3e;
+    --green-light:  #d4edda;
+    --green-glow:   rgba(30, 156, 62, 0.15);
+    --bg:           #f0f2f0;
+    --card-bg:      #ffffff;
+    --text-primary: #1a2e1c;
+    --text-muted:   #6b7c6e;
+    --border:       #dde8de;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: var(--bg);
+  }
+
+  /* ── Wrapper ── */
+  .login-wrapper {
+    min-height: 78vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+  }
+
+  /* ── Card ── */
+  .login-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    padding: 2.8rem 2.6rem;
+    width: 100%;
+    max-width: 430px;
+    box-shadow:
+      0 2px 4px rgba(0,0,0,0.04),
+      0 12px 40px rgba(21,122,47,0.08);
+    animation: cardUp 0.55s cubic-bezier(0.16, 1, 0.3, 1) both;
+  }
+
+  @keyframes cardUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  /* ── Icon badge ── */
+  .login-icon {
+    width: 52px;
+    height: 52px;
+    background: linear-gradient(135deg, var(--green-dark), var(--green-mid));
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.4rem;
+    box-shadow: 0 4px 16px var(--green-glow);
+    animation: fadeUp 0.5s 0.1s both;
+  }
+
+  .login-icon svg {
+    width: 26px;
+    height: 26px;
+    fill: none;
+    stroke: #fff;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  /* ── Headings ── */
+  .login-title {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 0.3rem;
+    animation: fadeUp 0.5s 0.15s both;
+  }
+
+  .login-subtitle {
+    font-size: 0.87rem;
+    font-weight: 400;
+    color: var(--text-muted);
+    margin-bottom: 2rem;
+    animation: fadeUp 0.5s 0.2s both;
+  }
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(10px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  /* ── Fields ── */
+  .field-wrap {
+    margin-bottom: 1.1rem;
+    animation: fadeUp 0.5s both;
+  }
+
+  .field-wrap:nth-of-type(1) { animation-delay: 0.25s; }
+  .field-wrap:nth-of-type(2) { animation-delay: 0.32s; }
+
+  .field-wrap label {
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 0.4rem;
+    letter-spacing: 0.02em;
+  }
+
+  /* Override Django widget styles */
+  .field-wrap input,
+  .field-wrap select,
+  .field-wrap textarea {
+    width: 100% !important;
+    background: #f8faf8 !important;
+    border: 1.5px solid var(--border) !important;
+    border-radius: 10px !important;
+    padding: 0.72rem 1rem !important;
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+    font-size: 0.93rem !important;
+    color: var(--text-primary) !important;
+    transition: border-color 0.2s, box-shadow 0.2s, background 0.2s !important;
+    outline: none !important;
+    box-shadow: none !important;
+  }
+
+  .field-wrap input:focus,
+  .field-wrap select:focus {
+    border-color: var(--green-mid) !important;
+    background: #fff !important;
+    box-shadow: 0 0 0 3px var(--green-glow) !important;
+  }
+
+  .field-wrap input::placeholder {
+    color: #aabdac !important;
+  }
+
+  /* ── Errors ── */
+  .field-error {
+    font-size: 0.78rem;
+    color: #c0392b;
+    margin-top: 0.35rem;
+  }
+
+  .alert-msg {
+    background: #fdf2f2;
+    border: 1px solid #f5c6c6;
+    border-left: 3px solid #e74c3c;
+    border-radius: 8px;
+    padding: 0.65rem 0.9rem;
+    font-size: 0.84rem;
+    color: #922b21;
+    margin-bottom: 1.3rem;
+    animation: fadeUp 0.4s both;
+  }
+
+  .alert-msg.success {
+    background: var(--green-light);
+    border-color: #a8d5b5;
+    border-left-color: var(--green-mid);
+    color: var(--green-dark);
+  }
+
+  /* ── Button ── */
+  .btn-login {
+    width: 100%;
+    margin-top: 0.5rem;
+    padding: 0.82rem 1rem;
+    background: linear-gradient(135deg, var(--green-dark) 0%, var(--green-mid) 100%);
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+    transition: transform 0.15s, box-shadow 0.2s, filter 0.2s;
+    animation: fadeUp 0.5s 0.4s both;
+  }
+
+  .btn-login:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 20px rgba(21,122,47,0.35);
+    filter: brightness(1.05);
+  }
+
+  .btn-login:active {
+    transform: translateY(0);
+    box-shadow: none;
+  }
+
+  /* ── Footer divider ── */
+  .login-divider {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    margin: 1.6rem 0 0;
+    animation: fadeUp 0.5s 0.45s both;
+  }
+
+  .login-divider span {
+    flex: 1;
+    height: 1px;
+    background: var(--border);
+  }
+
+  .login-divider p {
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    margin: 0;
+    white-space: nowrap;
+  }
+</style>
+
+<div class="login-wrapper">
+  <div class="login-card">
+
+    <!-- Icon badge -->
+    <div class="login-icon">
+      <svg viewBox="0 0 24 24">
+        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+        <circle cx="12" cy="7" r="4"/>
+      </svg>
+    </div>
+
+    <h2 class="login-title">Bienvenido</h2>
+    <p class="login-subtitle">Ingresa tus credenciales para acceder al sistema.</p>
+
+    {% if messages %}
+      {% for message in messages %}
+        <div class="alert-msg {% if 'success' in message.tags %}success{% endif %}">
+          {{ message }}
+        </div>
+      {% endfor %}
+    {% endif %}
+
+    {% if form.non_field_errors %}
+      <div class="alert-msg">
+         {{ form.non_field_errors|join:", " }}
+      </div>
+    {% endif %}
+
+    <form method="post" autocomplete="on">
+      {% csrf_token %}
+
+      <div class="field-wrap">
+        <label for="{{ form.email.id_for_label }}">{{ form.email.label }}</label>
+        {{ form.email }}
+        {% if form.email.errors %}
+          <div class="field-error">{{ form.email.errors|join:", " }}</div>
+        {% endif %}
+      </div>
+
+      <div class="field-wrap">
+        <label for="{{ form.password.id_for_label }}">{{ form.password.label }}</label>
+        {{ form.password }}
+        {% if form.password.errors %}
+          <div class="field-error">{{ form.password.errors|join:", " }}</div>
+        {% endif %}
+      </div>
+
+      <button type="submit" class="btn-login">Continuar</button>
+      <div style="display:flex; align-items:center; gap:0.5rem; margin-bottom:4rem;">
+        <input type="checkbox" name="recordarme" id="id_recordarme" 
+          style="width:15px; height:15px; accent-color: var(--green-mid); cursor:pointer; flex-shrink:0; margin-bottom:2rem; margin-top:1rem"
+          {% if form.recordarme.value %}checked{% endif %}>
+        <label for="id_recordarme" 
+          style="font-size:0.85rem; color:var(--text-muted); margin-bottom:2rem; margin-top:1rem; cursor:pointer; user-select:none;">
+          Recordarme por 30 días
+        </label>
+      </div>
+    </form>
+
+      <div style="text-align:center; margin-top:1rem; font-size:0.84rem; color:var(--text-muted);">
+        ¿No tienes cuenta? <a href="{% url 'register' %}" style="color:var(--green-dark); font-weight:600; text-decoration:none;">Regístrate aquí</a>
+      </div>
+
+    <div class="login-divider">
+      <span></span>
+      <p>Panadería Jumbo &copy; {% now "Y" %}</p>
+      <span></span>
+    </div>
+
+  </div>
+</div>
+
+{% endblock %}

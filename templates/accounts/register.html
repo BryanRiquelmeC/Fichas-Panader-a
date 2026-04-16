@@ -1,0 +1,221 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Crear cuenta{% endblock %}
+
+{% block content %}
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+
+  :root {
+    --green-dark:  #157a2f;
+    --green-mid:   #1e9c3e;
+    --green-light: #d4edda;
+    --green-glow:  rgba(30, 156, 62, 0.15);
+    --bg:          #f0f2f0;
+    --card-bg:     #ffffff;
+    --text-primary:#1a2e1c;
+    --text-muted:  #6b7c6e;
+    --border:      #dde8de;
+  }
+
+  body { font-family: 'Plus Jakarta Sans', sans-serif; background: var(--bg); }
+
+  .register-wrapper {
+    min-height: 78vh;
+    display: flex; align-items: center; justify-content: center;
+    padding: 2rem 1rem;
+  }
+
+  .register-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    padding: 2.8rem 2.6rem;
+    width: 100%; max-width: 430px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.04), 0 12px 40px rgba(21,122,47,0.08);
+    animation: cardUp 0.55s cubic-bezier(0.16,1,0.3,1) both;
+  }
+
+  @keyframes cardUp {
+    from { opacity:0; transform:translateY(20px); }
+    to   { opacity:1; transform:translateY(0); }
+  }
+
+  .register-icon {
+    width: 52px; height: 52px;
+    background: linear-gradient(135deg, var(--green-dark), var(--green-mid));
+    border-radius: 14px;
+    display: flex; align-items: center; justify-content: center;
+    margin-bottom: 1.4rem;
+    box-shadow: 0 4px 16px var(--green-glow);
+  }
+
+  .register-icon svg {
+    width: 26px; height: 26px;
+    fill: none; stroke: #fff; stroke-width: 2;
+    stroke-linecap: round; stroke-linejoin: round;
+  }
+
+  .register-title {
+    font-size: 1.6rem; font-weight: 700;
+    color: var(--text-primary); margin-bottom: 0.3rem;
+  }
+
+  .register-subtitle {
+    font-size: 0.87rem; color: var(--text-muted);
+    margin-bottom: 2rem;
+  }
+
+  .field-wrap { margin-bottom: 1.1rem; }
+
+  .field-wrap label {
+    display: block; font-size: 0.8rem; font-weight: 600;
+    color: var(--text-primary); margin-bottom: 0.4rem;
+    letter-spacing: 0.02em;
+  }
+
+  .field-wrap input {
+    width: 100% !important;
+    background: #f8faf8 !important;
+    border: 1.5px solid var(--border) !important;
+    border-radius: 10px !important;
+    padding: 0.72rem 1rem !important;
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+    font-size: 0.93rem !important;
+    color: var(--text-primary) !important;
+    transition: border-color 0.2s, box-shadow 0.2s !important;
+    outline: none !important; box-shadow: none !important;
+  }
+
+  .field-wrap input:focus {
+    border-color: var(--green-mid) !important;
+    background: #fff !important;
+    box-shadow: 0 0 0 3px var(--green-glow) !important;
+  }
+
+  .field-error {
+    font-size: 0.78rem; color: #c0392b; margin-top: 0.35rem;
+  }
+
+  .alert-msg {
+    background: #fdf2f2; border: 1px solid #f5c6c6;
+    border-left: 3px solid #e74c3c; border-radius: 8px;
+    padding: 0.65rem 0.9rem; font-size: 0.84rem;
+    color: #922b21; margin-bottom: 1.3rem;
+  }
+
+  .alert-msg.success {
+    background: var(--green-light); border-color: #a8d5b5;
+    border-left-color: var(--green-mid); color: var(--green-dark);
+  }
+
+  .btn-register {
+    width: 100%; margin-top: 0.5rem;
+    padding: 0.82rem 1rem;
+    background: linear-gradient(135deg, var(--green-dark), var(--green-mid));
+    border: none; border-radius: 10px; color: #fff;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 0.95rem; font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.15s, box-shadow 0.2s, filter 0.2s;
+  }
+
+  .btn-register:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 20px rgba(21,122,47,0.35);
+    filter: brightness(1.05);
+  }
+
+  .login-link {
+    text-align: center; margin-top: 1.5rem;
+    font-size: 0.84rem; color: var(--text-muted);
+  }
+
+  .login-link a {
+    color: var(--green-dark); font-weight: 600;
+    text-decoration: none;
+  }
+
+  .login-link a:hover { text-decoration: underline; }
+
+  .login-divider {
+    display: flex; align-items: center; gap: 0.8rem;
+    margin: 1.6rem 0 0;
+  }
+
+  .login-divider span { flex: 1; height: 1px; background: var(--border); }
+  .login-divider p { font-size: 0.78rem; color: var(--text-muted); margin: 0; white-space: nowrap; }
+</style>
+
+<div class="register-wrapper">
+  <div class="register-card">
+
+    <div class="register-icon">
+      <svg viewBox="0 0 24 24">
+        <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+        <circle cx="9" cy="7" r="4"/>
+        <line x1="19" y1="8" x2="19" y2="14"/>
+        <line x1="22" y1="11" x2="16" y2="11"/>
+      </svg>
+    </div>
+
+    <h2 class="register-title">Crear cuenta</h2>
+    <p class="register-subtitle">Ingresa tu correo y una contraseña para registrarte.</p>
+
+    {% if messages %}
+      {% for message in messages %}
+        <div class="alert-msg {% if 'success' in message.tags %}success{% endif %}">
+          {{ message }}
+        </div>
+      {% endfor %}
+    {% endif %}
+
+    {% if form.non_field_errors %}
+      <div class="alert-msg">{{ form.non_field_errors|join:", " }}</div>
+    {% endif %}
+
+    <form method="post" autocomplete="off">
+      {% csrf_token %}
+
+      <div class="field-wrap">
+        <label for="{{ form.email.id_for_label }}">{{ form.email.label }}</label>
+        {{ form.email }}
+        {% if form.email.errors %}
+          <div class="field-error">{{ form.email.errors|join:", " }}</div>
+        {% endif %}
+      </div>
+
+      <div class="field-wrap">
+        <label for="{{ form.password1.id_for_label }}">{{ form.password1.label }}</label>
+        {{ form.password1 }}
+        {% if form.password1.errors %}
+          <div class="field-error">{{ form.password1.errors|join:", " }}</div>
+        {% endif %}
+      </div>
+
+      <div class="field-wrap">
+        <label for="{{ form.password2.id_for_label }}">{{ form.password2.label }}</label>
+        {{ form.password2 }}
+        {% if form.password2.errors %}
+          <div class="field-error">{{ form.password2.errors|join:", " }}</div>
+        {% endif %}
+      </div>
+
+      <button type="submit" class="btn-register">Crear cuenta</button>
+    </form>
+
+    <div class="login-link">
+      ¿Ya tienes cuenta? <a href="{% url 'login' %}">Inicia sesión aquí</a>
+    </div>
+
+    <div class="login-divider">
+      <span></span>
+      <p>Panadería Jumbo &copy; {% now "Y" %}</p>
+      <span></span>
+    </div>
+
+  </div>
+</div>
+
+{% endblock %}

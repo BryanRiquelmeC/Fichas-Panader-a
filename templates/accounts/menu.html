@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block title %}Menú principal{% endblock %}
+
+{% block content %}
+
+<h1 class="mb-4">Panel principal</h1>
+
+<div class="row g-3">
+
+  <div class="col-md-6">
+    <div class="card shadow-sm">
+      <div class="card-body">
+        <h4 class="card-title">Fichas técnicas</h4>
+        <p class="card-text text-muted">
+          Buscar, ver y calcular recetas completas de panadería.
+        </p>
+        <a href="{% url 'lista_fichas' %}" class="btn btn-primary">
+          Ir al buscador de fichas
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-6">
+    <div class="card shadow-sm">
+      <div class="card-body">
+        <h4 class="card-title">Horneado</h4>
+        <p class="card-text text-muted">
+          (Próximamente) Buscador centrado en parámetros y pasos de horneo.
+        </p>
+        <button class="btn btn-secondary" disabled>
+          En desarrollo
+        </button>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="mt-4">
+  <a href="{% url 'logout' %}" class="btn btn-outline-danger btn-sm">
+    Cerrar sesión
+  </a>
+</div>
+
+{% endblock %}
