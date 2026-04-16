@@ -300,7 +300,7 @@ class Horneado(models.Model):
     )
 
     tiro = models.CharField(
-        max_length=50,
+        max_length=200,
         verbose_name="Tiro (abierto/cerrado)",
         blank=True,
         help_text="Ej: tiro cerrado"
