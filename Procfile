@@ -1,1 +1,1 @@
-web: gunicorn Backend.wsgi --log-file -
+web: gunicorn panaderia.wsgi --log-file -
