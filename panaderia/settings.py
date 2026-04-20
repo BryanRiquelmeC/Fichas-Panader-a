@@ -14,7 +14,7 @@ from decouple import config
 import dj_database_url
 import cloudinary
 from pathlib import Path
-import cloudinary
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -36,8 +36,8 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'cloudinary_storage',
     'cloudinary',
+    'cloudinary_storage',
     'django.contrib.staticfiles',
     'accounts',
     'rest_framework',

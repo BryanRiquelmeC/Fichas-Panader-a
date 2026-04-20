@@ -30,7 +30,13 @@
                 <!-- Imagen del pan -->
                 <div class="card-img-container">
                     {% if ficha.imagen %}
-                        <img src="{{ ficha.imagen.url }}" class="card-img-top pan-img" alt="{{ ficha.titulo }}">
+                        {% with img=ficha.imagen|stringformat:"s" %}
+                            {% if "http" in img %}
+                                <img src="{{ img }}" class="card-img-top pan-img" alt="{{ ficha.titulo }}">
+                            {% else %}
+                                <img src="https://res.cloudinary.com/dug5o1ps7/image/upload/{{ img }}" class="card-img-top pan-img" alt="{{ ficha.titulo }}">
+                            {% endif %}
+                        {% endwith %}
                     {% else %}
                         <img src="{% static 'img/pan-placeholder.jpg' %}" class="card-img-top pan-img" alt="Imagen no disponible">
                     {% endif %}
