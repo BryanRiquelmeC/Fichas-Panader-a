@@ -5,3 +5,4 @@ db.sqlite3
 .venv/
 .python-version
 .env
+.migrar_imagenes.py
