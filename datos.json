@@ -4,7 +4,7 @@
   "pk": 1,
   "fields": {
     "seccion": "Panadería",
-    "imagen": "panes/trekking.png",
+    "imagen": "https://res.cloudinary.com/dug5o1ps7/image/upload/v1776722160/panes/bviaaq5lkrf9fetraiml.png",
     "titulo": "FICHA TECNICA TREKKING BREAD JUMBO UN",
     "codigo": "3514-D-PAN-058",
     "version": "000",
@@ -52,7 +52,7 @@
   "pk": 5,
   "fields": {
     "seccion": "Panadería",
-    "imagen": "panes/landbrot.jpg",
+    "imagen": "https://res.cloudinary.com/dug5o1ps7/image/upload/v1776722160/panes/gan5qdgdia2euxaagde6.jpg",
     "titulo": "FICHA TÉCNICA PAN LANDBROT JUMBO UN",
     "codigo": "3514-D-PAN-059",
     "version": "007",
@@ -76,7 +76,7 @@
   "pk": 6,
   "fields": {
     "seccion": "Panadería",
-    "imagen": "panes/sarraceno.jpg",
+    "imagen": "https://res.cloudinary.com/dug5o1ps7/image/upload/v1776722161/panes/xd02bxrjwc1kfnp8dker.jpg",
     "titulo": "FICHA TÉCNICA SARRACENO CLEAN LABEL JUMBO UN",
     "codigo": "3514-D-PAN-165",
     "version": "002",
@@ -100,7 +100,7 @@
   "pk": 7,
   "fields": {
     "seccion": "Panadería",
-    "imagen": "panes/lowcarb.jpg",
+    "imagen": "https://res.cloudinary.com/dug5o1ps7/image/upload/v1776722162/panes/we4gz81llt3nia3wcah9.jpg",
     "titulo": "FICHA TÉCNICA PAN LOW CARB JUMBO",
     "codigo": "3514-D-PAN-168",
     "version": "002",
@@ -124,7 +124,7 @@
   "pk": 8,
   "fields": {
     "seccion": "Panadería",
-    "imagen": "panes/proteina.jpg",
+    "imagen": "https://res.cloudinary.com/dug5o1ps7/image/upload/v1776722163/panes/t9ju5t6hgmbn0fm27fux.jpg",
     "titulo": "FICHA TÉCNICA PROTEÍNA CLEAN LABEL JUMBO UN",
     "codigo": "3514-D-PAN-164",
     "version": "001",
@@ -148,7 +148,7 @@
   "pk": 9,
   "fields": {
     "seccion": "Panadería",
-    "imagen": "panes/hogaza_L1GUHuY.jpg",
+    "imagen": "https://res.cloudinary.com/dug5o1ps7/image/upload/v1776722163/panes/rdgwurew8rujeucevhdl.jpg",
     "titulo": "FICHA TÉCNICA HOGAZA MULTI WHOLEGRAIN JUMBO UN",
     "codigo": "3514-D-PAN-062",
     "version": "000",
@@ -172,7 +172,7 @@
   "pk": 10,
   "fields": {
     "seccion": "Panadería",
-    "imagen": "panes/Rosita.jpg",
+    "imagen": "https://res.cloudinary.com/dug5o1ps7/image/upload/v1776722164/panes/kfgfkrin7oxa2mfaqbzm.jpg",
     "titulo": "FICHA TÉCNICA PAN ROSITA JUMBO",
     "codigo": "J514-D-PAN-099",
     "version": "007",
@@ -196,7 +196,7 @@
   "pk": 11,
   "fields": {
     "seccion": "Panadería",
-    "imagen": "panes/5_grano.jpg",
+    "imagen": "https://res.cloudinary.com/dug5o1ps7/image/upload/v1776722165/panes/b5gdubwp8o77azon3hua.jpg",
     "titulo": "FICHA TÉCNICA PAN DE CAMPO CINCO GRANOS JUMBO UN",
     "codigo": "J514-D-PAN-134",
     "version": "006",
@@ -220,7 +220,7 @@
   "pk": 12,
   "fields": {
     "seccion": "Panadería",
-    "imagen": "panes/campo.jpg",
+    "imagen": "https://res.cloudinary.com/dug5o1ps7/image/upload/v1776722166/panes/eokhrys4noh6yeqv0nq1.jpg",
     "titulo": "FICHA TÉCNICA PAN DE CAMPO ARTESANAL JUMBO",
     "codigo": "J514-D-PAN-130",
     "version": "007",
@@ -244,7 +244,7 @@
   "pk": 13,
   "fields": {
     "seccion": "Panadería",
-    "imagen": "panes/fugazza-cebolla_YtozHxG.png",
+    "imagen": "https://res.cloudinary.com/dug5o1ps7/image/upload/v1776722168/panes/bjaaqh1o5bmh7ot1zhbe.png",
     "titulo": "FICHA TECNICA FUGAZZA CEBOLLA JUMBO UN",
     "codigo": "J512-D-PAN-005",
     "version": "014",
@@ -268,7 +268,7 @@
   "pk": 15,
   "fields": {
     "seccion": "Panadería",
-    "imagen": "panes/italiano_neqqLTq.png",
+    "imagen": "https://res.cloudinary.com/dug5o1ps7/image/upload/v1776722170/panes/hm8fv592xdmzfqkmbf1y.png",
     "titulo": "FICHA TÉCNICA PAN ITALIANO JUMBO V1",
     "codigo": "J514-D-PAN-051",
     "version": "006",
@@ -292,7 +292,7 @@
   "pk": 16,
   "fields": {
     "seccion": "Panadería",
-    "imagen": "panes/clean-label-wholgrain.png",
+    "imagen": "https://res.cloudinary.com/dug5o1ps7/image/upload/v1776722171/panes/cukslxgasnv4za88x1a3.png",
     "titulo": "FICHA TECNICA MOLDE WHOLEGRAIN CLEAN LABEL JUMBO UN",
     "codigo": "J514-D-PAN-166",
     "version": "001",
@@ -316,7 +316,7 @@
   "pk": 17,
   "fields": {
     "seccion": "Panadería",
-    "imagen": "panes/fibra.png",
+    "imagen": "https://res.cloudinary.com/dug5o1ps7/image/upload/v1776722172/panes/anrxpbhpqm4c0zbqaxhr.png",
     "titulo": "FICHA TÉCNICA MOLDE FIBRA CLEAN LABEL JUMBO UN",
     "codigo": "J514-D-PAN-163",
     "version": "001",
@@ -340,7 +340,7 @@
   "pk": 18,
   "fields": {
     "seccion": "Panadería",
-    "imagen": "panes/fogazza-aceituna.png",
+    "imagen": "https://res.cloudinary.com/dug5o1ps7/image/upload/v1776722173/panes/bfkqzfupwjvnp1g7uyvz.png",
     "titulo": "FICHA TÉCNICA FUGAZZA AL PESTO Y ACEITUNAS JUMBO UN",
     "codigo": "J512-D-PAN-155",
     "version": "004",
@@ -388,7 +388,7 @@
   "pk": 20,
   "fields": {
     "seccion": "PANADERIA",
-    "imagen": "panes/baguette.png",
+    "imagen": "https://res.cloudinary.com/dug5o1ps7/image/upload/v1776722173/panes/bfvth4i5agddikqzvwt7.png",
     "titulo": "FICHA TECNICA BAGUETTE RUSTICO JUMBO",
     "codigo": "J514-D-PAN-131",
     "version": "005",
