@@ -1,4 +1,5 @@
 import random
+import threading
 from datetime import timedelta
 from django.utils import timezone
 from django.shortcuts import render, redirect
@@ -65,15 +66,21 @@ def login_view(request):
                         ).isoformat()
                         request.session['recordarme']  = recordarme
  
-                        try:
-                            send_mail(
-                                subject="Código de verificación - Panadería Jumbo",
-                                message=f"Tu código de verificación es: {code}",
-                                from_email=None,
-                                recipient_list=[user_auth.email],
-                            )
-                        except Exception as e:
-                            print("Error al enviar correo:", e)
+                        def enviar_correo_async(email, code):
+                            try:
+                                send_mail(
+                                    subject="Código de verificación - Panadería Jumbo",
+                                    message=f"Tu código de verificación es: {code}",
+                                    from_email=None,
+                                    recipient_list=[email],
+                                    fail_silently=True,
+                                )
+                            except Exception as e:
+                                print("Error correo:", e)
+
+                        # Enviar correo en segundo plano (no bloquea la respuesta)
+                        thread = threading.Thread(target=enviar_correo_async, args=(user_auth.email, code))
+                        thread.start()
  
                         messages.info(request, "Te hemos enviado un código de verificación a tu correo.")
                         response = redirect('two_factor_view')
