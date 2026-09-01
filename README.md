@@ -21,33 +21,3 @@ Cloudinary (imágenes)
 Bootstrap 5
 Render (hosting)
 
-Variables de entorno
-Crear un archivo .env en la raíz del proyecto con:
-SECRET_KEY=tu-secret-key
-DEBUG=True
-ALLOWED_HOSTS=127.0.0.1,localhost
-DATABASE_URL=postgresql://...
-CLOUDINARY_CLOUD_NAME=...
-CLOUDINARY_API_KEY=...
-CLOUDINARY_API_SECRET=...
-EMAIL_HOST_USER=...
-EMAIL_HOST_PASSWORD=...
-Instalación local
-git clone https://github.com/BryanRiquelmeC/Fichas-Panader-a.git
-cd Fichas-Panader-a
-
-python -m venv .venv
-.venv\Scripts\activate
-
-pip install -r requirements.txt
-python manage.py migrate
-python manage.py loaddata datos.json
-python manage.py runserver
-Estructura del proyecto
-accounts/      Autenticación y usuarios
-fichas/        Modelos y vistas de fichas técnicas
-panaderia/     Configuración del proyecto
-templates/     Plantillas HTML
-static/        Archivos estáticos
-Autor
-Bryan Riquelme
