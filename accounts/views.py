@@ -1,5 +1,4 @@
 import random
-import threading
 from datetime import timedelta
 from django.utils import timezone
 from django.shortcuts import render, redirect
@@ -59,30 +58,32 @@ def login_view(request):
                     else:
                         # Generar y enviar código 2FA
                         code = f"{random.randint(0, 999999):06d}"
+
                         request.session['2fa_user_id'] = user_auth.id
-                        request.session['2fa_code']    = code
+                        request.session['2fa_code'] = code
                         request.session['2fa_expires'] = (
                             timezone.now() + timedelta(minutes=5)
                         ).isoformat()
-                        request.session['recordarme']  = recordarme
- 
-                        def enviar_correo_async(email, code):
-                            try:
-                                send_mail(
-                                    subject="Código de verificación - Panadería Jumbo",
-                                    message=f"Tu código de verificación es: {code}",
-                                    from_email=None,
-                                    recipient_list=[email],
-                                    fail_silently=True,
-                                )
-                            except Exception as e:
-                                print("Error correo:", e)
 
-                        # Enviar correo en segundo plano (no bloquea la respuesta)
-                        thread = threading.Thread(target=enviar_correo_async, args=(user_auth.email, code))
-                        thread.start()
- 
-                        messages.info(request, "Te hemos enviado un código de verificación a tu correo.")
+                        request.session['recordarme'] = recordarme
+
+                        print(f"Intentando enviar código a: {user_auth.email}")
+
+                        send_mail(
+                            subject="Código de verificación - Panadería Jumbo",
+                            message=f"Tu código de verificación es: {code}",
+                            from_email=None,
+                            recipient_list=[user_auth.email],
+                            fail_silently=False,
+                        )
+
+                        print("Correo enviado correctamente")
+
+                        messages.info(
+                            request,
+                            "Te hemos enviado un código de verificación a tu correo."
+                        )
+
                         response = redirect('two_factor_view')
  
                     # Guardar cookie del email si marcó recordarme
