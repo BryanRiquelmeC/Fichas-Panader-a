@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'accounts',
     'rest_framework',
     'fichas',
+    'anymail',
 ]
 
 MIDDLEWARE = [
@@ -130,13 +131,17 @@ LOGOUT_REDIRECT_URL = 'login'
 #Verificacion en consola
 
 
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_BACKEND = 'anymail.backends.resend.EmailBackend'
+ANYMAIL = {
+    "RESEND_API_KEY": config("RESEND_API_KEY"),
+}
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'vb.riquelmec@gmail.com'
-EMAIL_HOST_PASSWORD = 'awwbsrpexosukrhq'  # ← OJO: NO tu contraseña normal
-DEFAULT_FROM_EMAIL = 'Panadería Jumbo <vb.riquelmec@gmail.com>'
+EMAIL_TIMEOUT = 10
+EMAIL_HOST_USER = config('EMAIL_HOST_USER')
+EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
+DEFAULT_FROM_EMAIL = f'Panadería Jumbo <{EMAIL_HOST_USER}>'
 
 # Internationalization
 # https://docs.djangoproject.com/en/5.2/topics/i18n/
