@@ -67,17 +67,29 @@ def login_view(request):
 
                         request.session['recordarme'] = recordarme
 
-                        print(f"Intentando enviar código a: {user_auth.email}")
+                        try:
+                            print(f"Intentando enviar código a: {user_auth.email}")
 
-                        send_mail(
-                            subject="Código de verificación - Panadería Jumbo",
-                            message=f"Tu código de verificación es: {code}",
-                            from_email=None,
-                            recipient_list=[user_auth.email],
-                            fail_silently=False,
-                        )
+                            resultado = send_mail(
+                                subject="Código de verificación - Panadería Jumbo",
+                                message=f"Tu código de verificación es: {code}",
+                                from_email=None,
+                                recipient_list=[user_auth.email],
+                                fail_silently=False,
+                            )
 
-                        print("Correo enviado correctamente")
+                            print(f"Resultado del envío: {resultado}")
+
+                        except Exception as e:
+                            print(f"ERROR AL ENVIAR CORREO: {type(e).__name__}: {e}")
+
+                            messages.error(
+                                request,
+                                "No fue posible enviar el código de verificación. Inténtalo nuevamente."
+                            )
+
+                            return redirect('login')
+
 
                         messages.info(
                             request,
