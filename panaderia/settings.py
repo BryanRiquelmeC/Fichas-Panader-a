@@ -14,6 +14,7 @@ from decouple import config
 import dj_database_url
 import cloudinary
 from pathlib import Path
+import os
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -102,7 +103,7 @@ cloudinary.config(
 
 # Seguridad
 SECRET_KEY = config('SECRET_KEY', default='tu-secret-key-local')
-DEBUG = config('DEBUG', default=True, cast=bool)
+DEBUG = config('DEBUG', default=False, cast=bool)
 ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='127.0.0.1,localhost').split(',')
 
 # Base de datos
@@ -130,14 +131,13 @@ LOGOUT_REDIRECT_URL = 'login'
 
 #Verificacion en consola
 
-
 EMAIL_BACKEND = "anymail.backends.resend.EmailBackend"
 
 ANYMAIL = {
     "RESEND_API_KEY": config("RESEND_API_KEY"),
 }
 
-DEFAULT_FROM_EMAIL = "Panadería Jumbo <onboarding@resend.dev>"
+DEFAULT_FROM_EMAIL = "Panadería Jumbo <no-reply@panaderia.site>"
 
 # Internationalization
 # https://docs.djangoproject.com/en/5.2/topics/i18n/

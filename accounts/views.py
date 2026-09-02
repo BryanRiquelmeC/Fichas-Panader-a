@@ -68,15 +68,22 @@ def login_view(request):
  
                         def enviar_correo_async(email, code):
                             try:
-                                send_mail(
+                                print("=" * 50)
+                                print("CORREO 2FA")
+                                print(f"Destinatario: {email}")
+                                print(f"Código: {code}")
+                                print("=" * 50)
+                                resultado = send_mail(
                                     subject="Código de verificación - Panadería Jumbo",
                                     message=f"Tu código de verificación es: {code}",
                                     from_email=None,
                                     recipient_list=[email],
-                                    fail_silently=True,
+                                    fail_silently=False,
                                 )
+                                
+                                print(f"Resultado envío: {resultado}")
                             except Exception as e:
-                                print("Error correo:", e)
+                                print("Error al enviar correo:", e)
 
                         # Enviar correo en segundo plano (no bloquea la respuesta)
                         thread = threading.Thread(target=enviar_correo_async, args=(user_auth.email, code))
