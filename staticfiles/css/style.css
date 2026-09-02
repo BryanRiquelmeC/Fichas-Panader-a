@@ -42,6 +42,137 @@ h1, h2, h3, h4 {
     font-size: 1.3rem;
 }
 
+/* =========================================
+   USUARIO
+========================================= */
+
+.user-menu-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    border: none;
+    color: white;
+
+    padding: 7px 12px;
+
+    border-radius: 10px;
+
+    transition: 0.2s ease;
+}
+
+.user-menu-button:hover,
+.user-menu-button:focus {
+    background-color: rgba(255, 255, 255, 0.12);
+    color: white;
+}
+
+
+/* AVATAR */
+
+.user-avatar {
+    width: 38px;
+    height: 38px;
+
+    border-radius: 50%;
+
+    background-color: white;
+    color: #08783d;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+/* INFORMACIÓN DEL USUARIO */
+
+.user-session-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    line-height: 1.2;
+
+    text-align: left;
+}
+
+
+.user-session-info small {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 11px;
+}
+
+
+.user-session-info span {
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+
+    max-width: 200px;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+/* =========================================
+   DROPDOWN
+========================================= */
+
+.dropdown-menu {
+    border: none;
+
+    border-radius: 12px;
+
+    padding: 8px;
+
+    min-width: 250px;
+
+    margin-top: 10px;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
+}
+
+
+.dropdown-item {
+    border-radius: 8px;
+
+    padding: 10px 12px;
+
+    transition: 0.2s ease;
+}
+
+
+.logout-item:hover {
+    background-color: #fff0f0;
+}
+
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 576px) {
+
+    .navbar-brand span {
+        font-size: 17px;
+    }
+
+    .user-session-info {
+        display: none;
+    }
+
+    .user-menu-button::after {
+        display: none;
+    }
+
+}
+
 /* ================================================================= */
 /* TARJETAS */
 /* ================================================================= */

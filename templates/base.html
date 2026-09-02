@@ -1,39 +1,161 @@
-{% load static %}
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>{% block title %}Panadería Digital{% endblock %}</title>
-    
-    <!-- favicon -->
+
+    {% load static %}
+
+    <!-- Favicon -->
     <link rel="icon" href="{% static 'img/pancito.png' %}" type="image/png">
     <link rel="icon" type="image/x-icon" href="{% static 'img/pancito.ico' %}">
 
-    <!-- BOOTSTRAP -->
-    <link 
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
-    rel="stylesheet">
-    
+    <!-- Bootstrap -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+    <!-- CSS -->
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
 
 </head>
+
 <body>
+
+    <!-- NAVBAR -->
     <nav class="navbar navbar-dark mb-4">
-    <div class="container">
-        <a class="navbar-brand d-flex align-items-center" href="/">
-            <img src="{% static 'img/jumbo.png' %}" alt="Panadería Jumbo" width="40" height="40" class="d-inline-block align-text-top me-2">
-        
-            <span class="navbar-brand text-white" href="/">Panadería Jumbo</span>
-        </a>
-    </div>
-</nav>
+
+        <div class="container d-flex justify-content-between align-items-center">
+
+            <!-- LOGO + NOMBRE -->
+            <a class="navbar-brand d-flex align-items-center mb-0" href="{% url 'menu_principal' %}">
+
+                <img
+                    src="{% static 'img/jumbo.png' %}"
+                    alt="Panadería Jumbo"
+                    width="40"
+                    height="40"
+                    class="me-2"
+                >
+
+                <span class="text-white fw-bold">
+                    Panadería Jumbo
+                </span>
+
+            </a>
 
 
+            <!-- USUARIO -->
+            {% if request.user.is_authenticated %}
+
+            <div class="dropdown">
+
+                <button
+                    class="btn user-menu-button dropdown-toggle"
+                    type="button"
+                    id="userDropdown"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                >
+
+                    <!-- Avatar -->
+                    <div class="user-avatar">
+                        {{ request.user.email|first|upper }}
+                    </div>
+
+
+                    <!-- Información -->
+                    <div class="user-session-info">
+
+                        <small>
+                            Sesión iniciada
+                        </small>
+
+                        <span>
+                            {{ request.user.email }}
+                        </span>
+
+                    </div>
+
+                </button>
+
+
+                <!-- MENÚ DESPLEGABLE -->
+                <ul
+                    class="dropdown-menu dropdown-menu-end shadow"
+                    aria-labelledby="userDropdown"
+                >
+
+                    <!-- Información usuario -->
+                    <li>
+
+                        <div class="px-3 py-2">
+
+                            <strong>
+                                {{ request.user.email }}
+                            </strong>
+
+                            <br>
+
+                            <small class="text-muted">
+                                Sesión activa
+                            </small>
+
+                        </div>
+
+                    </li>
+
+
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+
+
+                    <!-- CERRAR SESIÓN -->
+                    <li>
+
+                        <a
+                            class="dropdown-item text-danger logout-item"
+                            href="{% url 'logout' %}"
+                        >
+
+                            
+
+                            <span class="ms-2">
+                                Cerrar sesión
+                            </span>
+
+                        </a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+            {% endif %}
+
+        </div>
+
+    </nav>
+
+
+    <!-- CONTENIDO -->
     <div class="container mb-5">
+
         {% block content %}
         {% endblock %}
+
     </div>
+
+
+    <!-- BOOTSTRAP JS -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js">
+    </script>
+
 </body>
 </html>
