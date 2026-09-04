@@ -364,7 +364,7 @@
   "pk": 19,
   "fields": {
     "seccion": "Panadería",
-    "imagen": "",
+    "imagen": "panes/biey78ofr7phanusi0k1.png",
     "titulo": "FICHA TÉCNICA PAN DARK JUMBO ARTESANAL UN",
     "codigo": "J514-D-PAN-148",
     "version": "004",
@@ -436,7 +436,7 @@
   "pk": 23,
   "fields": {
     "seccion": "Panadería",
-    "imagen": "",
+    "imagen": "panes/ttncmivjrewbijb3pw42.png",
     "titulo": "FICHA TÉCNICA PAN COLIZA JUMBO V-1",
     "codigo": "J514-D-PAN-022",
     "version": "011",
@@ -484,7 +484,7 @@
   "pk": 25,
   "fields": {
     "seccion": "Panadería",
-    "imagen": "",
+    "imagen": "panes/ahrvpkhawjq3nemtxiy7.png",
     "titulo": "FICHA TÉCNICA TORTILLA DE CAMPO JUMBO",
     "codigo": "J514-D-PAN-103",
     "version": "008",
@@ -508,7 +508,7 @@
   "pk": 26,
   "fields": {
     "seccion": "Panadería",
-    "imagen": "",
+    "imagen": "panes/fiifdqk0kosbcblau7cn.png",
     "titulo": "FICHA TECNICA PAN CIABATTA RUSTICO JUMBO KG",
     "codigo": "J512-D-PAN-0",
     "version": "004",
@@ -532,7 +532,7 @@
   "pk": 27,
   "fields": {
     "seccion": "Panadería",
-    "imagen": "",
+    "imagen": "panes/dcor5yhpftmgpmzthogr.png",
     "titulo": "FICHA TECNICA CIABATTA MEDITERRANEA JUMBO KG",
     "codigo": "J514-D-PAN-136",
     "version": "000",
