@@ -77,6 +77,9 @@ TEMPLATES = [
 WSGI_APPLICATION = 'panaderia.wsgi.application'
 
 
+# Sesión de usuario durante 30 días
+SESSION_COOKIE_AGE = 60 * 60 * 24 * 30
+SESSION_EXPIRE_AT_BROWSER_CLOSE = False
 
 # Cloudinary
 CLOUDINARY_STORAGE = {
