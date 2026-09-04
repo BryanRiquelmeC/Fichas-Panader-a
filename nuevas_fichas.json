@@ -556,7 +556,7 @@
   "pk": 28,
   "fields": {
     "seccion": "Panadería",
-    "imagen": "",
+    "imagen": "panes/ezgenibtxydl6oyehhn4.png",
     "titulo": "FICHA TECNICA CIABATTA RUSTICA INTEGRAL JUMBO KG",
     "codigo": "J514-D-PAN-071",
     "version": "001",
@@ -580,7 +580,7 @@
   "pk": 29,
   "fields": {
     "seccion": "Panadería",
-    "imagen": "panes/ogs53utpxad9diffcn4z.png",
+    "imagen": "panes/saskoohwvbtloh0eq8bx.png",
     "titulo": "FICHA TECNICA PAN MINI CIABATTA RUSTICO JUMBO KG",
     "codigo": "J514-D-PAN-135",
     "version": "000",
@@ -604,7 +604,7 @@
   "pk": 30,
   "fields": {
     "seccion": "Panadería",
-    "imagen": "",
+    "imagen": "panes/nzofd6hw1aexqba7xpy7.png",
     "titulo": "FICHA TECNICA CIABATTA FAMIGLIA JUMBO",
     "codigo": "J514-D-PAN-129",
     "version": "002",
@@ -652,7 +652,7 @@
   "pk": 32,
   "fields": {
     "seccion": "Panadería",
-    "imagen": "",
+    "imagen": "panes/zklqjf5zb78pfyikitil.png",
     "titulo": "FICHA TECNICA CINNAMON BREAD JUMBO UN",
     "codigo": "J512-D-PAN-117",
     "version": "001",
@@ -676,7 +676,7 @@
   "pk": 33,
   "fields": {
     "seccion": "Panadería",
-    "imagen": "",
+    "imagen": "panes/rv4hz0jvqajmyeyme8js.png",
     "titulo": "FICHA TECNICA SOPAIPILLA JUMBO",
     "codigo": "J514-D-PAN-128",
     "version": "003",
@@ -700,7 +700,7 @@
   "pk": 34,
   "fields": {
     "seccion": "Panadería",
-    "imagen": "",
+    "imagen": "panes/fyxmkdbbtond72htoqm8.png",
     "titulo": "FICHA TECNICA MOLDE PUMPKIN BREAD CLEAN LABEL JUMBO UN",
     "codigo": "J512-D-PAN-116",
     "version": "002",
@@ -724,7 +724,7 @@
   "pk": 35,
   "fields": {
     "seccion": "Panadería",
-    "imagen": "",
+    "imagen": "panes/inw7uxfscdn07a79ls3u.png",
     "titulo": "FICHA TECNICA MOLDE CENTENO 100 CLEAN LABEL JUMBO",
     "codigo": "J512-D-PAN-115",
     "version": "002",
@@ -748,7 +748,7 @@
   "pk": 36,
   "fields": {
     "seccion": "Panadería",
-    "imagen": "",
+    "imagen": "panes/sdxmzol4vn9aisg0mahr.png",
     "titulo": "FICHA TECNICA PAN PUMPERNICKEL JUMBO UN",
     "codigo": "J514-D-PAN-090",
     "version": "005",
@@ -772,7 +772,7 @@
   "pk": 37,
   "fields": {
     "seccion": "Panadería",
-    "imagen": "",
+    "imagen": "panes/fuibk3eobugj3uoyhic6.png",
     "titulo": "FICHA TECNICA PAN MARRAQUETA JUMBO V-1",
     "codigo": "J514-D-PAN-060",
     "version": "005",
@@ -796,7 +796,7 @@
   "pk": 38,
   "fields": {
     "seccion": "Panadería",
-    "imagen": "",
+    "imagen": "panes/u0nxcyb99kwmht1hqjrd.png",
     "titulo": "FICHA TECNICA PAN HAMBURGUESA JUMBO V-1",
     "codigo": "J514-D-PAN-044",
     "version": "011",
