@@ -580,7 +580,7 @@
   "pk": 29,
   "fields": {
     "seccion": "Panadería",
-    "imagen": "",
+    "imagen": "panes/ogs53utpxad9diffcn4z.png",
     "titulo": "FICHA TECNICA PAN MINI CIABATTA RUSTICO JUMBO KG",
     "codigo": "J514-D-PAN-135",
     "version": "000",
@@ -628,7 +628,7 @@
   "pk": 31,
   "fields": {
     "seccion": "Panadería",
-    "imagen": "",
+    "imagen": "panes/cilrh3tjg9liccwufpny.png",
     "titulo": "FICHA TECNICA PAN SCHIACCIATA RUSTICA JUMBO KG",
     "codigo": "J512-D-PAN-137",
     "version": "003",
