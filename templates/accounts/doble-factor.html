@@ -94,8 +94,10 @@
   }
 
   .otp-wrapper {
-    display: flex; gap: 0.5rem;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 0.5rem;
+    width: 100%;
     margin-bottom: 1.5rem;
   }
 
@@ -107,17 +109,26 @@
   }
 
   .otp-box {
-    width: 48px; height: 56px;
+    width: 100%;
+    min-width: 0;
+    height: 56px;
+
     background: #f8faf8;
     border: 1.5px solid var(--border);
     border-radius: 10px;
-    font-size: 1.4rem; font-weight: 700;
+
+    font-size: 1.4rem;
+    font-weight: 700;
     color: var(--text-primary);
+
     text-align: center;
     font-family: 'Plus Jakarta Sans', sans-serif;
+
     transition: border-color 0.2s, box-shadow 0.2s, background 0.2s;
     outline: none;
     caret-color: var(--green-mid);
+
+    padding: 0;
   }
 
   .otp-box:focus {
@@ -178,6 +189,41 @@
     0%, 100% { opacity: 1; }
     50%       { opacity: 0.3; }
   }
+
+  /* Responsive móvil */
+@media (max-width: 480px) {
+
+  .verify-wrapper {
+    padding: 1rem 0.75rem;
+    align-items: flex-start;
+    padding-top: 2rem;
+  }
+
+  .verify-card {
+    padding: 2rem 1.2rem;
+    border-radius: 16px;
+    max-width: 100%;
+  }
+
+  .otp-wrapper {
+    gap: 0.35rem;
+  }
+
+  .otp-box {
+    height: 52px;
+    font-size: 1.2rem;
+    border-radius: 9px;
+  }
+
+  .verify-title {
+    font-size: 1.3rem;
+  }
+
+  .verify-subtitle {
+    font-size: 0.82rem;
+  }
+}
+
 </style>
 
 <div class="verify-wrapper">
