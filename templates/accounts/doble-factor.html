@@ -7,18 +7,36 @@
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
 
-  :root {
-    --green-dark:  #157a2f;
-    --green-mid:   #1e9c3e;
-    --green-glow:  rgba(30, 156, 62, 0.15);
-    --bg:          #f0f2f0;
-    --card-bg:     #ffffff;
-    --text-primary:#1a2e1c;
-    --text-muted:  #6b7c6e;
-    --border:      #dde8de;
+  /* =========================================
+     CONFIGURACIÓN GENERAL
+  ========================================= */
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
   }
 
-  body { font-family: 'Plus Jakarta Sans', sans-serif; background: var(--bg); }
+  :root {
+    --green-dark: #157a2f;
+    --green-mid: #1e9c3e;
+    --green-glow: rgba(30, 156, 62, 0.15);
+    --bg: #f0f2f0;
+    --card-bg: #ffffff;
+    --text-primary: #1a2e1c;
+    --text-muted: #6b7c6e;
+    --border: #dde8de;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background: var(--bg);
+  }
+
+
+  /* =========================================
+     CONTENEDOR PRINCIPAL
+  ========================================= */
 
   .verify-wrapper {
     min-height: 78vh;
@@ -26,203 +44,442 @@
     align-items: center;
     justify-content: center;
     padding: 2rem 1rem;
+    width: 100%;
   }
 
   .verify-card {
     background: var(--card-bg);
     border: 1px solid var(--border);
     border-radius: 18px;
+
     padding: 2.8rem 2.6rem;
+
     width: 100%;
     max-width: 420px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.04), 0 12px 40px rgba(21,122,47,0.08);
-    animation: cardUp 0.55s cubic-bezier(0.16,1,0.3,1) both;
+
+    box-shadow:
+      0 2px 4px rgba(0, 0, 0, 0.04),
+      0 12px 40px rgba(21, 122, 47, 0.08);
+
+    animation: cardUp 0.55s cubic-bezier(0.16, 1, 0.3, 1) both;
   }
 
   @keyframes cardUp {
-    from { opacity:0; transform:translateY(20px); }
-    to   { opacity:1; transform:translateY(0); }
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 
+
+  /* =========================================
+     ICONO
+  ========================================= */
+
   .verify-icon {
-    width: 52px; height: 52px;
-    background: linear-gradient(135deg, var(--green-dark), var(--green-mid));
+    width: 52px;
+    height: 52px;
+
+    background: linear-gradient(
+      135deg,
+      var(--green-dark),
+      var(--green-mid)
+    );
+
     border-radius: 14px;
-    display: flex; align-items: center; justify-content: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     margin-bottom: 1.4rem;
+
     box-shadow: 0 4px 16px var(--green-glow);
   }
 
   .verify-icon svg {
-    width: 26px; height: 26px;
-    fill: none; stroke: #fff; stroke-width: 2;
-    stroke-linecap: round; stroke-linejoin: round;
+    width: 26px;
+    height: 26px;
+
+    fill: none;
+    stroke: #ffffff;
+    stroke-width: 2;
+
+    stroke-linecap: round;
+    stroke-linejoin: round;
   }
 
+
+  /* =========================================
+     TEXTOS
+  ========================================= */
+
   .verify-title {
-    font-size: 1.5rem; font-weight: 700;
-    color: var(--text-primary); margin-bottom: 0.3rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+    color: var(--text-primary);
+
+    margin-bottom: 0.3rem;
   }
 
   .verify-subtitle {
-    font-size: 0.87rem; color: var(--text-muted);
-    margin-bottom: 2rem; line-height: 1.5;
+    font-size: 0.87rem;
+    color: var(--text-muted);
+
+    margin-bottom: 2rem;
+
+    line-height: 1.5;
   }
 
-  .verify-subtitle strong { color: var(--green-dark); }
+  .verify-subtitle strong {
+    color: var(--green-dark);
+  }
+
+
+  /* =========================================
+     MENSAJES
+  ========================================= */
 
   .alert-msg {
     background: #fdf2f2;
+
     border: 1px solid #f5c6c6;
     border-left: 3px solid #e74c3c;
+
     border-radius: 8px;
+
     padding: 0.65rem 0.9rem;
-    font-size: 0.84rem; color: #922b21;
+
+    font-size: 0.84rem;
+    color: #922b21;
+
     margin-bottom: 1.3rem;
   }
+
   .alert-msg.success {
-    background: #d4edda; border-color: #a8d5b5;
-    border-left-color: var(--green-mid); color: var(--green-dark);
+    background: #d4edda;
+
+    border-color: #a8d5b5;
+    border-left-color: var(--green-mid);
+
+    color: var(--green-dark);
   }
 
-  /* Código OTP — 6 cajas */
+
+  /* =========================================
+     CÓDIGO OTP
+  ========================================= */
+
   .otp-label {
-    font-size: 0.78rem; font-weight: 600;
-    color: var(--text-primary); letter-spacing: 0.04em;
-    text-transform: uppercase; margin-bottom: 0.7rem;
     display: block;
+
+    font-size: 0.78rem;
+    font-weight: 600;
+
+    color: var(--text-primary);
+
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    margin-bottom: 0.7rem;
   }
+
+
+  /* Contenedor de las 6 casillas */
 
   .otp-wrapper {
-    display: grid;
-    grid-template-columns: repeat(6, minmax(0, 1fr));
-    gap: 0.5rem;
+    display: flex;
+
     width: 100%;
+    max-width: 100%;
+
+    gap: 6px;
+
+    justify-content: space-between;
+
     margin-bottom: 1.5rem;
+
+    overflow: hidden;
   }
 
-  .otp-wrapper input[type="text"],
-  .otp-wrapper input[type="number"] {
-    width: 100% !important;
-    /* ocultamos el input original de Django */
-    display: none !important;
-  }
+
+  /* Casillas individuales */
 
   .otp-box {
-    width: 100%;
+    flex: 1 1 0;
+
+    width: 0;
     min-width: 0;
+
     height: 56px;
 
+    padding: 0 !important;
+    margin: 0;
+
+    box-sizing: border-box;
+
     background: #f8faf8;
+
     border: 1.5px solid var(--border);
     border-radius: 10px;
 
     font-size: 1.4rem;
     font-weight: 700;
+
     color: var(--text-primary);
 
     text-align: center;
+
     font-family: 'Plus Jakarta Sans', sans-serif;
 
-    transition: border-color 0.2s, box-shadow 0.2s, background 0.2s;
     outline: none;
+
     caret-color: var(--green-mid);
 
-    padding: 0;
+    transition:
+      border-color 0.2s,
+      box-shadow 0.2s,
+      background 0.2s;
+
+    /* Evita problemas de tamaño en Safari/iPhone */
+    appearance: none;
+    -webkit-appearance: none;
   }
+
 
   .otp-box:focus {
     border-color: var(--green-mid);
-    background: #fff;
+
+    background: #ffffff;
+
     box-shadow: 0 0 0 3px var(--green-glow);
   }
 
+
   .otp-box.filled {
     border-color: var(--green-mid);
+
     background: #f0faf3;
   }
 
+
+  /* =========================================
+     ERRORES
+  ========================================= */
+
   .field-error {
-    font-size: 0.78rem; color: #c0392b;
-    margin-top: -1rem; margin-bottom: 1rem;
+    font-size: 0.78rem;
+
+    color: #c0392b;
+
+    margin-top: -1rem;
+    margin-bottom: 1rem;
   }
+
+
+  /* =========================================
+     BOTÓN
+  ========================================= */
 
   .btn-verify {
     width: 100%;
+
     padding: 0.82rem 1rem;
-    background: linear-gradient(135deg, var(--green-dark), var(--green-mid));
-    border: none; border-radius: 10px;
-    color: #fff;
+
+    background: linear-gradient(
+      135deg,
+      var(--green-dark),
+      var(--green-mid)
+    );
+
+    border: none;
+    border-radius: 10px;
+
+    color: #ffffff;
+
     font-family: 'Plus Jakarta Sans', sans-serif;
-    font-size: 0.95rem; font-weight: 600;
+
+    font-size: 0.95rem;
+    font-weight: 600;
+
     cursor: pointer;
-    transition: transform 0.15s, box-shadow 0.2s, filter 0.2s;
+
+    transition:
+      transform 0.15s,
+      box-shadow 0.2s,
+      filter 0.2s;
   }
 
   .btn-verify:hover {
     transform: translateY(-1px);
-    box-shadow: 0 6px 20px rgba(21,122,47,0.35);
+
+    box-shadow: 0 6px 20px rgba(21, 122, 47, 0.35);
+
     filter: brightness(1.05);
   }
 
-  .btn-verify:active { transform: translateY(0); box-shadow: none; }
+  .btn-verify:active {
+    transform: translateY(0);
+
+    box-shadow: none;
+  }
+
+
+  /* =========================================
+     PIE DE PÁGINA
+  ========================================= */
 
   .verify-footer {
-    text-align: center; margin-top: 1.5rem;
-    font-size: 0.82rem; color: var(--text-muted);
+    text-align: center;
+
+    margin-top: 1.5rem;
+
+    font-size: 0.82rem;
+
+    color: var(--text-muted);
   }
 
   .verify-footer .expiry {
-    display: inline-flex; align-items: center; gap: 0.3rem;
-    background: #f8faf8; border: 1px solid var(--border);
-    border-radius: 20px; padding: 0.3rem 0.8rem;
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 0.3rem;
+
+    background: #f8faf8;
+
+    border: 1px solid var(--border);
+
+    border-radius: 20px;
+
+    padding: 0.3rem 0.8rem;
+
     font-size: 0.8rem;
   }
 
   .expiry-dot {
-    width: 6px; height: 6px;
-    background: var(--green-mid); border-radius: 50%;
+    width: 6px;
+    height: 6px;
+
+    background: var(--green-mid);
+
+    border-radius: 50%;
+
     animation: pulse 1.5s infinite;
+
+    flex-shrink: 0;
   }
 
   @keyframes pulse {
-    0%, 100% { opacity: 1; }
-    50%       { opacity: 0.3; }
+    0%,
+    100% {
+      opacity: 1;
+    }
+
+    50% {
+      opacity: 0.3;
+    }
   }
 
-  /* Responsive móvil */
-@media (max-width: 480px) {
 
-  .verify-wrapper {
-    padding: 1rem 0.75rem;
-    align-items: flex-start;
-    padding-top: 2rem;
+  /* =========================================
+     RESPONSIVE - TABLET Y CELULAR
+  ========================================= */
+
+  @media (max-width: 480px) {
+
+    .verify-wrapper {
+      min-height: auto;
+
+      align-items: flex-start;
+
+      padding: 1.5rem 0.75rem;
+    }
+
+    .verify-card {
+      width: 100%;
+      max-width: 100%;
+
+      padding: 2rem 1rem;
+
+      border-radius: 16px;
+    }
+
+    .verify-icon {
+      width: 48px;
+      height: 48px;
+
+      margin-bottom: 1.2rem;
+    }
+
+    .verify-title {
+      font-size: 1.3rem;
+    }
+
+    .verify-subtitle {
+      font-size: 0.82rem;
+
+      margin-bottom: 1.5rem;
+    }
+
+
+    /* OTP adaptado especialmente para iPhone */
+
+    .otp-wrapper {
+      width: 100%;
+
+      gap: 5px;
+
+      overflow: visible;
+    }
+
+    .otp-box {
+      flex: 1 1 0;
+
+      width: 0;
+      min-width: 0;
+
+      height: 52px;
+
+      font-size: 1.15rem;
+
+      border-radius: 9px;
+    }
+
+    .verify-footer .expiry {
+      font-size: 0.72rem;
+
+      padding: 0.3rem 0.6rem;
+    }
   }
 
-  .verify-card {
-    padding: 2rem 1.2rem;
-    border-radius: 16px;
-    max-width: 100%;
-  }
 
-  .otp-wrapper {
-    gap: 0.35rem;
-  }
+  /* =========================================
+     CELULARES MUY PEQUEÑOS
+  ========================================= */
 
-  .otp-box {
-    height: 52px;
-    font-size: 1.2rem;
-    border-radius: 9px;
-  }
+  @media (max-width: 360px) {
 
-  .verify-title {
-    font-size: 1.3rem;
-  }
+    .verify-card {
+      padding: 1.5rem 0.75rem;
+    }
 
-  .verify-subtitle {
-    font-size: 0.82rem;
+    .otp-wrapper {
+      gap: 4px;
+    }
+
+    .otp-box {
+      height: 48px;
+
+      font-size: 1rem;
+    }
   }
-}
 
 </style>
 
