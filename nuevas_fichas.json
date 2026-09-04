@@ -28,7 +28,7 @@
   "pk": 4,
   "fields": {
     "seccion": "Panadería",
-    "imagen": "",
+    "imagen": "panes/w9fwcyaxkxg4jkdozwev.png",
     "titulo": "MOLDE ARROZ SALVAJE CLEAN LABEL",
     "codigo": "3514-D-PAN-150",
     "version": "001",
@@ -460,7 +460,7 @@
   "pk": 24,
   "fields": {
     "seccion": "Panadería",
-    "imagen": "",
+    "imagen": "panes/nys2kug81kyhpihbhcif.png",
     "titulo": "FICHA TÉCNICA PAN RUSTIKAL BROT JUMBO UN",
     "codigo": "J514-D-PAN-132",
     "version": "004",
